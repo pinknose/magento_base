@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright ePay | Dit Online Betalingssystem, (c) 2010.
+ * 
+ * This program is free software. You are allowed to use the software but NOT allowed to modify the software. 
+ * It is also not legal to do any changes to the software and distribute it in your own name / brand. 
+ */
+-->
+<config>
+    <modules>
+        <Mage_Epay>
+            <version>2.5.4</version>
+        </Mage_Epay>
+    </modules>
+    <global>
+	   	<models>
+            <epay>
+                <class>Mage_Epay_Model</class>
+                <resourceModel>epay_mysql4</resourceModel>
+            </epay>
+            <epay_mysql4>
+                <class>Mage_Epay_Model_Mysql4</class>
+                <entities>
+                    <api_debug><table>epay_api_debug</table></api_debug>
+                </entities>
+            </epay_mysql4>
+        </models>
+        <resources>
+            <epay_setup>
+                <setup>
+                    <module>Mage_Epay</module>
+                    <class>Mage_Epay_Model_Mysql4_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </epay_setup>
+            <epay_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </epay_write>
+            <epay_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </epay_read>
+        </resources>
+        <blocks>
+            <epay><class>Mage_Epay_Block</class></epay>
+
+			<adminhtml>
+				<rewrite>
+					<sales_order_grid>Mage_Epay_Block_Adminhtml_Order_Grid</sales_order_grid>
+				</rewrite>
+			</adminhtml>
+			
+			<adminhtml>
+				<rewrite>
+					<sales_order_view_tab_info>Mage_Epay_Block_Adminhtml_Sales_Order_View_Tab_Info</sales_order_view_tab_info>
+				</rewrite>
+			</adminhtml>
+			
+			<adminhtml>
+				<rewrite>
+					<sales_block_order_info>Mage_Epay_Block_Sales_Order_Info</sales_block_order_info>
+				</rewrite>
+			</adminhtml>
+			
+			<adminhtml>
+				<rewrite>
+					<sales_block_order_print>Mage_Epay_Block_Sales_Order_Print</sales_block_order_print>
+				</rewrite>
+			</adminhtml>
+        </blocks>
+
+    </global>
+    <frontend>
+	    <secure_url>
+	        <epay_standard>/epay/standard</epay_standard>
+	    </secure_url>
+	    <routers>
+	        <epay>
+	            <use>standard</use>
+	            <args>
+	                <module>Mage_Epay</module>
+	                <frontName>epay</frontName>
+	            </args>
+	        </epay>
+	    </routers>
+	    <translate>
+	        <modules>
+	            <Mage_Epay>
+	                <files>
+	                    <default>Mage_Epay.csv</default>
+	                </files>
+	            </Mage_Epay>
+	        </modules>
+	    </translate>
+	    <layout>
+	         <updates>
+	              <epay_standard_redirect>
+	                    <file>epay.xml</file>
+	              </epay_standard_redirect>
+	         </updates>
+	    </layout>
+    </frontend>
+    <adminhtml>
+        <translate>
+            <modules>
+                <Mage_Epay>
+                    <files>
+                        <default>Mage_Epay.csv</default>
+                    </files>
+                </Mage_Epay>
+            </modules>
+        </translate>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <epay>
+                                            <title>Epay Section</title>
+                                        </epay>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+
+    <default>
+        <payment>
+            <epay_standard>
+                  <model>epay/standard</model>
+                  <title>Credit card using ePay | Payment solutions</title>
+                  <active>1</active>
+                  <sort_order>1</sort_order>
+                  <merchantnumber>ENTER YOUR MERCHANTNUMBER HERE</merchantnumber>
+                  <windowstate>1</windowstate>
+                  <sendmailorderconfirmation>1</sendmailorderconfirmation>
+                  <handlestock>1</handlestock>
+                  <allowspecific>0</allowspecific>
+                  <transaction_type>0</transaction_type>
+                  <remoteinterface>0</remoteinterface>
+            </epay_standard>
+            <ccsave>
+                <active>0</active>
+						</ccsave>
+						<free>
+                <active>0</active>
+						</free>
+        </payment>
+        <!-- 
+        	THIS SETTING IS USED FOR THE RELAY-SCRIPT 
+        	IF NOT DISABLED MAGENTO WILL DISCARD ALL
+        	REQUESTS FROM THE EPAY RELAY SERVER
+        -->
+        <web>
+        	<session>
+        		<use_remote_addr>0</use_remote_addr>
+        	</session>
+        </web>
+    </default>
+    
+    <interest_form>
+			<label>lead capture form</label>
+			<template>page/leadcapture.phtml</template>
+	</interest_form> 
+
+	<global>
+		<models>
+			<epay>
+				<class>Mage_Epay_Model</class> 
+			</epay>
+		</models>
+	</global>
+
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <Mage_Epay before="Mage_Adminhtml">Mage_Epay</Mage_Epay>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+	
+	<crontab>
+        <jobs>
+            <order_cancel_orders>
+                <schedule>
+					<cron_expr>*/10 * * * *</cron_expr>
+				</schedule>
+                <run>
+					<model>epay/observer::autocancelPendingOrders</model>
+				</run>
+            </order_cancel_orders>
+		</jobs>
+    </crontab>
+</config>

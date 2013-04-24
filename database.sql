@@ -2850,7 +2850,7 @@ CREATE TABLE `core_resource` (
 
 LOCK TABLES `core_resource` WRITE;
 /*!40000 ALTER TABLE `core_resource` DISABLE KEYS */;
-INSERT INTO `core_resource` VALUES ('adminnotification_setup','1.6.0.0','1.6.0.0'),('admin_setup','1.6.1.0','1.6.1.0'),('api2_setup','1.0.0.0','1.0.0.0'),('api_setup','1.6.0.0','1.6.0.0'),('backup_setup','1.6.0.0','1.6.0.0'),('bundle_setup','1.6.0.0.1','1.6.0.0.1'),('captcha_setup','1.7.0.0.0','1.7.0.0.0'),('catalogindex_setup','1.6.0.0','1.6.0.0'),('cataloginventory_setup','1.6.0.0.2','1.6.0.0.2'),('catalogrule_setup','1.6.0.3','1.6.0.3'),('catalogsearch_setup','1.6.0.0','1.6.0.0'),('catalog_setup','1.6.0.0.14','1.6.0.0.14'),('checkout_setup','1.6.0.0','1.6.0.0'),('cms_setup','1.6.0.0.1','1.6.0.0.1'),('compiler_setup','1.6.0.0','1.6.0.0'),('contacts_setup','1.6.0.0','1.6.0.0'),('core_setup','1.6.0.2','1.6.0.2'),('cron_setup','1.6.0.0','1.6.0.0'),('customer_setup','1.6.2.0.1','1.6.2.0.1'),('dataflow_setup','1.6.0.0','1.6.0.0'),('directory_setup','1.6.0.1','1.6.0.1'),('downloadable_setup','1.6.0.0.2','1.6.0.0.2'),('eav_setup','1.6.0.0','1.6.0.0'),('giftmessage_setup','1.6.0.0','1.6.0.0'),('googlecheckout_setup','1.6.0.1','1.6.0.1'),('importexport_setup','1.6.0.2','1.6.0.2'),('index_setup','1.6.0.0','1.6.0.0'),('log_setup','1.6.0.0','1.6.0.0'),('moneybookers_setup','1.6.0.0','1.6.0.0'),('newsletter_setup','1.6.0.1','1.6.0.1'),('oauth_setup','1.0.0.0','1.0.0.0'),('paygate_setup','1.6.0.0','1.6.0.0'),('payment_setup','1.6.0.0','1.6.0.0'),('paypaluk_setup','1.6.0.0','1.6.0.0'),('paypal_setup','1.6.0.2','1.6.0.2'),('persistent_setup','1.0.0.0','1.0.0.0'),('poll_setup','1.6.0.0','1.6.0.0'),('productalert_setup','1.6.0.0','1.6.0.0'),('rating_setup','1.6.0.0','1.6.0.0'),('reports_setup','1.6.0.0.1','1.6.0.0.1'),('review_setup','1.6.0.0','1.6.0.0'),('salesrule_setup','1.6.0.3','1.6.0.3'),('sales_setup','1.6.0.7','1.6.0.7'),('sendfriend_setup','1.6.0.0','1.6.0.0'),('shipping_setup','1.6.0.0','1.6.0.0'),('sitemap_setup','1.6.0.0','1.6.0.0'),('tag_setup','1.6.0.0','1.6.0.0'),('tax_setup','1.6.0.3','1.6.0.3'),('usa_setup','1.6.0.1','1.6.0.1'),('weee_setup','1.6.0.0','1.6.0.0'),('widget_setup','1.6.0.0','1.6.0.0'),('wishlist_setup','1.6.0.0','1.6.0.0'),('xmlconnect_setup','1.6.0.0','1.6.0.0');
+INSERT INTO `core_resource` VALUES ('adminnotification_setup','1.6.0.0','1.6.0.0'),('admin_setup','1.6.1.0','1.6.1.0'),('api2_setup','1.0.0.0','1.0.0.0'),('api_setup','1.6.0.0','1.6.0.0'),('backup_setup','1.6.0.0','1.6.0.0'),('bundle_setup','1.6.0.0.1','1.6.0.0.1'),('captcha_setup','1.7.0.0.0','1.7.0.0.0'),('catalogindex_setup','1.6.0.0','1.6.0.0'),('cataloginventory_setup','1.6.0.0.2','1.6.0.0.2'),('catalogrule_setup','1.6.0.3','1.6.0.3'),('catalogsearch_setup','1.6.0.0','1.6.0.0'),('catalog_setup','1.6.0.0.14','1.6.0.0.14'),('checkout_setup','1.6.0.0','1.6.0.0'),('cms_setup','1.6.0.0.1','1.6.0.0.1'),('compiler_setup','1.6.0.0','1.6.0.0'),('contacts_setup','1.6.0.0','1.6.0.0'),('core_setup','1.6.0.2','1.6.0.2'),('cron_setup','1.6.0.0','1.6.0.0'),('customer_setup','1.6.2.0.1','1.6.2.0.1'),('dataflow_setup','1.6.0.0','1.6.0.0'),('directory_setup','1.6.0.1','1.6.0.1'),('downloadable_setup','1.6.0.0.2','1.6.0.0.2'),('eav_setup','1.6.0.0','1.6.0.0'),('epay_setup','2.5.4','2.5.4'),('giftmessage_setup','1.6.0.0','1.6.0.0'),('googlecheckout_setup','1.6.0.1','1.6.0.1'),('importexport_setup','1.6.0.2','1.6.0.2'),('index_setup','1.6.0.0','1.6.0.0'),('log_setup','1.6.0.0','1.6.0.0'),('moneybookers_setup','1.6.0.0','1.6.0.0'),('newsletter_setup','1.6.0.1','1.6.0.1'),('oauth_setup','1.0.0.0','1.0.0.0'),('paygate_setup','1.6.0.0','1.6.0.0'),('payment_setup','1.6.0.0','1.6.0.0'),('paypaluk_setup','1.6.0.0','1.6.0.0'),('paypal_setup','1.6.0.2','1.6.0.2'),('persistent_setup','1.0.0.0','1.0.0.0'),('poll_setup','1.6.0.0','1.6.0.0'),('productalert_setup','1.6.0.0','1.6.0.0'),('rating_setup','1.6.0.0','1.6.0.0'),('reports_setup','1.6.0.0.1','1.6.0.0.1'),('review_setup','1.6.0.0','1.6.0.0'),('salesrule_setup','1.6.0.3','1.6.0.3'),('sales_setup','1.6.0.7','1.6.0.7'),('sendfriend_setup','1.6.0.0','1.6.0.0'),('shipping_setup','1.6.0.0','1.6.0.0'),('sitemap_setup','1.6.0.0','1.6.0.0'),('tag_setup','1.6.0.0','1.6.0.0'),('tax_setup','1.6.0.3','1.6.0.3'),('usa_setup','1.6.0.1','1.6.0.1'),('weee_setup','1.6.0.0','1.6.0.0'),('widget_setup','1.6.0.0','1.6.0.0'),('wishlist_setup','1.6.0.0','1.6.0.0'),('xmlconnect_setup','1.6.0.0','1.6.0.0');
 /*!40000 ALTER TABLE `core_resource` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `core_session`;
@@ -4399,6 +4399,29 @@ LOCK TABLES `eav_form_type_entity` WRITE;
 /*!40000 ALTER TABLE `eav_form_type_entity` DISABLE KEYS */;
 INSERT INTO `eav_form_type_entity` VALUES (1,1),(2,1),(5,1),(1,2),(2,2),(3,2),(4,2),(5,2);
 /*!40000 ALTER TABLE `eav_form_type_entity` ENABLE KEYS */;
+UNLOCK TABLES;
+DROP TABLE IF EXISTS `epay_order_status`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `epay_order_status` (
+  `orderid` varchar(45) NOT NULL,
+  `tid` varchar(45) NOT NULL,
+  `status` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '0 = unpaid, 1 = paid',
+  `amount` varchar(45) NOT NULL,
+  `cur` varchar(45) NOT NULL,
+  `date` varchar(45) NOT NULL,
+  `eKey` varchar(45) NOT NULL,
+  `fraud` varchar(45) NOT NULL,
+  `subscriptionid` varchar(45) NOT NULL,
+  `cardid` varchar(45) NOT NULL,
+  `transfee` varchar(45) NOT NULL,
+  `cardnopostfix` varchar(45) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+LOCK TABLES `epay_order_status` WRITE;
+/*!40000 ALTER TABLE `epay_order_status` DISABLE KEYS */;
+/*!40000 ALTER TABLE `epay_order_status` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `gift_message`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;

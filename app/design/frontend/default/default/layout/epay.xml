@@ -1,0 +1,18 @@
+<?xml version="1.0" ?> 
+<!-- 
+/**
+ * Copyright ePay | Dit Online Betalingssystem, (c) 2010.
+ * 
+ * This program is free software. You are allowed to use the software but NOT allowed to modify the software. 
+ * It is also not legal to do any changes to the software and distribute it in your own name / brand. 
+ */
+-->
+	<layout version="0.1.0">
+		<epay_standard_redirect>
+		<reference name="root">
+			<action method="setTemplate">
+				<template>page/3columns.phtml</template> 
+			</action>
+		</reference>
+	</epay_standard_redirect>
+</layout>
