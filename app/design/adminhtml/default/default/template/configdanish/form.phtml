@@ -1,0 +1,107 @@
+<div class="content-header">
+    <h3><?php echo $this->__('Danish Configuration') ?></h3>
+    <p class="form-buttons">
+    	<?php echo $this->getButtonHtml($this->__('Run Danish Configuration'), 'if (confirm(\''.$this->__('This action cannot be undone! Are you sure you want to continue?').'\')) setupForm.submit();', 'save'); ?>
+    </p>
+</div>
+
+<div class="entry-edit">
+    <form action="<?php echo $this->getPostActionUrl() ?>" method="post" id="setup_form">
+        <input name="form_key" type="hidden" value="<?php echo Mage::getSingleton('core/session')->getFormKey() ?>" />
+        <div class="entry-edit-head">
+            <h4 class="icon-head head-edit-form fieldset-legend"><?php echo $this->__('Please choose the requested setups:') ?></h4>
+            <div class="form-buttons"></div>
+        </div>
+
+        <div class="fieldset fieldset-wide" id="group_fields7">
+    		<div class="hor-scroll">
+            	<table cellspacing="0" class="form-list">
+            		<tbody>
+                        <tr>
+                            <td class="label"><label for="checkbox_tax"><?php echo $this->__('Configure Tax') ?></label></td>
+                            <td class="value">
+                                <input type="checkbox" name="tax" id="checkbox_tax" value="1" checked="checked" />
+                            </td>
+                            <td class="value">
+                                <?php echo $this->__('Danish sales with 25 % VAT') ?><br />
+                                <img src="<?php echo $this->getSkinUrl('images/error_msg_icon.gif') ?>" alt="Notification" />
+                                <?php echo $this->__('All tax settings will be overwritten!') ?>
+                            </td>
+                        </tr>
+                    	<tr>
+                        	<td class="label"><label><?php echo $this->__('Update Product Tax Classes') ?></label></td>
+                            <td class="value"></td>
+                            <td class="value">
+                                <table cellspacing="5" class="">
+                                    <tbody>
+                                        <?php foreach($this->getProductTaxClasses() as $taxClass): ?>
+                                        <tr>
+                                            <td><?php echo $this->__('Old') ?>: </td>
+                                            <td><strong><?php echo $taxClass['label'] ?></strong></td>
+                                            <td><?php echo $this->__('New') ?>: </td>
+                                            <td>
+                                                <select name="product_tax_class_target[<?php echo $taxClass['value'] ?>]">
+                                                    <?php foreach($this->getNewProductTaxClasses() as $taxClass): ?>
+                                                        <option
+                                                            value="<?php echo $taxClass['value'] ?>"
+                                                            <?php if ($this->getDefaultProductTaxClass() == $taxClass['value']): ?>selected="selected"<?php endif ?>
+                                                        >
+                                                        <?php echo $taxClass['label'] ?></option>
+                                                    <?php endforeach ?>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                        <?php endforeach ?>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label"><label for="checkbox_euvat"><?php echo $this->__('Configure EU VAT') ?></label></td>
+                            <td class="value">
+                                <input type="checkbox" name="euvat" id="checkbox_euvat" value="1" checked="checked" />
+                            </td>
+                            <td class="value">
+                                <?php echo $this->__('Enable VAT numbers and customer groups for EU VAT calculation') ?>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label"><label for="checkbox_currency"><?php echo $this->__('DKK as Danish Currency Symbol') ?></label></td>
+                            <td class="value">
+                                <input type="checkbox" name="currency" id="checkbox_currency" value="1" checked="checked" />
+                            </td>
+                            <td class="value">
+                                <?php echo $this->__('Show DKK instead of kr for easier Nets approval') ?>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label"><label for="checkbox_attributes"><?php echo $this->__('Translate Attribute Labels') ?></label></td>
+                            <td class="value">
+                                <input type="checkbox" name="attributes" id="checkbox_attributes" value="1" checked="checked" />
+                            </td>
+                            <td class="value">
+                                <?php echo $this->__('Danish labels for product and category attributes') ?><br/>
+                                <img src="<?php echo $this->getSkinUrl('images/error_msg_icon.gif') ?>" alt="Notification" />
+                                <?php echo $this->__('All attribute labels will be overwritten!') ?>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label"><label for="checkbox_addressforms"><?php echo $this->__('Setup Address Forms') ?></label></td>
+                            <td class="value">
+                                <input type="checkbox" name="addressforms" id="checkbox_addressforms" value="1" />
+                            </td>
+                            <td class="value">
+                                <?php echo $this->__('Danish address form templates without fax and region, with postal code before city') ?><br/>
+                                <img src="<?php echo $this->getSkinUrl('images/error_msg_icon.gif') ?>" alt="Notification" />
+                                <?php echo $this->__('Do no use if you are selling abroad') ?>
+                            </td>
+                        </tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+    </form>
+</div>
+<script type="text/javascript">
+	setupForm = new varienForm('setup_form', '');
+</script>

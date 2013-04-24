@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <default>
+        <configdanish>
+            <euvat_config>
+                <default>
+                    <customer__create_account__auto_group_assign>1</customer__create_account__auto_group_assign>
+                    <customer__create_account__vat_frontend_visibility>1</customer__create_account__vat_frontend_visibility>
+                </default>
+            </euvat_config>
+        </configdanish>
+    </default>
+</config>

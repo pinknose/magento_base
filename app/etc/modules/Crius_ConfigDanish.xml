@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Crius_ConfigDanish>
+			<active>true</active>
+			<codePool>community</codePool>
+		</Crius_ConfigDanish>     
+	</modules>
+</config>

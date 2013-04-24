@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.1.0">
+	<adminhtml_configdanish_index>
+        <reference name="content">
+            <block type="configdanish/adminhtml_configdanish" name="configdanish.index" template="configdanish/form.phtml"/>
+        </reference>
+    </adminhtml_configdanish_index>
+</layout>

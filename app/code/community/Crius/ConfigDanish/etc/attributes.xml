@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<config>
+    <default>
+        <configdanish>
+            <product_attribute_labels>
+                <default>
+                    <color>Farve</color>
+                    <cost>Indkøbspris</cost>
+                    <country_of_manufacture>Produktionsland</country_of_manufacture>
+                    <custom_design>Specialdesign</custom_design>
+                    <custom_design_from>Aktiv fra</custom_design_from>
+                    <custom_design_to>Aktiv til</custom_design_to>
+                    <custom_layout_update>Speciallayout</custom_layout_update>
+                    <description>Beskrivelse</description>
+                    <enable_googlecheckout>Tilgængelig for køb gennem Google Checkout</enable_googlecheckout>
+                    <gallery>Billedgalleri</gallery>
+                    <gift_message_available>Tillad gavebesked</gift_message_available>
+                    <image>Hovedbillede</image>
+                    <image_label>Billedtekst</image_label>
+                    <is_imported>I feed</is_imported>
+                    <is_recurring>Aktiver abonnementsprofil</is_recurring>
+                    <links_purchased_separately>Links kan købes hver for sig</links_purchased_separately>
+                    <links_title>Titel på links</links_title>
+                    <manufacturer>Producent</manufacturer>
+                    <media_gallery>Mediegalleri</media_gallery>
+                    <meta_description>Metabeskrivelse</meta_description>
+                    <meta_keyword>Metanøgleord</meta_keyword>
+                    <meta_title>Metatitel</meta_title>
+                    <minimal_price>Mindstepris</minimal_price>
+                    <msrp>Vejledende udsalgspris</msrp>
+                    <msrp_display_actual_price_type>Vis den faktiske pris</msrp_display_actual_price_type>
+                    <msrp_enabled>Anvend MAP</msrp_enabled>
+                    <name>Navn</name>
+                    <news_from_date>Vis som nyt fra</news_from_date>
+                    <news_to_date>Vis som nyt til</news_to_date>
+                    <options_container>Vis produktmuligheder i</options_container>
+                    <page_layout>Sidelayout</page_layout>
+                    <price>Pris</price>
+                    <price_view>Prisvisning</price_view>
+                    <recurring_profile>Abonnementsprofil</recurring_profile>
+                    <samples_title>Titel på prøvelinks</samples_title>
+                    <shipment_type>Levering</shipment_type>
+                    <short_description>Kort beskrivelse</short_description>
+                    <sku>Varenummer</sku>
+                    <small_image>Lille billede</small_image>
+                    <small_image_label>Lille billedetekst</small_image_label>
+                    <special_from_date>Specialpris fra</special_from_date>
+                    <special_price>Specialpris</special_price>
+                    <special_to_date>Specialpris til</special_to_date>
+                    <tax_class_id>Momsklasse</tax_class_id>
+                    <thumbnail_label>Thumbnailtekst</thumbnail_label>
+                    <tier_price>Mængderabat</tier_price>
+                    <url_key>URL-nøgle</url_key>
+                    <visibility>Synlighed</visibility>
+                    <weight>Vægt</weight>
+                </default>
+            </product_attribute_labels>
+            <category_attribute_labels>
+                <available_sort_by>Tilgængelig produktsortering</available_sort_by>
+                <children_count>Antal underkategorier</children_count>
+                <custom_apply_to_products>Anvend på produkter</custom_apply_to_products>
+                <custom_design>Specialdesign</custom_design>
+                <custom_design_apply>Gælder for</custom_design_apply>
+                <custom_design_from>Specialdesign fra</custom_design_from>
+                <custom_design_to>Specialdesign til</custom_design_to>
+                <custom_layout_update>Speciallayout</custom_layout_update>
+                <custom_use_parent_settings>Brug indstillinger fra overkategori</custom_use_parent_settings>
+                <default_sort_by>Standardsortering</default_sort_by>
+                <description>Beskrivelse</description>
+                <display_mode>Visning</display_mode>
+                <filter_price_range>Pristrin i filtreret navigation</filter_price_range>
+                <image>Billede</image>
+                <include_in_menu>Inkluder i menu</include_in_menu>
+                <is_active>Aktiv</is_active>
+                <is_anchor>Vis filtreret navigation (anchor)</is_anchor>
+                <landing_page>CMS blok</landing_page>
+                <level>Niveau</level>
+                <meta_description>Metabeskrivelse</meta_description>
+                <meta_keywords>Metanøgleord</meta_keywords>
+                <meta_title>Titel</meta_title>
+                <name>Navn</name>
+                <page_layout>Sidelayout</page_layout>
+                <path>Sti</path>
+                <thumbnail>Thumbnail</thumbnail>
+                <url_key>URL-nøgle</url_key>
+            </category_attribute_labels>
+        </configdanish>
+    </default>
+</config>
