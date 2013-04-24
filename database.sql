@@ -2715,7 +2715,7 @@ CREATE TABLE `core_cache_option` (
 
 LOCK TABLES `core_cache_option` WRITE;
 /*!40000 ALTER TABLE `core_cache_option` DISABLE KEYS */;
-INSERT INTO `core_cache_option` VALUES ('block_html',1),('collections',1),('config',1),('config_api',1),('config_api2',1),('eav',1),('layout',1),('translate',1);
+INSERT INTO `core_cache_option` VALUES ('block_html',0),('collections',1),('config',1),('config_api',1),('config_api2',1),('eav',1),('layout',0),('translate',0);
 /*!40000 ALTER TABLE `core_cache_option` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `core_cache_tag`;
