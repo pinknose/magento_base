@@ -95,7 +95,7 @@ CREATE TABLE `admin_user` (
 
 LOCK TABLES `admin_user` WRITE;
 /*!40000 ALTER TABLE `admin_user` DISABLE KEYS */;
-INSERT INTO `admin_user` VALUES (1,'Martin','Andersen','martin@pinknose.dk','pinknose','f5013a46de5109e6c6256a1622fbe728:rS','2013-04-24 12:55:00','2013-04-24 10:54:30','2013-04-24 10:55:00',1,0,1,'N;',NULL,NULL);
+INSERT INTO `admin_user` VALUES (1,'Martin','Andersen','martin@pinknose.dk','pinknose','f5013a46de5109e6c6256a1622fbe728:rS','2013-04-24 13:46:11','2013-04-24 10:54:30','2013-04-24 11:46:11',2,0,1,'N;',NULL,NULL);
 /*!40000 ALTER TABLE `admin_user` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `adminnotification_inbox`;
@@ -4591,7 +4591,7 @@ CREATE TABLE `log_url` (
 
 LOCK TABLES `log_url` WRITE;
 /*!40000 ALTER TABLE `log_url` DISABLE KEYS */;
-INSERT INTO `log_url` VALUES (1,1,'2013-04-24 11:25:35'),(2,1,'2013-04-24 11:26:24');
+INSERT INTO `log_url` VALUES (1,1,'2013-04-24 11:25:35'),(2,1,'2013-04-24 11:26:24'),(3,1,'2013-04-24 11:51:36');
 /*!40000 ALTER TABLE `log_url` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `log_url_info`;
@@ -4602,12 +4602,12 @@ CREATE TABLE `log_url_info` (
   `url` varchar(255) DEFAULT NULL COMMENT 'URL',
   `referer` varchar(255) DEFAULT NULL COMMENT 'Referrer',
   PRIMARY KEY (`url_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='Log URL Info Table';
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COMMENT='Log URL Info Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `log_url_info` WRITE;
 /*!40000 ALTER TABLE `log_url_info` DISABLE KEYS */;
-INSERT INTO `log_url_info` VALUES (1,'http://local.magento-base.dk/index.php/','http://local.magento-base.dk/index.php/install/wizard/end/'),(2,'http://local.magento-base.dk/index.php/','http://local.magento-base.dk/index.php/');
+INSERT INTO `log_url_info` VALUES (1,'http://local.magento-base.dk/index.php/','http://local.magento-base.dk/index.php/install/wizard/end/'),(2,'http://local.magento-base.dk/index.php/','http://local.magento-base.dk/index.php/'),(3,'http://local.magento-base.dk/index.php/',NULL);
 /*!40000 ALTER TABLE `log_url_info` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `log_visitor`;
@@ -4626,7 +4626,7 @@ CREATE TABLE `log_visitor` (
 
 LOCK TABLES `log_visitor` WRITE;
 /*!40000 ALTER TABLE `log_visitor` DISABLE KEYS */;
-INSERT INTO `log_visitor` VALUES (1,'po8lf9o7gcsmprrac6rubkvhb5','2013-04-24 11:25:31','2013-04-24 11:26:24',2,1);
+INSERT INTO `log_visitor` VALUES (1,'po8lf9o7gcsmprrac6rubkvhb5','2013-04-24 11:25:31','2013-04-24 11:51:36',3,1);
 /*!40000 ALTER TABLE `log_visitor` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `log_visitor_info`;
