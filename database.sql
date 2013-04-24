@@ -4614,7 +4614,6 @@ CREATE TABLE `log_url` (
 
 LOCK TABLES `log_url` WRITE;
 /*!40000 ALTER TABLE `log_url` DISABLE KEYS */;
-INSERT INTO `log_url` VALUES (1,1,'2013-04-24 11:25:35'),(2,1,'2013-04-24 11:26:24'),(3,1,'2013-04-24 11:51:36'),(4,1,'2013-04-24 12:15:00');
 /*!40000 ALTER TABLE `log_url` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `log_url_info`;
@@ -4625,12 +4624,11 @@ CREATE TABLE `log_url_info` (
   `url` varchar(255) DEFAULT NULL COMMENT 'URL',
   `referer` varchar(255) DEFAULT NULL COMMENT 'Referrer',
   PRIMARY KEY (`url_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COMMENT='Log URL Info Table';
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COMMENT='Log URL Info Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `log_url_info` WRITE;
 /*!40000 ALTER TABLE `log_url_info` DISABLE KEYS */;
-INSERT INTO `log_url_info` VALUES (1,'http://local.magento-base.dk/index.php/','http://local.magento-base.dk/index.php/install/wizard/end/'),(2,'http://local.magento-base.dk/index.php/','http://local.magento-base.dk/index.php/'),(3,'http://local.magento-base.dk/index.php/',NULL),(4,'http://local.magento-base.dk/',NULL);
 /*!40000 ALTER TABLE `log_url_info` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `log_visitor`;
@@ -4649,7 +4647,6 @@ CREATE TABLE `log_visitor` (
 
 LOCK TABLES `log_visitor` WRITE;
 /*!40000 ALTER TABLE `log_visitor` DISABLE KEYS */;
-INSERT INTO `log_visitor` VALUES (1,'po8lf9o7gcsmprrac6rubkvhb5','2013-04-24 11:25:31','2013-04-24 12:15:00',4,1);
 /*!40000 ALTER TABLE `log_visitor` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `log_visitor_info`;
@@ -4669,7 +4666,6 @@ CREATE TABLE `log_visitor_info` (
 
 LOCK TABLES `log_visitor_info` WRITE;
 /*!40000 ALTER TABLE `log_visitor_info` DISABLE KEYS */;
-INSERT INTO `log_visitor_info` VALUES (1,'http://local.magento-base.dk/index.php/install/wizard/end/','Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31','ISO-8859-1,utf-8;q=0.7,*;q=0.3','da-DK,da;q=0.8,en-US;q=0.6,en;q=0.4',2130706433,2130706433);
 /*!40000 ALTER TABLE `log_visitor_info` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `log_visitor_online`;
