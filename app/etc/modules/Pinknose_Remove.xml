@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Pinknose_Remove>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Pinknose_Remove>
+    </modules>
+</config> 
