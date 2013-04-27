@@ -7,13 +7,13 @@
     </modules>
     <frontend>
         <routers>
-            <remove>
-                <use>standard</use>
+            <checkout>
                 <args>
-                    <module>Pinknose_Remove</module>
-                    <frontName>remove</frontName>
+                    <modules>
+                        <Pinknose_Remove before="Mage_Checkout">Pinknose_Remove</Pinknose_Remove>
+                    </modules>
                 </args>
-            </remove>
+            </checkout>
         </routers>
         <layout>
             <updates>
@@ -24,12 +24,6 @@
         </layout>
     </frontend>
     <global>
-    	<rewrite>
-	        <pinknose_checkout> <!--This can be any unique id -->
-	            <from><![CDATA[#^/checkout/onepage/#]]></from>  <!-- the URL which u want to override-->
-	            <to>/remove/onepage/</to>  <!-- destination url -->
-	        </pinknose_checkout>
-	    </rewrite>
         <models>
             <remove>
                 <class>Pinknose_Remove_Model</class>
