@@ -95,7 +95,7 @@ CREATE TABLE `admin_user` (
 
 LOCK TABLES `admin_user` WRITE;
 /*!40000 ALTER TABLE `admin_user` DISABLE KEYS */;
-INSERT INTO `admin_user` VALUES (1,'Martin','Andersen','martin@pinknose.dk','pinknose','f5013a46de5109e6c6256a1622fbe728:rS','2013-04-24 14:39:24','2013-04-24 10:54:30','2013-04-24 11:46:11',2,0,1,'a:1:{s:11:\"configState\";a:64:{s:14:\"design_package\";s:1:\"0\";s:12:\"design_theme\";s:1:\"0\";s:11:\"design_head\";s:1:\"1\";s:13:\"design_header\";s:1:\"0\";s:13:\"design_footer\";s:1:\"0\";s:16:\"design_watermark\";s:1:\"0\";s:17:\"design_pagination\";s:1:\"0\";s:12:\"design_email\";s:1:\"0\";s:25:\"trans_email_ident_general\";s:1:\"1\";s:23:\"trans_email_ident_sales\";s:1:\"1\";s:25:\"trans_email_ident_support\";s:1:\"1\";s:25:\"trans_email_ident_custom1\";s:1:\"1\";s:25:\"trans_email_ident_custom2\";s:1:\"1\";s:17:\"contacts_contacts\";s:1:\"0\";s:14:\"contacts_email\";s:1:\"1\";s:16:\"catalog_frontend\";s:1:\"0\";s:15:\"catalog_sitemap\";s:1:\"0\";s:14:\"catalog_review\";s:1:\"0\";s:20:\"catalog_productalert\";s:1:\"0\";s:25:\"catalog_productalert_cron\";s:1:\"0\";s:19:\"catalog_placeholder\";s:1:\"0\";s:25:\"catalog_recently_products\";s:1:\"0\";s:13:\"catalog_price\";s:1:\"0\";s:26:\"catalog_layered_navigation\";s:1:\"0\";s:18:\"catalog_navigation\";s:1:\"0\";s:11:\"catalog_seo\";s:1:\"0\";s:14:\"catalog_search\";s:1:\"0\";s:20:\"catalog_downloadable\";s:1:\"0\";s:22:\"catalog_custom_options\";s:1:\"0\";s:16:\"sendfriend_email\";s:1:\"1\";s:22:\"customer_account_share\";s:1:\"1\";s:25:\"customer_online_customers\";s:1:\"0\";s:23:\"customer_create_account\";s:1:\"1\";s:17:\"customer_password\";s:1:\"1\";s:16:\"customer_address\";s:1:\"1\";s:16:\"customer_startup\";s:1:\"1\";s:26:\"customer_address_templates\";s:1:\"1\";s:16:\"customer_captcha\";s:1:\"1\";s:16:\"wishlist_general\";s:1:\"1\";s:14:\"wishlist_email\";s:1:\"0\";s:22:\"wishlist_wishlist_link\";s:1:\"0\";s:17:\"sales_email_order\";s:1:\"0\";s:25:\"sales_email_order_comment\";s:1:\"0\";s:19:\"sales_email_invoice\";s:1:\"0\";s:27:\"sales_email_invoice_comment\";s:1:\"0\";s:20:\"sales_email_shipment\";s:1:\"0\";s:28:\"sales_email_shipment_comment\";s:1:\"0\";s:22:\"sales_email_creditmemo\";s:1:\"0\";s:30:\"sales_email_creditmemo_comment\";s:1:\"0\";s:16:\"checkout_options\";s:1:\"0\";s:13:\"checkout_cart\";s:1:\"0\";s:18:\"checkout_cart_link\";s:1:\"0\";s:16:\"checkout_sidebar\";s:1:\"0\";s:23:\"checkout_payment_failed\";s:1:\"0\";s:15:\"shipping_origin\";s:1:\"1\";s:15:\"shipping_option\";s:1:\"1\";s:17:\"carriers_flatrate\";s:1:\"1\";s:18:\"carriers_tablerate\";s:1:\"0\";s:21:\"carriers_freeshipping\";s:1:\"0\";s:12:\"carriers_ups\";s:1:\"0\";s:13:\"carriers_usps\";s:1:\"0\";s:14:\"carriers_fedex\";s:1:\"0\";s:12:\"carriers_dhl\";s:1:\"0\";s:15:\"carriers_dhlint\";s:1:\"0\";}}',NULL,NULL);
+INSERT INTO `admin_user` VALUES (1,'Martin','Andersen','martin@pinknose.dk','pinknose','f5013a46de5109e6c6256a1622fbe728:rS','2013-04-27 21:47:38','2013-04-24 10:54:30','2013-04-27 19:47:38',6,0,1,'a:1:{s:11:\"configState\";a:64:{s:14:\"design_package\";s:1:\"0\";s:12:\"design_theme\";s:1:\"0\";s:11:\"design_head\";s:1:\"1\";s:13:\"design_header\";s:1:\"0\";s:13:\"design_footer\";s:1:\"0\";s:16:\"design_watermark\";s:1:\"0\";s:17:\"design_pagination\";s:1:\"0\";s:12:\"design_email\";s:1:\"0\";s:25:\"trans_email_ident_general\";s:1:\"1\";s:23:\"trans_email_ident_sales\";s:1:\"1\";s:25:\"trans_email_ident_support\";s:1:\"1\";s:25:\"trans_email_ident_custom1\";s:1:\"1\";s:25:\"trans_email_ident_custom2\";s:1:\"1\";s:17:\"contacts_contacts\";s:1:\"0\";s:14:\"contacts_email\";s:1:\"1\";s:16:\"catalog_frontend\";s:1:\"0\";s:15:\"catalog_sitemap\";s:1:\"0\";s:14:\"catalog_review\";s:1:\"0\";s:20:\"catalog_productalert\";s:1:\"0\";s:25:\"catalog_productalert_cron\";s:1:\"0\";s:19:\"catalog_placeholder\";s:1:\"0\";s:25:\"catalog_recently_products\";s:1:\"0\";s:13:\"catalog_price\";s:1:\"0\";s:26:\"catalog_layered_navigation\";s:1:\"0\";s:18:\"catalog_navigation\";s:1:\"0\";s:11:\"catalog_seo\";s:1:\"0\";s:14:\"catalog_search\";s:1:\"0\";s:20:\"catalog_downloadable\";s:1:\"0\";s:22:\"catalog_custom_options\";s:1:\"0\";s:16:\"sendfriend_email\";s:1:\"1\";s:22:\"customer_account_share\";s:1:\"1\";s:25:\"customer_online_customers\";s:1:\"0\";s:23:\"customer_create_account\";s:1:\"1\";s:17:\"customer_password\";s:1:\"1\";s:16:\"customer_address\";s:1:\"1\";s:16:\"customer_startup\";s:1:\"1\";s:26:\"customer_address_templates\";s:1:\"1\";s:16:\"customer_captcha\";s:1:\"1\";s:16:\"wishlist_general\";s:1:\"1\";s:14:\"wishlist_email\";s:1:\"0\";s:22:\"wishlist_wishlist_link\";s:1:\"0\";s:17:\"sales_email_order\";s:1:\"0\";s:25:\"sales_email_order_comment\";s:1:\"0\";s:19:\"sales_email_invoice\";s:1:\"0\";s:27:\"sales_email_invoice_comment\";s:1:\"0\";s:20:\"sales_email_shipment\";s:1:\"0\";s:28:\"sales_email_shipment_comment\";s:1:\"0\";s:22:\"sales_email_creditmemo\";s:1:\"0\";s:30:\"sales_email_creditmemo_comment\";s:1:\"0\";s:16:\"checkout_options\";s:1:\"0\";s:13:\"checkout_cart\";s:1:\"0\";s:18:\"checkout_cart_link\";s:1:\"0\";s:16:\"checkout_sidebar\";s:1:\"0\";s:23:\"checkout_payment_failed\";s:1:\"0\";s:15:\"shipping_origin\";s:1:\"1\";s:15:\"shipping_option\";s:1:\"1\";s:17:\"carriers_flatrate\";s:1:\"1\";s:18:\"carriers_tablerate\";s:1:\"0\";s:21:\"carriers_freeshipping\";s:1:\"0\";s:12:\"carriers_ups\";s:1:\"0\";s:13:\"carriers_usps\";s:1:\"0\";s:14:\"carriers_fedex\";s:1:\"0\";s:12:\"carriers_dhl\";s:1:\"0\";s:15:\"carriers_dhlint\";s:1:\"0\";}}',NULL,NULL);
 /*!40000 ALTER TABLE `admin_user` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `adminnotification_inbox`;
@@ -386,12 +386,12 @@ CREATE TABLE `catalog_category_entity` (
   PRIMARY KEY (`entity_id`),
   KEY `IDX_CATALOG_CATEGORY_ENTITY_LEVEL` (`level`),
   KEY `IDX_CATALOG_CATEGORY_ENTITY_PATH_ENTITY_ID` (`path`,`entity_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='Catalog Category Table';
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COMMENT='Catalog Category Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `catalog_category_entity` WRITE;
 /*!40000 ALTER TABLE `catalog_category_entity` DISABLE KEYS */;
-INSERT INTO `catalog_category_entity` VALUES (1,3,0,0,'2013-04-24 10:53:32','2013-04-24 10:53:32','1',0,0,1),(2,3,3,1,'2013-04-24 10:53:33','2013-04-24 10:53:33','1/2',1,1,0);
+INSERT INTO `catalog_category_entity` VALUES (1,3,0,0,'2013-04-24 10:53:32','2013-04-24 10:53:32','1',0,0,2),(2,3,3,1,'2013-04-24 10:53:33','2013-04-24 10:53:33','1/2',1,1,1),(3,3,3,2,'2013-04-27 14:15:43','2013-04-27 14:15:43','1/2/3',1,2,0);
 /*!40000 ALTER TABLE `catalog_category_entity` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `catalog_category_entity_datetime`;
@@ -409,14 +409,15 @@ CREATE TABLE `catalog_category_entity_datetime` (
   KEY `IDX_CATALOG_CATEGORY_ENTITY_DATETIME_ENTITY_ID` (`entity_id`),
   KEY `IDX_CATALOG_CATEGORY_ENTITY_DATETIME_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_CATALOG_CATEGORY_ENTITY_DATETIME_STORE_ID` (`store_id`),
+  CONSTRAINT `FK_CATALOG_CATEGORY_ENTITY_DATETIME_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CAT_CTGR_ENTT_DTIME_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CAT_CTGR_ENTT_DTIME_ENTT_ID_CAT_CTGR_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_category_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CATALOG_CATEGORY_ENTITY_DATETIME_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Category Datetime Attribute Backend Table';
+  CONSTRAINT `FK_CAT_CTGR_ENTT_DTIME_ENTT_ID_CAT_CTGR_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_category_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='Catalog Category Datetime Attribute Backend Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `catalog_category_entity_datetime` WRITE;
 /*!40000 ALTER TABLE `catalog_category_entity_datetime` DISABLE KEYS */;
+INSERT INTO `catalog_category_entity_datetime` VALUES (1,3,59,0,3,NULL),(2,3,60,0,3,NULL);
 /*!40000 ALTER TABLE `catalog_category_entity_datetime` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `catalog_category_entity_decimal`;
@@ -434,14 +435,15 @@ CREATE TABLE `catalog_category_entity_decimal` (
   KEY `IDX_CATALOG_CATEGORY_ENTITY_DECIMAL_ENTITY_ID` (`entity_id`),
   KEY `IDX_CATALOG_CATEGORY_ENTITY_DECIMAL_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_CATALOG_CATEGORY_ENTITY_DECIMAL_STORE_ID` (`store_id`),
+  CONSTRAINT `FK_CATALOG_CATEGORY_ENTITY_DECIMAL_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CAT_CTGR_ENTT_DEC_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CAT_CTGR_ENTT_DEC_ENTT_ID_CAT_CTGR_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_category_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CATALOG_CATEGORY_ENTITY_DECIMAL_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Category Decimal Attribute Backend Table';
+  CONSTRAINT `FK_CAT_CTGR_ENTT_DEC_ENTT_ID_CAT_CTGR_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_category_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='Catalog Category Decimal Attribute Backend Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `catalog_category_entity_decimal` WRITE;
 /*!40000 ALTER TABLE `catalog_category_entity_decimal` DISABLE KEYS */;
+INSERT INTO `catalog_category_entity_decimal` VALUES (1,3,70,0,3,NULL);
 /*!40000 ALTER TABLE `catalog_category_entity_decimal` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `catalog_category_entity_int`;
@@ -459,15 +461,15 @@ CREATE TABLE `catalog_category_entity_int` (
   KEY `IDX_CATALOG_CATEGORY_ENTITY_INT_ENTITY_ID` (`entity_id`),
   KEY `IDX_CATALOG_CATEGORY_ENTITY_INT_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_CATALOG_CATEGORY_ENTITY_INT_STORE_ID` (`store_id`),
+  CONSTRAINT `FK_CATALOG_CATEGORY_ENTITY_INT_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CAT_CTGR_ENTT_INT_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CAT_CTGR_ENTT_INT_ENTT_ID_CAT_CTGR_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_category_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CATALOG_CATEGORY_ENTITY_INT_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COMMENT='Catalog Category Integer Attribute Backend Table';
+  CONSTRAINT `FK_CAT_CTGR_ENTT_INT_ENTT_ID_CAT_CTGR_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_category_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8 COMMENT='Catalog Category Integer Attribute Backend Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `catalog_category_entity_int` WRITE;
 /*!40000 ALTER TABLE `catalog_category_entity_int` DISABLE KEYS */;
-INSERT INTO `catalog_category_entity_int` VALUES (1,3,67,0,1,1),(2,3,67,1,1,1),(3,3,42,0,2,1),(4,3,67,0,2,1),(5,3,42,1,2,1),(6,3,67,1,2,1);
+INSERT INTO `catalog_category_entity_int` VALUES (1,3,67,0,1,1),(2,3,67,1,1,1),(3,3,42,0,2,1),(4,3,67,0,2,1),(5,3,42,1,2,1),(6,3,67,1,2,1),(7,3,42,0,3,1),(8,3,67,0,3,1),(9,3,50,0,3,NULL),(10,3,51,0,3,1),(11,3,68,0,3,0),(12,3,69,0,3,0);
 /*!40000 ALTER TABLE `catalog_category_entity_int` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `catalog_category_entity_text`;
@@ -485,15 +487,15 @@ CREATE TABLE `catalog_category_entity_text` (
   KEY `IDX_CATALOG_CATEGORY_ENTITY_TEXT_ENTITY_ID` (`entity_id`),
   KEY `IDX_CATALOG_CATEGORY_ENTITY_TEXT_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_CATALOG_CATEGORY_ENTITY_TEXT_STORE_ID` (`store_id`),
+  CONSTRAINT `FK_CATALOG_CATEGORY_ENTITY_TEXT_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CAT_CTGR_ENTT_TEXT_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CAT_CTGR_ENTT_TEXT_ENTT_ID_CAT_CTGR_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_category_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CATALOG_CATEGORY_ENTITY_TEXT_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COMMENT='Catalog Category Text Attribute Backend Table';
+  CONSTRAINT `FK_CAT_CTGR_ENTT_TEXT_ENTT_ID_CAT_CTGR_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_category_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8 COMMENT='Catalog Category Text Attribute Backend Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `catalog_category_entity_text` WRITE;
 /*!40000 ALTER TABLE `catalog_category_entity_text` DISABLE KEYS */;
-INSERT INTO `catalog_category_entity_text` VALUES (1,3,65,0,1,NULL),(2,3,65,1,1,NULL),(3,3,65,0,2,NULL),(4,3,65,1,2,NULL);
+INSERT INTO `catalog_category_entity_text` VALUES (1,3,65,0,1,NULL),(2,3,65,1,1,NULL),(3,3,65,0,2,NULL),(4,3,65,1,2,NULL),(5,3,44,0,3,NULL),(6,3,47,0,3,NULL),(7,3,48,0,3,NULL),(8,3,62,0,3,NULL),(9,3,65,0,3,NULL);
 /*!40000 ALTER TABLE `catalog_category_entity_text` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `catalog_category_entity_varchar`;
@@ -511,15 +513,15 @@ CREATE TABLE `catalog_category_entity_varchar` (
   KEY `IDX_CATALOG_CATEGORY_ENTITY_VARCHAR_ENTITY_ID` (`entity_id`),
   KEY `IDX_CATALOG_CATEGORY_ENTITY_VARCHAR_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_CATALOG_CATEGORY_ENTITY_VARCHAR_STORE_ID` (`store_id`),
+  CONSTRAINT `FK_CATALOG_CATEGORY_ENTITY_VARCHAR_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CAT_CTGR_ENTT_VCHR_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CAT_CTGR_ENTT_VCHR_ENTT_ID_CAT_CTGR_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_category_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CATALOG_CATEGORY_ENTITY_VARCHAR_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8 COMMENT='Catalog Category Varchar Attribute Backend Table';
+  CONSTRAINT `FK_CAT_CTGR_ENTT_VCHR_ENTT_ID_CAT_CTGR_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_category_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8 COMMENT='Catalog Category Varchar Attribute Backend Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `catalog_category_entity_varchar` WRITE;
 /*!40000 ALTER TABLE `catalog_category_entity_varchar` DISABLE KEYS */;
-INSERT INTO `catalog_category_entity_varchar` VALUES (1,3,41,0,1,'Root Catalog'),(2,3,41,1,1,'Root Catalog'),(3,3,43,1,1,'root-catalog'),(4,3,41,0,2,'Default Category'),(5,3,41,1,2,'Default Category'),(6,3,49,1,2,'PRODUCTS'),(7,3,43,1,2,'default-category');
+INSERT INTO `catalog_category_entity_varchar` VALUES (1,3,41,0,1,'Root Catalog'),(2,3,41,1,1,'Root Catalog'),(3,3,43,1,1,'root-catalog'),(4,3,41,0,2,'Default Category'),(5,3,41,1,2,'Default Category'),(6,3,49,1,2,'PRODUCTS'),(7,3,43,1,2,'default-category'),(8,3,41,0,3,'test'),(9,3,43,0,3,'test'),(10,3,46,0,3,NULL),(11,3,49,0,3,'PRODUCTS'),(12,3,58,0,3,NULL),(13,3,61,0,3,NULL),(14,3,57,1,3,'test.html'),(15,3,57,0,3,'test.html');
 /*!40000 ALTER TABLE `catalog_category_entity_varchar` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `catalog_category_flat_store_1`;
@@ -573,7 +575,7 @@ CREATE TABLE `catalog_category_flat_store_1` (
 
 LOCK TABLES `catalog_category_flat_store_1` WRITE;
 /*!40000 ALTER TABLE `catalog_category_flat_store_1` DISABLE KEYS */;
-INSERT INTO `catalog_category_flat_store_1` VALUES (1,0,'2013-04-24 10:53:32','2013-04-24 10:53:32','1',0,0,1,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL,NULL,NULL,NULL,NULL,NULL,'Root Catalog',NULL,NULL,NULL,NULL,NULL),(2,1,'2013-04-24 10:53:33','2013-04-24 10:53:33','1/2',1,1,0,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,1,NULL,NULL,NULL,NULL,NULL,'Default Category',NULL,NULL,NULL,NULL,NULL);
+INSERT INTO `catalog_category_flat_store_1` VALUES (1,0,'2013-04-24 10:53:32','2013-04-24 10:53:32','1',0,0,2,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL,NULL,NULL,NULL,NULL,NULL,'Root Catalog',NULL,NULL,NULL,NULL,NULL),(2,1,'2013-04-24 10:53:33','2013-04-24 10:53:33','1/2',1,1,1,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,1,NULL,NULL,NULL,NULL,NULL,'Default Category',NULL,NULL,NULL,NULL,NULL),(3,2,'2013-04-27 14:15:43','2013-04-27 14:15:43','1/2/3',1,2,0,1,NULL,NULL,NULL,0,NULL,NULL,NULL,NULL,0,NULL,NULL,'PRODUCTS',NULL,NULL,1,1,1,NULL,NULL,NULL,NULL,'test',NULL,NULL,NULL,'test','test.html');
 /*!40000 ALTER TABLE `catalog_category_flat_store_1` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `catalog_category_product`;
@@ -592,6 +594,7 @@ CREATE TABLE `catalog_category_product` (
 
 LOCK TABLES `catalog_category_product` WRITE;
 /*!40000 ALTER TABLE `catalog_category_product` DISABLE KEYS */;
+INSERT INTO `catalog_category_product` VALUES (3,1,1);
 /*!40000 ALTER TABLE `catalog_category_product` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `catalog_category_product_index`;
@@ -615,6 +618,7 @@ CREATE TABLE `catalog_category_product_index` (
 
 LOCK TABLES `catalog_category_product_index` WRITE;
 /*!40000 ALTER TABLE `catalog_category_product_index` DISABLE KEYS */;
+INSERT INTO `catalog_category_product_index` VALUES (2,1,20005,0,1,4),(3,1,1,1,1,4);
 /*!40000 ALTER TABLE `catalog_category_product_index` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `catalog_category_product_index_enbl_idx`;
@@ -697,8 +701,8 @@ CREATE TABLE `catalog_compare_item` (
   KEY `IDX_CATALOG_COMPARE_ITEM_CUSTOMER_ID_PRODUCT_ID` (`customer_id`,`product_id`),
   KEY `IDX_CATALOG_COMPARE_ITEM_STORE_ID` (`store_id`),
   CONSTRAINT `FK_CATALOG_COMPARE_ITEM_CUSTOMER_ID_CUSTOMER_ENTITY_ENTITY_ID` FOREIGN KEY (`customer_id`) REFERENCES `customer_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CAT_CMP_ITEM_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CATALOG_COMPARE_ITEM_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE SET NULL ON UPDATE CASCADE
+  CONSTRAINT `FK_CATALOG_COMPARE_ITEM_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE SET NULL ON UPDATE CASCADE,
+  CONSTRAINT `FK_CAT_CMP_ITEM_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Compare Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -871,8 +875,8 @@ CREATE TABLE `catalog_product_enabled_index` (
   `visibility` smallint(5) unsigned NOT NULL DEFAULT '0' COMMENT 'Visibility',
   PRIMARY KEY (`product_id`,`store_id`),
   KEY `IDX_CATALOG_PRODUCT_ENABLED_INDEX_STORE_ID` (`store_id`),
-  CONSTRAINT `FK_CAT_PRD_ENABLED_IDX_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CATALOG_PRODUCT_ENABLED_INDEX_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_CATALOG_PRODUCT_ENABLED_INDEX_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_CAT_PRD_ENABLED_IDX_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Visibility Index Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -899,11 +903,12 @@ CREATE TABLE `catalog_product_entity` (
   KEY `IDX_CATALOG_PRODUCT_ENTITY_SKU` (`sku`),
   CONSTRAINT `FK_CAT_PRD_ENTT_ATTR_SET_ID_EAV_ATTR_SET_ATTR_SET_ID` FOREIGN KEY (`attribute_set_id`) REFERENCES `eav_attribute_set` (`attribute_set_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CAT_PRD_ENTT_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID` FOREIGN KEY (`entity_type_id`) REFERENCES `eav_entity_type` (`entity_type_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Table';
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='Catalog Product Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `catalog_product_entity` WRITE;
 /*!40000 ALTER TABLE `catalog_product_entity` DISABLE KEYS */;
+INSERT INTO `catalog_product_entity` VALUES (1,4,4,'simple','produkt-1',0,0,'2013-04-27 14:42:35','2013-04-27 14:42:35');
 /*!40000 ALTER TABLE `catalog_product_entity` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `catalog_product_entity_datetime`;
@@ -921,14 +926,15 @@ CREATE TABLE `catalog_product_entity_datetime` (
   KEY `IDX_CATALOG_PRODUCT_ENTITY_DATETIME_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_CATALOG_PRODUCT_ENTITY_DATETIME_STORE_ID` (`store_id`),
   KEY `IDX_CATALOG_PRODUCT_ENTITY_DATETIME_ENTITY_ID` (`entity_id`),
+  CONSTRAINT `FK_CATALOG_PRODUCT_ENTITY_DATETIME_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CAT_PRD_ENTT_DTIME_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CAT_PRD_ENTT_DTIME_ENTT_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CATALOG_PRODUCT_ENTITY_DATETIME_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Datetime Attribute Backend Table';
+  CONSTRAINT `FK_CAT_PRD_ENTT_DTIME_ENTT_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COMMENT='Catalog Product Datetime Attribute Backend Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `catalog_product_entity_datetime` WRITE;
 /*!40000 ALTER TABLE `catalog_product_entity_datetime` DISABLE KEYS */;
+INSERT INTO `catalog_product_entity_datetime` VALUES (1,4,93,0,1,NULL),(2,4,94,0,1,NULL),(3,4,77,0,1,NULL),(4,4,78,0,1,NULL),(5,4,104,0,1,NULL),(6,4,105,0,1,NULL);
 /*!40000 ALTER TABLE `catalog_product_entity_datetime` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `catalog_product_entity_decimal`;
@@ -946,14 +952,15 @@ CREATE TABLE `catalog_product_entity_decimal` (
   KEY `IDX_CATALOG_PRODUCT_ENTITY_DECIMAL_STORE_ID` (`store_id`),
   KEY `IDX_CATALOG_PRODUCT_ENTITY_DECIMAL_ENTITY_ID` (`entity_id`),
   KEY `IDX_CATALOG_PRODUCT_ENTITY_DECIMAL_ATTRIBUTE_ID` (`attribute_id`),
+  CONSTRAINT `FK_CATALOG_PRODUCT_ENTITY_DECIMAL_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CAT_PRD_ENTT_DEC_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CAT_PRD_ENTT_DEC_ENTT_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CATALOG_PRODUCT_ENTITY_DECIMAL_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Decimal Attribute Backend Table';
+  CONSTRAINT `FK_CAT_PRD_ENTT_DEC_ENTT_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COMMENT='Catalog Product Decimal Attribute Backend Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `catalog_product_entity_decimal` WRITE;
 /*!40000 ALTER TABLE `catalog_product_entity_decimal` DISABLE KEYS */;
+INSERT INTO `catalog_product_entity_decimal` VALUES (1,4,80,0,1,5.0000),(2,4,75,0,1,10.9500),(3,4,76,0,1,NULL),(4,4,120,0,1,NULL);
 /*!40000 ALTER TABLE `catalog_product_entity_decimal` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `catalog_product_entity_gallery`;
@@ -972,9 +979,9 @@ CREATE TABLE `catalog_product_entity_gallery` (
   KEY `IDX_CATALOG_PRODUCT_ENTITY_GALLERY_ENTITY_ID` (`entity_id`),
   KEY `IDX_CATALOG_PRODUCT_ENTITY_GALLERY_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_CATALOG_PRODUCT_ENTITY_GALLERY_STORE_ID` (`store_id`),
+  CONSTRAINT `FK_CATALOG_PRODUCT_ENTITY_GALLERY_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CAT_PRD_ENTT_GLR_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CAT_PRD_ENTT_GLR_ENTT_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CATALOG_PRODUCT_ENTITY_GALLERY_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_CAT_PRD_ENTT_GLR_ENTT_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Gallery Attribute Backend Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -997,9 +1004,9 @@ CREATE TABLE `catalog_product_entity_group_price` (
   KEY `IDX_CATALOG_PRODUCT_ENTITY_GROUP_PRICE_ENTITY_ID` (`entity_id`),
   KEY `IDX_CATALOG_PRODUCT_ENTITY_GROUP_PRICE_CUSTOMER_GROUP_ID` (`customer_group_id`),
   KEY `IDX_CATALOG_PRODUCT_ENTITY_GROUP_PRICE_WEBSITE_ID` (`website_id`),
-  CONSTRAINT `FK_DF909D22C11B60B1E5E3EE64AB220ECE` FOREIGN KEY (`customer_group_id`) REFERENCES `customer_group` (`customer_group_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CAT_PRD_ENTT_GROUP_PRICE_ENTT_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CAT_PRD_ENTT_GROUP_PRICE_WS_ID_CORE_WS_WS_ID` FOREIGN KEY (`website_id`) REFERENCES `core_website` (`website_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_CAT_PRD_ENTT_GROUP_PRICE_WS_ID_CORE_WS_WS_ID` FOREIGN KEY (`website_id`) REFERENCES `core_website` (`website_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_DF909D22C11B60B1E5E3EE64AB220ECE` FOREIGN KEY (`customer_group_id`) REFERENCES `customer_group` (`customer_group_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Group Price Attribute Backend Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -1022,14 +1029,15 @@ CREATE TABLE `catalog_product_entity_int` (
   KEY `IDX_CATALOG_PRODUCT_ENTITY_INT_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_CATALOG_PRODUCT_ENTITY_INT_STORE_ID` (`store_id`),
   KEY `IDX_CATALOG_PRODUCT_ENTITY_INT_ENTITY_ID` (`entity_id`),
+  CONSTRAINT `FK_CATALOG_PRODUCT_ENTITY_INT_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CAT_PRD_ENTT_INT_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CAT_PRD_ENTT_INT_ENTT_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CATALOG_PRODUCT_ENTITY_INT_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Integer Attribute Backend Table';
+  CONSTRAINT `FK_CAT_PRD_ENTT_INT_ENTT_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COMMENT='Catalog Product Integer Attribute Backend Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `catalog_product_entity_int` WRITE;
 /*!40000 ALTER TABLE `catalog_product_entity_int` DISABLE KEYS */;
+INSERT INTO `catalog_product_entity_int` VALUES (1,4,96,0,1,1),(2,4,102,0,1,4),(3,4,121,0,1,1),(4,4,122,0,1,1),(5,4,100,0,1,0);
 /*!40000 ALTER TABLE `catalog_product_entity_int` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `catalog_product_entity_media_gallery`;
@@ -1063,8 +1071,8 @@ CREATE TABLE `catalog_product_entity_media_gallery_value` (
   `disabled` smallint(5) unsigned NOT NULL DEFAULT '0' COMMENT 'Is Disabled',
   PRIMARY KEY (`value_id`,`store_id`),
   KEY `IDX_CATALOG_PRODUCT_ENTITY_MEDIA_GALLERY_VALUE_STORE_ID` (`store_id`),
-  CONSTRAINT `FK_CAT_PRD_ENTT_MDA_GLR_VAL_VAL_ID_CAT_PRD_ENTT_MDA_GLR_VAL_ID` FOREIGN KEY (`value_id`) REFERENCES `catalog_product_entity_media_gallery` (`value_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CAT_PRD_ENTT_MDA_GLR_VAL_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_CAT_PRD_ENTT_MDA_GLR_VAL_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_CAT_PRD_ENTT_MDA_GLR_VAL_VAL_ID_CAT_PRD_ENTT_MDA_GLR_VAL_ID` FOREIGN KEY (`value_id`) REFERENCES `catalog_product_entity_media_gallery` (`value_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Media Gallery Attribute Value Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -1087,14 +1095,15 @@ CREATE TABLE `catalog_product_entity_text` (
   KEY `IDX_CATALOG_PRODUCT_ENTITY_TEXT_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_CATALOG_PRODUCT_ENTITY_TEXT_STORE_ID` (`store_id`),
   KEY `IDX_CATALOG_PRODUCT_ENTITY_TEXT_ENTITY_ID` (`entity_id`),
+  CONSTRAINT `FK_CATALOG_PRODUCT_ENTITY_TEXT_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CAT_PRD_ENTT_TEXT_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CAT_PRD_ENTT_TEXT_ENTT_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CATALOG_PRODUCT_ENTITY_TEXT_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Text Attribute Backend Table';
+  CONSTRAINT `FK_CAT_PRD_ENTT_TEXT_ENTT_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COMMENT='Catalog Product Text Attribute Backend Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `catalog_product_entity_text` WRITE;
 /*!40000 ALTER TABLE `catalog_product_entity_text` DISABLE KEYS */;
+INSERT INTO `catalog_product_entity_text` VALUES (1,4,72,0,1,'Beskrivelse'),(2,4,73,0,1,'Kort beskrivelse'),(3,4,83,0,1,NULL),(4,4,106,0,1,NULL);
 /*!40000 ALTER TABLE `catalog_product_entity_text` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `catalog_product_entity_tier_price`;
@@ -1138,62 +1147,63 @@ CREATE TABLE `catalog_product_entity_varchar` (
   KEY `IDX_CATALOG_PRODUCT_ENTITY_VARCHAR_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_CATALOG_PRODUCT_ENTITY_VARCHAR_STORE_ID` (`store_id`),
   KEY `IDX_CATALOG_PRODUCT_ENTITY_VARCHAR_ENTITY_ID` (`entity_id`),
+  CONSTRAINT `FK_CATALOG_PRODUCT_ENTITY_VARCHAR_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CAT_PRD_ENTT_VCHR_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CAT_PRD_ENTT_VCHR_ENTT_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CATALOG_PRODUCT_ENTITY_VARCHAR_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Varchar Attribute Backend Table';
+  CONSTRAINT `FK_CAT_PRD_ENTT_VCHR_ENTT_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8 COMMENT='Catalog Product Varchar Attribute Backend Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `catalog_product_entity_varchar` WRITE;
 /*!40000 ALTER TABLE `catalog_product_entity_varchar` DISABLE KEYS */;
+INSERT INTO `catalog_product_entity_varchar` VALUES (1,4,71,0,1,'Produkt-1'),(2,4,97,0,1,'produkt-1'),(3,4,117,0,1,NULL),(4,4,118,0,1,'2'),(5,4,119,0,1,'4'),(6,4,82,0,1,NULL),(7,4,84,0,1,NULL),(8,4,85,0,1,'no_selection'),(9,4,86,0,1,'no_selection'),(10,4,87,0,1,'no_selection'),(11,4,103,0,1,NULL),(12,4,107,0,1,NULL),(13,4,109,0,1,'container2'),(14,4,123,0,1,NULL),(15,4,98,1,1,'produkt-1.html'),(16,4,98,0,1,'produkt-1.html');
 /*!40000 ALTER TABLE `catalog_product_entity_varchar` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `catalog_product_flat_1`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `catalog_product_flat_1` (
-  `entity_id` int(10) unsigned NOT NULL COMMENT 'entity_id',
-  `attribute_set_id` smallint(5) unsigned NOT NULL DEFAULT '0' COMMENT 'attribute_set_id',
-  `type_id` varchar(32) NOT NULL DEFAULT 'simple' COMMENT 'type_id',
-  `cost` decimal(12,4) DEFAULT NULL COMMENT 'cost',
-  `created_at` timestamp NULL DEFAULT NULL COMMENT 'created_at',
-  `enable_googlecheckout` smallint(6) DEFAULT NULL COMMENT 'enable_googlecheckout',
-  `gift_message_available` smallint(6) DEFAULT NULL COMMENT 'gift_message_available',
-  `has_options` smallint(6) NOT NULL DEFAULT '0' COMMENT 'has_options',
-  `image_label` varchar(255) DEFAULT NULL COMMENT 'image_label',
-  `is_recurring` smallint(6) DEFAULT NULL COMMENT 'is_recurring',
-  `links_exist` int(11) DEFAULT NULL COMMENT 'links_exist',
-  `links_purchased_separately` int(11) DEFAULT NULL COMMENT 'links_purchased_separately',
-  `links_title` varchar(255) DEFAULT NULL COMMENT 'links_title',
-  `msrp` decimal(12,4) DEFAULT NULL COMMENT 'msrp',
-  `msrp_display_actual_price_type` varchar(255) DEFAULT NULL COMMENT 'msrp_display_actual_price_type',
-  `msrp_enabled` smallint(6) DEFAULT NULL COMMENT 'msrp_enabled',
-  `name` varchar(255) DEFAULT NULL COMMENT 'name',
-  `news_from_date` datetime DEFAULT NULL COMMENT 'news_from_date',
-  `news_to_date` datetime DEFAULT NULL COMMENT 'news_to_date',
-  `price` decimal(12,4) DEFAULT NULL COMMENT 'price',
-  `price_type` int(11) DEFAULT NULL COMMENT 'price_type',
-  `price_view` int(11) DEFAULT NULL COMMENT 'price_view',
-  `recurring_profile` text COMMENT 'recurring_profile',
-  `required_options` smallint(5) unsigned NOT NULL DEFAULT '0' COMMENT 'required_options',
-  `shipment_type` int(11) DEFAULT NULL COMMENT 'shipment_type',
-  `short_description` text COMMENT 'short_description',
-  `sku` varchar(64) DEFAULT NULL COMMENT 'sku',
-  `sku_type` int(11) DEFAULT NULL COMMENT 'sku_type',
-  `small_image` varchar(255) DEFAULT NULL COMMENT 'small_image',
-  `small_image_label` varchar(255) DEFAULT NULL COMMENT 'small_image_label',
-  `special_from_date` datetime DEFAULT NULL COMMENT 'special_from_date',
-  `special_price` decimal(12,4) DEFAULT NULL COMMENT 'special_price',
-  `special_to_date` datetime DEFAULT NULL COMMENT 'special_to_date',
-  `tax_class_id` int(10) unsigned DEFAULT NULL COMMENT 'tax_class_id',
-  `thumbnail` varchar(255) DEFAULT NULL COMMENT 'thumbnail',
-  `thumbnail_label` varchar(255) DEFAULT NULL COMMENT 'thumbnail_label',
-  `updated_at` timestamp NULL DEFAULT NULL COMMENT 'updated_at',
-  `url_key` varchar(255) DEFAULT NULL COMMENT 'url_key',
-  `url_path` varchar(255) DEFAULT NULL COMMENT 'url_path',
-  `visibility` smallint(5) unsigned DEFAULT NULL COMMENT 'visibility',
-  `weight` decimal(12,4) DEFAULT NULL COMMENT 'weight',
-  `weight_type` int(11) DEFAULT NULL COMMENT 'weight_type',
+  `entity_id` int(10) unsigned NOT NULL COMMENT 'Entity Id',
+  `attribute_set_id` smallint(5) unsigned NOT NULL DEFAULT '0' COMMENT 'Attribute Set Id',
+  `type_id` varchar(32) NOT NULL DEFAULT 'simple' COMMENT 'Type Id',
+  `cost` decimal(12,4) DEFAULT NULL COMMENT 'Cost',
+  `created_at` timestamp NULL DEFAULT NULL COMMENT 'Created At',
+  `enable_googlecheckout` smallint(6) DEFAULT NULL COMMENT 'Enable Googlecheckout',
+  `gift_message_available` smallint(6) DEFAULT NULL COMMENT 'Gift Message Available',
+  `has_options` smallint(6) NOT NULL DEFAULT '0' COMMENT 'Has Options',
+  `image_label` varchar(255) DEFAULT NULL COMMENT 'Image Label',
+  `is_recurring` smallint(6) DEFAULT NULL COMMENT 'Is Recurring',
+  `links_exist` int(11) DEFAULT NULL COMMENT 'Links Exist',
+  `links_purchased_separately` int(11) DEFAULT NULL COMMENT 'Links Purchased Separately',
+  `links_title` varchar(255) DEFAULT NULL COMMENT 'Links Title',
+  `msrp` decimal(12,4) DEFAULT NULL COMMENT 'Msrp',
+  `msrp_display_actual_price_type` varchar(255) DEFAULT NULL COMMENT 'Msrp Display Actual Price Type',
+  `msrp_enabled` smallint(6) DEFAULT NULL COMMENT 'Msrp Enabled',
+  `name` varchar(255) DEFAULT NULL COMMENT 'Name',
+  `news_from_date` datetime DEFAULT NULL COMMENT 'News From Date',
+  `news_to_date` datetime DEFAULT NULL COMMENT 'News To Date',
+  `price` decimal(12,4) DEFAULT NULL COMMENT 'Price',
+  `price_type` int(11) DEFAULT NULL COMMENT 'Price Type',
+  `price_view` int(11) DEFAULT NULL COMMENT 'Price View',
+  `recurring_profile` text COMMENT 'Recurring Profile',
+  `required_options` smallint(5) unsigned NOT NULL DEFAULT '0' COMMENT 'Required Options',
+  `shipment_type` int(11) DEFAULT NULL COMMENT 'Shipment Type',
+  `short_description` text COMMENT 'Short Description',
+  `sku` varchar(64) DEFAULT NULL COMMENT 'Sku',
+  `sku_type` int(11) DEFAULT NULL COMMENT 'Sku Type',
+  `small_image` varchar(255) DEFAULT NULL COMMENT 'Small Image',
+  `small_image_label` varchar(255) DEFAULT NULL COMMENT 'Small Image Label',
+  `special_from_date` datetime DEFAULT NULL COMMENT 'Special From Date',
+  `special_price` decimal(12,4) DEFAULT NULL COMMENT 'Special Price',
+  `special_to_date` datetime DEFAULT NULL COMMENT 'Special To Date',
+  `tax_class_id` int(10) unsigned DEFAULT NULL COMMENT 'Tax Class Id',
+  `thumbnail` varchar(255) DEFAULT NULL COMMENT 'Thumbnail',
+  `thumbnail_label` varchar(255) DEFAULT NULL COMMENT 'Thumbnail Label',
+  `updated_at` timestamp NULL DEFAULT NULL COMMENT 'Updated At',
+  `url_key` varchar(255) DEFAULT NULL COMMENT 'Url Key',
+  `url_path` varchar(255) DEFAULT NULL COMMENT 'Url Path',
+  `visibility` smallint(5) unsigned DEFAULT NULL COMMENT 'Visibility',
+  `weight` decimal(12,4) DEFAULT NULL COMMENT 'Weight',
+  `weight_type` int(11) DEFAULT NULL COMMENT 'Weight Type',
   PRIMARY KEY (`entity_id`),
   KEY `IDX_CATALOG_PRODUCT_FLAT_1_TYPE_ID` (`type_id`),
   KEY `IDX_CATALOG_PRODUCT_FLAT_1_ATTRIBUTE_SET_ID` (`attribute_set_id`),
@@ -1205,6 +1215,7 @@ CREATE TABLE `catalog_product_flat_1` (
 
 LOCK TABLES `catalog_product_flat_1` WRITE;
 /*!40000 ALTER TABLE `catalog_product_flat_1` DISABLE KEYS */;
+INSERT INTO `catalog_product_flat_1` VALUES (1,4,'simple',NULL,'2013-04-27 14:42:35',1,NULL,0,NULL,0,NULL,NULL,NULL,NULL,'4',2,'Produkt-1',NULL,NULL,10.9500,NULL,NULL,NULL,0,NULL,'Kort beskrivelse','produkt-1',NULL,'no_selection',NULL,NULL,NULL,NULL,1,'no_selection',NULL,'2013-04-27 14:42:35','produkt-1','produkt-1.html',4,5.0000,NULL);
 /*!40000 ALTER TABLE `catalog_product_flat_1` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `catalog_product_index_eav`;
@@ -1220,14 +1231,15 @@ CREATE TABLE `catalog_product_index_eav` (
   KEY `IDX_CATALOG_PRODUCT_INDEX_EAV_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_CATALOG_PRODUCT_INDEX_EAV_STORE_ID` (`store_id`),
   KEY `IDX_CATALOG_PRODUCT_INDEX_EAV_VALUE` (`value`),
+  CONSTRAINT `FK_CATALOG_PRODUCT_INDEX_EAV_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CAT_PRD_IDX_EAV_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CAT_PRD_IDX_EAV_ENTT_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CATALOG_PRODUCT_INDEX_EAV_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_CAT_PRD_IDX_EAV_ENTT_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product EAV Index Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `catalog_product_index_eav` WRITE;
 /*!40000 ALTER TABLE `catalog_product_index_eav` DISABLE KEYS */;
+INSERT INTO `catalog_product_index_eav` VALUES (1,122,1,1);
 /*!40000 ALTER TABLE `catalog_product_index_eav` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `catalog_product_index_eav_decimal`;
@@ -1311,6 +1323,7 @@ CREATE TABLE `catalog_product_index_eav_idx` (
 
 LOCK TABLES `catalog_product_index_eav_idx` WRITE;
 /*!40000 ALTER TABLE `catalog_product_index_eav_idx` DISABLE KEYS */;
+INSERT INTO `catalog_product_index_eav_idx` VALUES (1,122,1,1);
 /*!40000 ALTER TABLE `catalog_product_index_eav_idx` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `catalog_product_index_eav_tmp`;
@@ -1331,6 +1344,7 @@ CREATE TABLE `catalog_product_index_eav_tmp` (
 
 LOCK TABLES `catalog_product_index_eav_tmp` WRITE;
 /*!40000 ALTER TABLE `catalog_product_index_eav_tmp` DISABLE KEYS */;
+INSERT INTO `catalog_product_index_eav_tmp` VALUES (1,122,1,1);
 /*!40000 ALTER TABLE `catalog_product_index_eav_tmp` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `catalog_product_index_group_price`;
@@ -1381,6 +1395,7 @@ CREATE TABLE `catalog_product_index_price` (
 
 LOCK TABLES `catalog_product_index_price` WRITE;
 /*!40000 ALTER TABLE `catalog_product_index_price` DISABLE KEYS */;
+INSERT INTO `catalog_product_index_price` VALUES (1,0,1,1,10.9500,10.9500,10.9500,10.9500,NULL,NULL),(1,1,1,1,10.9500,10.9500,10.9500,10.9500,NULL,NULL),(1,2,1,1,10.9500,10.9500,10.9500,10.9500,NULL,NULL),(1,3,1,1,10.9500,10.9500,10.9500,10.9500,NULL,NULL),(1,4,1,1,10.9500,10.9500,10.9500,10.9500,NULL,NULL);
 /*!40000 ALTER TABLE `catalog_product_index_price` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `catalog_product_index_price_bundle_idx`;
@@ -1710,6 +1725,7 @@ CREATE TABLE `catalog_product_index_price_idx` (
 
 LOCK TABLES `catalog_product_index_price_idx` WRITE;
 /*!40000 ALTER TABLE `catalog_product_index_price_idx` DISABLE KEYS */;
+INSERT INTO `catalog_product_index_price_idx` VALUES (1,0,1,1,10.9500,10.9500,10.9500,10.9500,NULL,NULL),(1,1,1,1,10.9500,10.9500,10.9500,10.9500,NULL,NULL),(1,2,1,1,10.9500,10.9500,10.9500,10.9500,NULL,NULL),(1,3,1,1,10.9500,10.9500,10.9500,10.9500,NULL,NULL),(1,4,1,1,10.9500,10.9500,10.9500,10.9500,NULL,NULL);
 /*!40000 ALTER TABLE `catalog_product_index_price_idx` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `catalog_product_index_price_opt_agr_idx`;
@@ -1813,6 +1829,7 @@ CREATE TABLE `catalog_product_index_price_tmp` (
 
 LOCK TABLES `catalog_product_index_price_tmp` WRITE;
 /*!40000 ALTER TABLE `catalog_product_index_price_tmp` DISABLE KEYS */;
+INSERT INTO `catalog_product_index_price_tmp` VALUES (1,0,1,1,10.9500,10.9500,10.9500,10.9500,NULL,NULL),(1,1,1,1,10.9500,10.9500,10.9500,10.9500,NULL,NULL),(1,2,1,1,10.9500,10.9500,10.9500,10.9500,NULL,NULL),(1,3,1,1,10.9500,10.9500,10.9500,10.9500,NULL,NULL),(1,4,1,1,10.9500,10.9500,10.9500,10.9500,NULL,NULL);
 /*!40000 ALTER TABLE `catalog_product_index_price_tmp` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `catalog_product_index_tier_price`;
@@ -1851,7 +1868,7 @@ CREATE TABLE `catalog_product_index_website` (
 
 LOCK TABLES `catalog_product_index_website` WRITE;
 /*!40000 ALTER TABLE `catalog_product_index_website` DISABLE KEYS */;
-INSERT INTO `catalog_product_index_website` VALUES (1,'2013-04-24',1);
+INSERT INTO `catalog_product_index_website` VALUES (1,'2013-04-27',1);
 /*!40000 ALTER TABLE `catalog_product_index_website` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `catalog_product_link`;
@@ -1868,8 +1885,8 @@ CREATE TABLE `catalog_product_link` (
   KEY `IDX_CATALOG_PRODUCT_LINK_LINKED_PRODUCT_ID` (`linked_product_id`),
   KEY `IDX_CATALOG_PRODUCT_LINK_LINK_TYPE_ID` (`link_type_id`),
   CONSTRAINT `FK_CAT_PRD_LNK_LNKED_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`linked_product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CAT_PRD_LNK_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CAT_PRD_LNK_LNK_TYPE_ID_CAT_PRD_LNK_TYPE_LNK_TYPE_ID` FOREIGN KEY (`link_type_id`) REFERENCES `catalog_product_link_type` (`link_type_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_CAT_PRD_LNK_LNK_TYPE_ID_CAT_PRD_LNK_TYPE_LNK_TYPE_ID` FOREIGN KEY (`link_type_id`) REFERENCES `catalog_product_link_type` (`link_type_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_CAT_PRD_LNK_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product To Product Linkage Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -1908,8 +1925,8 @@ CREATE TABLE `catalog_product_link_attribute_decimal` (
   UNIQUE KEY `UNQ_CAT_PRD_LNK_ATTR_DEC_PRD_LNK_ATTR_ID_LNK_ID` (`product_link_attribute_id`,`link_id`),
   KEY `IDX_CAT_PRD_LNK_ATTR_DEC_PRD_LNK_ATTR_ID` (`product_link_attribute_id`),
   KEY `IDX_CATALOG_PRODUCT_LINK_ATTRIBUTE_DECIMAL_LINK_ID` (`link_id`),
-  CONSTRAINT `FK_CAT_PRD_LNK_ATTR_DEC_LNK_ID_CAT_PRD_LNK_LNK_ID` FOREIGN KEY (`link_id`) REFERENCES `catalog_product_link` (`link_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_AB2EFA9A14F7BCF1D5400056203D14B6` FOREIGN KEY (`product_link_attribute_id`) REFERENCES `catalog_product_link_attribute` (`product_link_attribute_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_AB2EFA9A14F7BCF1D5400056203D14B6` FOREIGN KEY (`product_link_attribute_id`) REFERENCES `catalog_product_link_attribute` (`product_link_attribute_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_CAT_PRD_LNK_ATTR_DEC_LNK_ID_CAT_PRD_LNK_LNK_ID` FOREIGN KEY (`link_id`) REFERENCES `catalog_product_link` (`link_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Link Decimal Attribute Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -1929,8 +1946,8 @@ CREATE TABLE `catalog_product_link_attribute_int` (
   UNIQUE KEY `UNQ_CAT_PRD_LNK_ATTR_INT_PRD_LNK_ATTR_ID_LNK_ID` (`product_link_attribute_id`,`link_id`),
   KEY `IDX_CATALOG_PRODUCT_LINK_ATTRIBUTE_INT_PRODUCT_LINK_ATTRIBUTE_ID` (`product_link_attribute_id`),
   KEY `IDX_CATALOG_PRODUCT_LINK_ATTRIBUTE_INT_LINK_ID` (`link_id`),
-  CONSTRAINT `FK_D6D878F8BA2A4282F8DDED7E6E3DE35C` FOREIGN KEY (`product_link_attribute_id`) REFERENCES `catalog_product_link_attribute` (`product_link_attribute_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CAT_PRD_LNK_ATTR_INT_LNK_ID_CAT_PRD_LNK_LNK_ID` FOREIGN KEY (`link_id`) REFERENCES `catalog_product_link` (`link_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_CAT_PRD_LNK_ATTR_INT_LNK_ID_CAT_PRD_LNK_LNK_ID` FOREIGN KEY (`link_id`) REFERENCES `catalog_product_link` (`link_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_D6D878F8BA2A4282F8DDED7E6E3DE35C` FOREIGN KEY (`product_link_attribute_id`) REFERENCES `catalog_product_link_attribute` (`product_link_attribute_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Link Integer Attribute Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -2011,8 +2028,8 @@ CREATE TABLE `catalog_product_option_price` (
   UNIQUE KEY `UNQ_CATALOG_PRODUCT_OPTION_PRICE_OPTION_ID_STORE_ID` (`option_id`,`store_id`),
   KEY `IDX_CATALOG_PRODUCT_OPTION_PRICE_OPTION_ID` (`option_id`),
   KEY `IDX_CATALOG_PRODUCT_OPTION_PRICE_STORE_ID` (`store_id`),
-  CONSTRAINT `FK_CAT_PRD_OPT_PRICE_OPT_ID_CAT_PRD_OPT_OPT_ID` FOREIGN KEY (`option_id`) REFERENCES `catalog_product_option` (`option_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CATALOG_PRODUCT_OPTION_PRICE_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_CATALOG_PRODUCT_OPTION_PRICE_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_CAT_PRD_OPT_PRICE_OPT_ID_CAT_PRD_OPT_OPT_ID` FOREIGN KEY (`option_id`) REFERENCES `catalog_product_option` (`option_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Option Price Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -2032,8 +2049,8 @@ CREATE TABLE `catalog_product_option_title` (
   UNIQUE KEY `UNQ_CATALOG_PRODUCT_OPTION_TITLE_OPTION_ID_STORE_ID` (`option_id`,`store_id`),
   KEY `IDX_CATALOG_PRODUCT_OPTION_TITLE_OPTION_ID` (`option_id`),
   KEY `IDX_CATALOG_PRODUCT_OPTION_TITLE_STORE_ID` (`store_id`),
-  CONSTRAINT `FK_CAT_PRD_OPT_TTL_OPT_ID_CAT_PRD_OPT_OPT_ID` FOREIGN KEY (`option_id`) REFERENCES `catalog_product_option` (`option_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CATALOG_PRODUCT_OPTION_TITLE_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_CATALOG_PRODUCT_OPTION_TITLE_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_CAT_PRD_OPT_TTL_OPT_ID_CAT_PRD_OPT_OPT_ID` FOREIGN KEY (`option_id`) REFERENCES `catalog_product_option` (`option_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Option Title Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -2194,8 +2211,8 @@ CREATE TABLE `catalog_product_super_link` (
   UNIQUE KEY `UNQ_CATALOG_PRODUCT_SUPER_LINK_PRODUCT_ID_PARENT_ID` (`product_id`,`parent_id`),
   KEY `IDX_CATALOG_PRODUCT_SUPER_LINK_PARENT_ID` (`parent_id`),
   KEY `IDX_CATALOG_PRODUCT_SUPER_LINK_PRODUCT_ID` (`product_id`),
-  CONSTRAINT `FK_CAT_PRD_SPR_LNK_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CAT_PRD_SPR_LNK_PARENT_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`parent_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_CAT_PRD_SPR_LNK_PARENT_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`parent_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_CAT_PRD_SPR_LNK_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Super Link Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -2218,6 +2235,7 @@ CREATE TABLE `catalog_product_website` (
 
 LOCK TABLES `catalog_product_website` WRITE;
 /*!40000 ALTER TABLE `catalog_product_website` DISABLE KEYS */;
+INSERT INTO `catalog_product_website` VALUES (1,1);
 /*!40000 ALTER TABLE `catalog_product_website` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `cataloginventory_stock`;
@@ -2270,11 +2288,12 @@ CREATE TABLE `cataloginventory_stock_item` (
   KEY `IDX_CATALOGINVENTORY_STOCK_ITEM_STOCK_ID` (`stock_id`),
   CONSTRAINT `FK_CATINV_STOCK_ITEM_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CATINV_STOCK_ITEM_STOCK_ID_CATINV_STOCK_STOCK_ID` FOREIGN KEY (`stock_id`) REFERENCES `cataloginventory_stock` (`stock_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Cataloginventory Stock Item';
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='Cataloginventory Stock Item';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `cataloginventory_stock_item` WRITE;
 /*!40000 ALTER TABLE `cataloginventory_stock_item` DISABLE KEYS */;
+INSERT INTO `cataloginventory_stock_item` VALUES (1,1,1,0.0000,0.0000,1,0,0,1,1.0000,1,0.0000,1,0,'2013-04-27 14:42:38',NULL,1,0,0,1,1,0.0000,1,0,0);
 /*!40000 ALTER TABLE `cataloginventory_stock_item` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `cataloginventory_stock_status`;
@@ -2289,14 +2308,15 @@ CREATE TABLE `cataloginventory_stock_status` (
   PRIMARY KEY (`product_id`,`website_id`,`stock_id`),
   KEY `IDX_CATALOGINVENTORY_STOCK_STATUS_STOCK_ID` (`stock_id`),
   KEY `IDX_CATALOGINVENTORY_STOCK_STATUS_WEBSITE_ID` (`website_id`),
-  CONSTRAINT `FK_CATINV_STOCK_STS_STOCK_ID_CATINV_STOCK_STOCK_ID` FOREIGN KEY (`stock_id`) REFERENCES `cataloginventory_stock` (`stock_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CATINV_STOCK_STS_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_CATINV_STOCK_STS_STOCK_ID_CATINV_STOCK_STOCK_ID` FOREIGN KEY (`stock_id`) REFERENCES `cataloginventory_stock` (`stock_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CATINV_STOCK_STS_WS_ID_CORE_WS_WS_ID` FOREIGN KEY (`website_id`) REFERENCES `core_website` (`website_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Cataloginventory Stock Status';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `cataloginventory_stock_status` WRITE;
 /*!40000 ALTER TABLE `cataloginventory_stock_status` DISABLE KEYS */;
+INSERT INTO `cataloginventory_stock_status` VALUES (1,1,1,0.0000,1);
 /*!40000 ALTER TABLE `cataloginventory_stock_status` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `cataloginventory_stock_status_idx`;
@@ -2316,6 +2336,7 @@ CREATE TABLE `cataloginventory_stock_status_idx` (
 
 LOCK TABLES `cataloginventory_stock_status_idx` WRITE;
 /*!40000 ALTER TABLE `cataloginventory_stock_status_idx` DISABLE KEYS */;
+INSERT INTO `cataloginventory_stock_status_idx` VALUES (1,1,1,0.0000,1);
 /*!40000 ALTER TABLE `cataloginventory_stock_status_idx` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `cataloginventory_stock_status_tmp`;
@@ -2407,9 +2428,9 @@ CREATE TABLE `catalogrule_group_website` (
   KEY `IDX_CATALOGRULE_GROUP_WEBSITE_RULE_ID` (`rule_id`),
   KEY `IDX_CATALOGRULE_GROUP_WEBSITE_CUSTOMER_GROUP_ID` (`customer_group_id`),
   KEY `IDX_CATALOGRULE_GROUP_WEBSITE_WEBSITE_ID` (`website_id`),
-  CONSTRAINT `FK_CATRULE_GROUP_WS_CSTR_GROUP_ID_CSTR_GROUP_CSTR_GROUP_ID` FOREIGN KEY (`customer_group_id`) REFERENCES `customer_group` (`customer_group_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CATALOGRULE_GROUP_WEBSITE_RULE_ID_CATALOGRULE_RULE_ID` FOREIGN KEY (`rule_id`) REFERENCES `catalogrule` (`rule_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CATALOGRULE_GROUP_WEBSITE_WEBSITE_ID_CORE_WEBSITE_WEBSITE_ID` FOREIGN KEY (`website_id`) REFERENCES `core_website` (`website_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_CATALOGRULE_GROUP_WEBSITE_WEBSITE_ID_CORE_WEBSITE_WEBSITE_ID` FOREIGN KEY (`website_id`) REFERENCES `core_website` (`website_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_CATRULE_GROUP_WS_CSTR_GROUP_ID_CSTR_GROUP_CSTR_GROUP_ID` FOREIGN KEY (`customer_group_id`) REFERENCES `customer_group` (`customer_group_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='CatalogRule Group Website';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -2470,9 +2491,9 @@ CREATE TABLE `catalogrule_product_price` (
   KEY `IDX_CATALOGRULE_PRODUCT_PRICE_CUSTOMER_GROUP_ID` (`customer_group_id`),
   KEY `IDX_CATALOGRULE_PRODUCT_PRICE_WEBSITE_ID` (`website_id`),
   KEY `IDX_CATALOGRULE_PRODUCT_PRICE_PRODUCT_ID` (`product_id`),
-  CONSTRAINT `FK_CATRULE_PRD_PRICE_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_CATALOGRULE_PRODUCT_PRICE_WEBSITE_ID_CORE_WEBSITE_WEBSITE_ID` FOREIGN KEY (`website_id`) REFERENCES `core_website` (`website_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CATRULE_PRD_PRICE_CSTR_GROUP_ID_CSTR_GROUP_CSTR_GROUP_ID` FOREIGN KEY (`customer_group_id`) REFERENCES `customer_group` (`customer_group_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CATALOGRULE_PRODUCT_PRICE_WEBSITE_ID_CORE_WEBSITE_WEBSITE_ID` FOREIGN KEY (`website_id`) REFERENCES `core_website` (`website_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_CATRULE_PRD_PRICE_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='CatalogRule Product Price';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -2509,11 +2530,12 @@ CREATE TABLE `catalogsearch_fulltext` (
   PRIMARY KEY (`fulltext_id`),
   UNIQUE KEY `UNQ_CATALOGSEARCH_FULLTEXT_PRODUCT_ID_STORE_ID` (`product_id`,`store_id`),
   FULLTEXT KEY `FTI_CATALOGSEARCH_FULLTEXT_DATA_INDEX` (`data_index`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='Catalog search result table';
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='Catalog search result table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `catalogsearch_fulltext` WRITE;
 /*!40000 ALTER TABLE `catalogsearch_fulltext` DISABLE KEYS */;
+INSERT INTO `catalogsearch_fulltext` VALUES (2,1,1,'produkt-1|Aktiv|Momspligtige varer 25 %|Produkt-1|Beskrivelse|Kort beskrivelse|10.95|1');
 /*!40000 ALTER TABLE `catalogsearch_fulltext` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `catalogsearch_query`;
@@ -2588,8 +2610,8 @@ CREATE TABLE `checkout_agreement_store` (
   `store_id` smallint(5) unsigned NOT NULL COMMENT 'Store Id',
   PRIMARY KEY (`agreement_id`,`store_id`),
   KEY `FK_CHECKOUT_AGREEMENT_STORE_STORE_ID_CORE_STORE_STORE_ID` (`store_id`),
-  CONSTRAINT `FK_CHKT_AGRT_STORE_AGRT_ID_CHKT_AGRT_AGRT_ID` FOREIGN KEY (`agreement_id`) REFERENCES `checkout_agreement` (`agreement_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CHECKOUT_AGREEMENT_STORE_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_CHECKOUT_AGREEMENT_STORE_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_CHKT_AGRT_STORE_AGRT_ID_CHKT_AGRT_AGRT_ID` FOREIGN KEY (`agreement_id`) REFERENCES `checkout_agreement` (`agreement_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Checkout Agreement Store';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -2795,7 +2817,7 @@ CREATE TABLE `core_flag` (
 
 LOCK TABLES `core_flag` WRITE;
 /*!40000 ALTER TABLE `core_flag` DISABLE KEYS */;
-INSERT INTO `core_flag` VALUES (1,'admin_notification_survey',0,'a:1:{s:13:\"survey_viewed\";b:1;}','2013-04-24 10:54:33'),(2,'catalog_product_flat',0,'a:1:{s:8:\"is_built\";b:1;}','2013-04-24 10:57:40');
+INSERT INTO `core_flag` VALUES (1,'admin_notification_survey',0,'a:1:{s:13:\"survey_viewed\";b:1;}','2013-04-24 10:54:33'),(2,'catalog_product_flat',0,'a:1:{s:8:\"is_built\";b:1;}','2013-04-27 14:43:32');
 /*!40000 ALTER TABLE `core_flag` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `core_layout_link`;
@@ -2850,7 +2872,7 @@ CREATE TABLE `core_resource` (
 
 LOCK TABLES `core_resource` WRITE;
 /*!40000 ALTER TABLE `core_resource` DISABLE KEYS */;
-INSERT INTO `core_resource` VALUES ('adminnotification_setup','1.6.0.0','1.6.0.0'),('admin_setup','1.6.1.0','1.6.1.0'),('api2_setup','1.0.0.0','1.0.0.0'),('api_setup','1.6.0.0','1.6.0.0'),('backup_setup','1.6.0.0','1.6.0.0'),('bundle_setup','1.6.0.0.1','1.6.0.0.1'),('captcha_setup','1.7.0.0.0','1.7.0.0.0'),('catalogindex_setup','1.6.0.0','1.6.0.0'),('cataloginventory_setup','1.6.0.0.2','1.6.0.0.2'),('catalogrule_setup','1.6.0.3','1.6.0.3'),('catalogsearch_setup','1.6.0.0','1.6.0.0'),('catalog_setup','1.6.0.0.14','1.6.0.0.14'),('checkout_setup','1.6.0.0','1.6.0.0'),('cms_setup','1.6.0.0.1','1.6.0.0.1'),('compiler_setup','1.6.0.0','1.6.0.0'),('contacts_setup','1.6.0.0','1.6.0.0'),('core_setup','1.6.0.2','1.6.0.2'),('cron_setup','1.6.0.0','1.6.0.0'),('customer_setup','1.6.2.0.1','1.6.2.0.1'),('dataflow_setup','1.6.0.0','1.6.0.0'),('directory_setup','1.6.0.1','1.6.0.1'),('downloadable_setup','1.6.0.0.2','1.6.0.0.2'),('eav_setup','1.6.0.0','1.6.0.0'),('epay_setup','2.5.4','2.5.4'),('giftmessage_setup','1.6.0.0','1.6.0.0'),('googlecheckout_setup','1.6.0.1','1.6.0.1'),('importexport_setup','1.6.0.2','1.6.0.2'),('index_setup','1.6.0.0','1.6.0.0'),('log_setup','1.6.0.0','1.6.0.0'),('moneybookers_setup','1.6.0.0','1.6.0.0'),('newsletter_setup','1.6.0.1','1.6.0.1'),('oauth_setup','1.0.0.0','1.0.0.0'),('paygate_setup','1.6.0.0','1.6.0.0'),('payment_setup','1.6.0.0','1.6.0.0'),('paypaluk_setup','1.6.0.0','1.6.0.0'),('paypal_setup','1.6.0.2','1.6.0.2'),('persistent_setup','1.0.0.0','1.0.0.0'),('poll_setup','1.6.0.0','1.6.0.0'),('productalert_setup','1.6.0.0','1.6.0.0'),('rating_setup','1.6.0.0','1.6.0.0'),('reports_setup','1.6.0.0.1','1.6.0.0.1'),('review_setup','1.6.0.0','1.6.0.0'),('salesrule_setup','1.6.0.3','1.6.0.3'),('sales_setup','1.6.0.7','1.6.0.7'),('sendfriend_setup','1.6.0.0','1.6.0.0'),('shipping_setup','1.6.0.0','1.6.0.0'),('sitemap_setup','1.6.0.0','1.6.0.0'),('tag_setup','1.6.0.0','1.6.0.0'),('tax_setup','1.6.0.3','1.6.0.3'),('usa_setup','1.6.0.1','1.6.0.1'),('weee_setup','1.6.0.0','1.6.0.0'),('widget_setup','1.6.0.0','1.6.0.0'),('wishlist_setup','1.6.0.0','1.6.0.0'),('xmlconnect_setup','1.6.0.0','1.6.0.0');
+INSERT INTO `core_resource` VALUES ('adminnotification_setup','1.6.0.0','1.6.0.0'),('admin_setup','1.6.1.0','1.6.1.0'),('api2_setup','1.0.0.0','1.0.0.0'),('api_setup','1.6.0.0','1.6.0.0'),('backup_setup','1.6.0.0','1.6.0.0'),('bundle_setup','1.6.0.0.1','1.6.0.0.1'),('captcha_setup','1.7.0.0.0','1.7.0.0.0'),('catalogindex_setup','1.6.0.0','1.6.0.0'),('cataloginventory_setup','1.6.0.0.2','1.6.0.0.2'),('catalogrule_setup','1.6.0.3','1.6.0.3'),('catalogsearch_setup','1.6.0.0','1.6.0.0'),('catalog_setup','1.6.0.0.14','1.6.0.0.14'),('checkout_setup','1.6.0.0','1.6.0.0'),('cms_setup','1.6.0.0.1','1.6.0.0.1'),('compiler_setup','1.6.0.0','1.6.0.0'),('contacts_setup','1.6.0.0','1.6.0.0'),('core_setup','1.6.0.2','1.6.0.2'),('cron_setup','1.6.0.0','1.6.0.0'),('customer_setup','1.6.2.0.1','1.6.2.0.1'),('dataflow_setup','1.6.0.0','1.6.0.0'),('directory_setup','1.6.0.1','1.6.0.1'),('downloadable_setup','1.6.0.0.2','1.6.0.0.2'),('eav_setup','1.6.0.0','1.6.0.0'),('epay_setup','2.5.4','2.5.4'),('giftmessage_setup','1.6.0.0','1.6.0.0'),('googlecheckout_setup','1.6.0.1','1.6.0.1'),('importexport_setup','1.6.0.2','1.6.0.2'),('index_setup','1.6.0.0','1.6.0.0'),('log_setup','1.6.0.0','1.6.0.0'),('moneybookers_setup','1.6.0.0','1.6.0.0'),('newsletter_setup','1.6.0.1','1.6.0.1'),('oauth_setup','1.0.0.0','1.0.0.0'),('paygate_setup','1.6.0.0','1.6.0.0'),('payment_setup','1.6.0.0','1.6.0.0'),('paypaluk_setup','1.6.0.0','1.6.0.0'),('paypal_setup','1.6.0.2','1.6.0.2'),('persistent_setup','1.0.0.0','1.0.0.0'),('poll_setup','1.6.0.0','1.6.0.0'),('productalert_setup','1.6.0.0','1.6.0.0'),('rating_setup','1.6.0.0','1.6.0.0'),('remove_setup','0.1.0','0.1.0'),('reports_setup','1.6.0.0.1','1.6.0.0.1'),('review_setup','1.6.0.0','1.6.0.0'),('salesrule_setup','1.6.0.3','1.6.0.3'),('sales_setup','1.6.0.7','1.6.0.7'),('sendfriend_setup','1.6.0.0','1.6.0.0'),('shipping_setup','1.6.0.0','1.6.0.0'),('sitemap_setup','1.6.0.0','1.6.0.0'),('tag_setup','1.6.0.0','1.6.0.0'),('tax_setup','1.6.0.3','1.6.0.3'),('usa_setup','1.6.0.1','1.6.0.1'),('weee_setup','1.6.0.0','1.6.0.0'),('widget_setup','1.6.0.0','1.6.0.0'),('wishlist_setup','1.6.0.0','1.6.0.0'),('xmlconnect_setup','1.6.0.0','1.6.0.0');
 /*!40000 ALTER TABLE `core_resource` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `core_session`;
@@ -2957,14 +2979,15 @@ CREATE TABLE `core_url_rewrite` (
   KEY `IDX_CORE_URL_REWRITE_STORE_ID` (`store_id`),
   KEY `FK_CORE_URL_REWRITE_CTGR_ID_CAT_CTGR_ENTT_ENTT_ID` (`category_id`),
   KEY `FK_CORE_URL_REWRITE_PRODUCT_ID_CATALOG_CATEGORY_ENTITY_ENTITY_ID` (`product_id`),
-  CONSTRAINT `FK_CORE_URL_REWRITE_PRODUCT_ID_CATALOG_CATEGORY_ENTITY_ENTITY_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CORE_URL_REWRITE_CTGR_ID_CAT_CTGR_ENTT_ENTT_ID` FOREIGN KEY (`category_id`) REFERENCES `catalog_category_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_CORE_URL_REWRITE_PRODUCT_ID_CATALOG_CATEGORY_ENTITY_ENTITY_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CORE_URL_REWRITE_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Url Rewrites';
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COMMENT='Url Rewrites';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `core_url_rewrite` WRITE;
 /*!40000 ALTER TABLE `core_url_rewrite` DISABLE KEYS */;
+INSERT INTO `core_url_rewrite` VALUES (1,1,'category/3','test.html','catalog/category/view/id/3',1,NULL,NULL,3,NULL),(2,1,'product/1/3','test/produkt-1.html','catalog/product/view/id/1/category/3',1,NULL,NULL,3,1),(3,1,'product/1','produkt-1.html','catalog/product/view/id/1',1,NULL,NULL,NULL,1);
 /*!40000 ALTER TABLE `core_url_rewrite` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `core_variable`;
@@ -3148,11 +3171,12 @@ CREATE TABLE `customer_address_entity` (
   PRIMARY KEY (`entity_id`),
   KEY `IDX_CUSTOMER_ADDRESS_ENTITY_PARENT_ID` (`parent_id`),
   CONSTRAINT `FK_CUSTOMER_ADDRESS_ENTITY_PARENT_ID_CUSTOMER_ENTITY_ENTITY_ID` FOREIGN KEY (`parent_id`) REFERENCES `customer_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Customer Address Entity';
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='Customer Address Entity';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `customer_address_entity` WRITE;
 /*!40000 ALTER TABLE `customer_address_entity` DISABLE KEYS */;
+INSERT INTO `customer_address_entity` VALUES (1,2,0,NULL,1,'2013-04-27 15:23:59','2013-04-27 16:08:39',1);
 /*!40000 ALTER TABLE `customer_address_entity` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `customer_address_entity_datetime`;
@@ -3223,11 +3247,12 @@ CREATE TABLE `customer_address_entity_int` (
   CONSTRAINT `FK_CSTR_ADDR_ENTT_INT_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CSTR_ADDR_ENTT_INT_ENTT_ID_CSTR_ADDR_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `customer_address_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CSTR_ADDR_ENTT_INT_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID` FOREIGN KEY (`entity_type_id`) REFERENCES `eav_entity_type` (`entity_type_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Customer Address Entity Int';
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='Customer Address Entity Int';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `customer_address_entity_int` WRITE;
 /*!40000 ALTER TABLE `customer_address_entity_int` DISABLE KEYS */;
+INSERT INTO `customer_address_entity_int` VALUES (1,2,29,1,0);
 /*!40000 ALTER TABLE `customer_address_entity_int` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `customer_address_entity_text`;
@@ -3247,11 +3272,12 @@ CREATE TABLE `customer_address_entity_text` (
   CONSTRAINT `FK_CSTR_ADDR_ENTT_TEXT_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CSTR_ADDR_ENTT_TEXT_ENTT_ID_CSTR_ADDR_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `customer_address_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CSTR_ADDR_ENTT_TEXT_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID` FOREIGN KEY (`entity_type_id`) REFERENCES `eav_entity_type` (`entity_type_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Customer Address Entity Text';
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='Customer Address Entity Text';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `customer_address_entity_text` WRITE;
 /*!40000 ALTER TABLE `customer_address_entity_text` DISABLE KEYS */;
+INSERT INTO `customer_address_entity_text` VALUES (1,2,25,1,'Laen kærvej 1 st th');
 /*!40000 ALTER TABLE `customer_address_entity_text` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `customer_address_entity_varchar`;
@@ -3272,11 +3298,12 @@ CREATE TABLE `customer_address_entity_varchar` (
   CONSTRAINT `FK_CSTR_ADDR_ENTT_VCHR_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CSTR_ADDR_ENTT_VCHR_ENTT_ID_CSTR_ADDR_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `customer_address_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CSTR_ADDR_ENTT_VCHR_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID` FOREIGN KEY (`entity_type_id`) REFERENCES `eav_entity_type` (`entity_type_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Customer Address Entity Varchar';
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COMMENT='Customer Address Entity Varchar';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `customer_address_entity_varchar` WRITE;
 /*!40000 ALTER TABLE `customer_address_entity_varchar` DISABLE KEYS */;
+INSERT INTO `customer_address_entity_varchar` VALUES (1,2,20,1,'Martin'),(2,2,22,1,'Andersen'),(3,2,26,1,'Ørum Djurs'),(4,2,30,1,'8586'),(5,2,27,1,'DK'),(6,2,31,1,'22996639');
 /*!40000 ALTER TABLE `customer_address_entity_varchar` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `customer_eav_attribute`;
@@ -3345,11 +3372,12 @@ CREATE TABLE `customer_entity` (
   KEY `IDX_CUSTOMER_ENTITY_WEBSITE_ID` (`website_id`),
   CONSTRAINT `FK_CUSTOMER_ENTITY_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE SET NULL ON UPDATE CASCADE,
   CONSTRAINT `FK_CUSTOMER_ENTITY_WEBSITE_ID_CORE_WEBSITE_WEBSITE_ID` FOREIGN KEY (`website_id`) REFERENCES `core_website` (`website_id`) ON DELETE SET NULL ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Customer Entity';
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='Customer Entity';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `customer_entity` WRITE;
 /*!40000 ALTER TABLE `customer_entity` DISABLE KEYS */;
+INSERT INTO `customer_entity` VALUES (1,1,0,1,'m.andersen.post@gmail.com',1,NULL,1,'2013-04-27 15:23:59','2013-04-27 16:08:39',1,0);
 /*!40000 ALTER TABLE `customer_entity` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `customer_entity_datetime`;
@@ -3368,8 +3396,8 @@ CREATE TABLE `customer_entity_datetime` (
   KEY `IDX_CUSTOMER_ENTITY_DATETIME_ENTITY_ID` (`entity_id`),
   KEY `IDX_CUSTOMER_ENTITY_DATETIME_ENTITY_ID_ATTRIBUTE_ID_VALUE` (`entity_id`,`attribute_id`,`value`),
   CONSTRAINT `FK_CSTR_ENTT_DTIME_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CUSTOMER_ENTITY_DATETIME_ENTITY_ID_CUSTOMER_ENTITY_ENTITY_ID` FOREIGN KEY (`entity_id`) REFERENCES `customer_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CSTR_ENTT_DTIME_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID` FOREIGN KEY (`entity_type_id`) REFERENCES `eav_entity_type` (`entity_type_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_CSTR_ENTT_DTIME_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID` FOREIGN KEY (`entity_type_id`) REFERENCES `eav_entity_type` (`entity_type_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_CUSTOMER_ENTITY_DATETIME_ENTITY_ID_CUSTOMER_ENTITY_ENTITY_ID` FOREIGN KEY (`entity_id`) REFERENCES `customer_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Customer Entity Datetime';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -3393,8 +3421,8 @@ CREATE TABLE `customer_entity_decimal` (
   KEY `IDX_CUSTOMER_ENTITY_DECIMAL_ENTITY_ID` (`entity_id`),
   KEY `IDX_CUSTOMER_ENTITY_DECIMAL_ENTITY_ID_ATTRIBUTE_ID_VALUE` (`entity_id`,`attribute_id`,`value`),
   CONSTRAINT `FK_CSTR_ENTT_DEC_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CUSTOMER_ENTITY_DECIMAL_ENTITY_ID_CUSTOMER_ENTITY_ENTITY_ID` FOREIGN KEY (`entity_id`) REFERENCES `customer_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CSTR_ENTT_DEC_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID` FOREIGN KEY (`entity_type_id`) REFERENCES `eav_entity_type` (`entity_type_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_CSTR_ENTT_DEC_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID` FOREIGN KEY (`entity_type_id`) REFERENCES `eav_entity_type` (`entity_type_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_CUSTOMER_ENTITY_DECIMAL_ENTITY_ID_CUSTOMER_ENTITY_ENTITY_ID` FOREIGN KEY (`entity_id`) REFERENCES `customer_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Customer Entity Decimal';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -3417,14 +3445,15 @@ CREATE TABLE `customer_entity_int` (
   KEY `IDX_CUSTOMER_ENTITY_INT_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_CUSTOMER_ENTITY_INT_ENTITY_ID` (`entity_id`),
   KEY `IDX_CUSTOMER_ENTITY_INT_ENTITY_ID_ATTRIBUTE_ID_VALUE` (`entity_id`,`attribute_id`,`value`),
+  CONSTRAINT `FK_CSTR_ENTT_INT_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID` FOREIGN KEY (`entity_type_id`) REFERENCES `eav_entity_type` (`entity_type_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CUSTOMER_ENTITY_INT_ATTRIBUTE_ID_EAV_ATTRIBUTE_ATTRIBUTE_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CUSTOMER_ENTITY_INT_ENTITY_ID_CUSTOMER_ENTITY_ENTITY_ID` FOREIGN KEY (`entity_id`) REFERENCES `customer_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CSTR_ENTT_INT_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID` FOREIGN KEY (`entity_type_id`) REFERENCES `eav_entity_type` (`entity_type_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Customer Entity Int';
+  CONSTRAINT `FK_CUSTOMER_ENTITY_INT_ENTITY_ID_CUSTOMER_ENTITY_ENTITY_ID` FOREIGN KEY (`entity_id`) REFERENCES `customer_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COMMENT='Customer Entity Int';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `customer_entity_int` WRITE;
 /*!40000 ALTER TABLE `customer_entity_int` DISABLE KEYS */;
+INSERT INTO `customer_entity_int` VALUES (1,1,13,1,1),(2,1,14,1,1);
 /*!40000 ALTER TABLE `customer_entity_int` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `customer_entity_text`;
@@ -3441,9 +3470,9 @@ CREATE TABLE `customer_entity_text` (
   KEY `IDX_CUSTOMER_ENTITY_TEXT_ENTITY_TYPE_ID` (`entity_type_id`),
   KEY `IDX_CUSTOMER_ENTITY_TEXT_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_CUSTOMER_ENTITY_TEXT_ENTITY_ID` (`entity_id`),
+  CONSTRAINT `FK_CSTR_ENTT_TEXT_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID` FOREIGN KEY (`entity_type_id`) REFERENCES `eav_entity_type` (`entity_type_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CUSTOMER_ENTITY_TEXT_ATTRIBUTE_ID_EAV_ATTRIBUTE_ATTRIBUTE_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CUSTOMER_ENTITY_TEXT_ENTITY_ID_CUSTOMER_ENTITY_ENTITY_ID` FOREIGN KEY (`entity_id`) REFERENCES `customer_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CSTR_ENTT_TEXT_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID` FOREIGN KEY (`entity_type_id`) REFERENCES `eav_entity_type` (`entity_type_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_CUSTOMER_ENTITY_TEXT_ENTITY_ID_CUSTOMER_ENTITY_ENTITY_ID` FOREIGN KEY (`entity_id`) REFERENCES `customer_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Customer Entity Text';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -3467,13 +3496,14 @@ CREATE TABLE `customer_entity_varchar` (
   KEY `IDX_CUSTOMER_ENTITY_VARCHAR_ENTITY_ID` (`entity_id`),
   KEY `IDX_CUSTOMER_ENTITY_VARCHAR_ENTITY_ID_ATTRIBUTE_ID_VALUE` (`entity_id`,`attribute_id`,`value`),
   CONSTRAINT `FK_CSTR_ENTT_VCHR_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CUSTOMER_ENTITY_VARCHAR_ENTITY_ID_CUSTOMER_ENTITY_ENTITY_ID` FOREIGN KEY (`entity_id`) REFERENCES `customer_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_CSTR_ENTT_VCHR_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID` FOREIGN KEY (`entity_type_id`) REFERENCES `eav_entity_type` (`entity_type_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Customer Entity Varchar';
+  CONSTRAINT `FK_CSTR_ENTT_VCHR_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID` FOREIGN KEY (`entity_type_id`) REFERENCES `eav_entity_type` (`entity_type_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_CUSTOMER_ENTITY_VARCHAR_ENTITY_ID_CUSTOMER_ENTITY_ENTITY_ID` FOREIGN KEY (`entity_id`) REFERENCES `customer_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COMMENT='Customer Entity Varchar';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `customer_entity_varchar` WRITE;
 /*!40000 ALTER TABLE `customer_entity_varchar` DISABLE KEYS */;
+INSERT INTO `customer_entity_varchar` VALUES (1,1,5,1,'Martin'),(2,1,7,1,'Andersen'),(3,1,12,1,'eeaf5b3e7f6fe0eb92acfd6326e6a980:Uj'),(4,1,3,1,'Default Store View');
 /*!40000 ALTER TABLE `customer_entity_varchar` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `customer_form_attribute`;
@@ -4026,8 +4056,8 @@ CREATE TABLE `eav_attribute_option_value` (
   PRIMARY KEY (`value_id`),
   KEY `IDX_EAV_ATTRIBUTE_OPTION_VALUE_OPTION_ID` (`option_id`),
   KEY `IDX_EAV_ATTRIBUTE_OPTION_VALUE_STORE_ID` (`store_id`),
-  CONSTRAINT `FK_EAV_ATTR_OPT_VAL_OPT_ID_EAV_ATTR_OPT_OPT_ID` FOREIGN KEY (`option_id`) REFERENCES `eav_attribute_option` (`option_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_EAV_ATTRIBUTE_OPTION_VALUE_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_EAV_ATTRIBUTE_OPTION_VALUE_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_EAV_ATTR_OPT_VAL_OPT_ID_EAV_ATTR_OPT_OPT_ID` FOREIGN KEY (`option_id`) REFERENCES `eav_attribute_option` (`option_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='Eav Attribute Option Value';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -4125,8 +4155,8 @@ CREATE TABLE `eav_entity_datetime` (
   KEY `IDX_EAV_ENTITY_DATETIME_ATTRIBUTE_ID_VALUE` (`attribute_id`,`value`),
   KEY `IDX_EAV_ENTITY_DATETIME_ENTITY_TYPE_ID_VALUE` (`entity_type_id`,`value`),
   CONSTRAINT `FK_EAV_ENTITY_DATETIME_ENTITY_ID_EAV_ENTITY_ENTITY_ID` FOREIGN KEY (`entity_id`) REFERENCES `eav_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_EAV_ENTT_DTIME_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID` FOREIGN KEY (`entity_type_id`) REFERENCES `eav_entity_type` (`entity_type_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_EAV_ENTITY_DATETIME_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_EAV_ENTITY_DATETIME_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_EAV_ENTT_DTIME_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID` FOREIGN KEY (`entity_type_id`) REFERENCES `eav_entity_type` (`entity_type_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Eav Entity Value Prefix';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -4153,8 +4183,8 @@ CREATE TABLE `eav_entity_decimal` (
   KEY `IDX_EAV_ENTITY_DECIMAL_ATTRIBUTE_ID_VALUE` (`attribute_id`,`value`),
   KEY `IDX_EAV_ENTITY_DECIMAL_ENTITY_TYPE_ID_VALUE` (`entity_type_id`,`value`),
   CONSTRAINT `FK_EAV_ENTITY_DECIMAL_ENTITY_ID_EAV_ENTITY_ENTITY_ID` FOREIGN KEY (`entity_id`) REFERENCES `eav_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_EAV_ENTT_DEC_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID` FOREIGN KEY (`entity_type_id`) REFERENCES `eav_entity_type` (`entity_type_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_EAV_ENTITY_DECIMAL_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_EAV_ENTITY_DECIMAL_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_EAV_ENTT_DEC_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID` FOREIGN KEY (`entity_type_id`) REFERENCES `eav_entity_type` (`entity_type_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Eav Entity Value Prefix';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -4202,13 +4232,14 @@ CREATE TABLE `eav_entity_store` (
   PRIMARY KEY (`entity_store_id`),
   KEY `IDX_EAV_ENTITY_STORE_ENTITY_TYPE_ID` (`entity_type_id`),
   KEY `IDX_EAV_ENTITY_STORE_STORE_ID` (`store_id`),
-  CONSTRAINT `FK_EAV_ENTT_STORE_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID` FOREIGN KEY (`entity_type_id`) REFERENCES `eav_entity_type` (`entity_type_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_EAV_ENTITY_STORE_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Eav Entity Store';
+  CONSTRAINT `FK_EAV_ENTITY_STORE_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_EAV_ENTT_STORE_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID` FOREIGN KEY (`entity_type_id`) REFERENCES `eav_entity_type` (`entity_type_id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='Eav Entity Store';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `eav_entity_store` WRITE;
 /*!40000 ALTER TABLE `eav_entity_store` DISABLE KEYS */;
+INSERT INTO `eav_entity_store` VALUES (1,5,1,'1','100000005');
 /*!40000 ALTER TABLE `eav_entity_store` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `eav_entity_text`;
@@ -4286,8 +4317,8 @@ CREATE TABLE `eav_entity_varchar` (
   KEY `IDX_EAV_ENTITY_VARCHAR_ATTRIBUTE_ID_VALUE` (`attribute_id`,`value`),
   KEY `IDX_EAV_ENTITY_VARCHAR_ENTITY_TYPE_ID_VALUE` (`entity_type_id`,`value`),
   CONSTRAINT `FK_EAV_ENTITY_VARCHAR_ENTITY_ID_EAV_ENTITY_ENTITY_ID` FOREIGN KEY (`entity_id`) REFERENCES `eav_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_EAV_ENTT_VCHR_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID` FOREIGN KEY (`entity_type_id`) REFERENCES `eav_entity_type` (`entity_type_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_EAV_ENTITY_VARCHAR_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_EAV_ENTITY_VARCHAR_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_EAV_ENTT_VCHR_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID` FOREIGN KEY (`entity_type_id`) REFERENCES `eav_entity_type` (`entity_type_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Eav Entity Value Prefix';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -4350,8 +4381,8 @@ CREATE TABLE `eav_form_fieldset_label` (
   PRIMARY KEY (`fieldset_id`,`store_id`),
   KEY `IDX_EAV_FORM_FIELDSET_LABEL_FIELDSET_ID` (`fieldset_id`),
   KEY `IDX_EAV_FORM_FIELDSET_LABEL_STORE_ID` (`store_id`),
-  CONSTRAINT `FK_EAV_FORM_FSET_LBL_FSET_ID_EAV_FORM_FSET_FSET_ID` FOREIGN KEY (`fieldset_id`) REFERENCES `eav_form_fieldset` (`fieldset_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_EAV_FORM_FIELDSET_LABEL_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_EAV_FORM_FIELDSET_LABEL_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_EAV_FORM_FSET_LBL_FSET_ID_EAV_FORM_FSET_FSET_ID` FOREIGN KEY (`fieldset_id`) REFERENCES `eav_form_fieldset` (`fieldset_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Eav Form Fieldset Label';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -4390,8 +4421,8 @@ CREATE TABLE `eav_form_type_entity` (
   `entity_type_id` smallint(5) unsigned NOT NULL COMMENT 'Entity Type Id',
   PRIMARY KEY (`type_id`,`entity_type_id`),
   KEY `IDX_EAV_FORM_TYPE_ENTITY_ENTITY_TYPE_ID` (`entity_type_id`),
-  CONSTRAINT `FK_EAV_FORM_TYPE_ENTT_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID` FOREIGN KEY (`entity_type_id`) REFERENCES `eav_entity_type` (`entity_type_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_EAV_FORM_TYPE_ENTITY_TYPE_ID_EAV_FORM_TYPE_TYPE_ID` FOREIGN KEY (`type_id`) REFERENCES `eav_form_type` (`type_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_EAV_FORM_TYPE_ENTITY_TYPE_ID_EAV_FORM_TYPE_TYPE_ID` FOREIGN KEY (`type_id`) REFERENCES `eav_form_type` (`type_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_EAV_FORM_TYPE_ENTT_ENTT_TYPE_ID_EAV_ENTT_TYPE_ENTT_TYPE_ID` FOREIGN KEY (`entity_type_id`) REFERENCES `eav_entity_type` (`entity_type_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Eav Form Type Entity';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -4421,6 +4452,7 @@ CREATE TABLE `epay_order_status` (
 
 LOCK TABLES `epay_order_status` WRITE;
 /*!40000 ALTER TABLE `epay_order_status` DISABLE KEYS */;
+INSERT INTO `epay_order_status` VALUES ('100000003','',0,'','','','','','','','',''),('100000004','',0,'','','','','','','','',''),('100000005','',0,'','','','','','','','','');
 /*!40000 ALTER TABLE `epay_order_status` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `gift_message`;
@@ -4484,12 +4516,12 @@ CREATE TABLE `index_event` (
   `new_data` mediumtext COMMENT 'New Data',
   PRIMARY KEY (`event_id`),
   UNIQUE KEY `UNQ_INDEX_EVENT_TYPE_ENTITY_ENTITY_PK` (`type`,`entity`,`entity_pk`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COMMENT='Index Event';
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8 COMMENT='Index Event';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `index_event` WRITE;
 /*!40000 ALTER TABLE `index_event` DISABLE KEYS */;
-INSERT INTO `index_event` VALUES (1,'save','catalog_category',1,'2013-04-24 10:53:33',NULL,'a:5:{s:35:\"cataloginventory_stock_match_result\";b:0;s:34:\"catalog_product_price_match_result\";b:0;s:24:\"catalog_url_match_result\";b:1;s:37:\"catalog_category_product_match_result\";b:1;s:35:\"catalogsearch_fulltext_match_result\";b:1;}'),(2,'save','catalog_category',2,'2013-04-24 10:53:34',NULL,'a:5:{s:35:\"cataloginventory_stock_match_result\";b:0;s:34:\"catalog_product_price_match_result\";b:0;s:24:\"catalog_url_match_result\";b:1;s:37:\"catalog_category_product_match_result\";b:1;s:35:\"catalogsearch_fulltext_match_result\";b:1;}'),(3,'save','customer_group',4,'2013-04-24 11:58:34',NULL,'a:6:{s:35:\"cataloginventory_stock_match_result\";b:0;s:34:\"catalog_product_price_match_result\";b:1;s:24:\"catalog_url_match_result\";b:0;s:33:\"catalog_product_flat_match_result\";b:0;s:37:\"catalog_category_product_match_result\";b:0;s:35:\"catalogsearch_fulltext_match_result\";b:0;}'),(4,'save','core_config_data',128,'2013-04-24 12:19:03',NULL,'a:6:{s:35:\"cataloginventory_stock_match_result\";b:0;s:34:\"catalog_product_price_match_result\";b:1;s:24:\"catalog_url_match_result\";b:0;s:33:\"catalog_product_flat_match_result\";b:0;s:37:\"catalog_category_product_match_result\";b:0;s:35:\"catalogsearch_fulltext_match_result\";b:0;}');
+INSERT INTO `index_event` VALUES (1,'save','catalog_category',1,'2013-04-24 10:53:33',NULL,'a:5:{s:35:\"cataloginventory_stock_match_result\";b:0;s:34:\"catalog_product_price_match_result\";b:0;s:24:\"catalog_url_match_result\";b:1;s:37:\"catalog_category_product_match_result\";b:1;s:35:\"catalogsearch_fulltext_match_result\";b:1;}'),(2,'save','catalog_category',2,'2013-04-24 10:53:34',NULL,'a:5:{s:35:\"cataloginventory_stock_match_result\";b:0;s:34:\"catalog_product_price_match_result\";b:0;s:24:\"catalog_url_match_result\";b:1;s:37:\"catalog_category_product_match_result\";b:1;s:35:\"catalogsearch_fulltext_match_result\";b:1;}'),(3,'save','customer_group',4,'2013-04-24 11:58:34',NULL,'a:6:{s:35:\"cataloginventory_stock_match_result\";b:0;s:34:\"catalog_product_price_match_result\";b:1;s:24:\"catalog_url_match_result\";b:0;s:33:\"catalog_product_flat_match_result\";b:0;s:37:\"catalog_category_product_match_result\";b:0;s:35:\"catalogsearch_fulltext_match_result\";b:0;}'),(4,'save','core_config_data',128,'2013-04-24 12:19:03',NULL,'a:6:{s:35:\"cataloginventory_stock_match_result\";b:0;s:34:\"catalog_product_price_match_result\";b:1;s:24:\"catalog_url_match_result\";b:0;s:33:\"catalog_product_flat_match_result\";b:0;s:37:\"catalog_category_product_match_result\";b:0;s:35:\"catalogsearch_fulltext_match_result\";b:0;}'),(5,'save','catalog_category',3,'2013-04-27 14:15:47',NULL,'a:6:{s:35:\"cataloginventory_stock_match_result\";b:0;s:34:\"catalog_product_price_match_result\";b:0;s:24:\"catalog_url_match_result\";b:1;s:33:\"catalog_product_flat_match_result\";b:0;s:37:\"catalog_category_product_match_result\";b:1;s:35:\"catalogsearch_fulltext_match_result\";b:1;}'),(6,'save','cataloginventory_stock_item',1,'2013-04-27 14:42:38',NULL,'a:6:{s:35:\"cataloginventory_stock_match_result\";b:1;s:34:\"catalog_product_price_match_result\";b:0;s:24:\"catalog_url_match_result\";b:0;s:33:\"catalog_product_flat_match_result\";b:0;s:37:\"catalog_category_product_match_result\";b:0;s:35:\"catalogsearch_fulltext_match_result\";b:0;}'),(7,'save','catalog_product',1,'2013-04-27 14:42:40',NULL,'a:6:{s:35:\"cataloginventory_stock_match_result\";b:1;s:34:\"catalog_product_price_match_result\";b:1;s:24:\"catalog_url_match_result\";b:1;s:33:\"catalog_product_flat_match_result\";b:1;s:37:\"catalog_category_product_match_result\";b:1;s:35:\"catalogsearch_fulltext_match_result\";b:1;}'),(8,'catalog_reindex_price','catalog_product',1,'2013-04-27 14:42:40',NULL,'a:6:{s:35:\"cataloginventory_stock_match_result\";b:0;s:34:\"catalog_product_price_match_result\";b:1;s:24:\"catalog_url_match_result\";b:0;s:33:\"catalog_product_flat_match_result\";b:0;s:37:\"catalog_category_product_match_result\";b:0;s:35:\"catalogsearch_fulltext_match_result\";b:0;}');
 /*!40000 ALTER TABLE `index_event` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `index_process`;
@@ -4509,7 +4541,7 @@ CREATE TABLE `index_process` (
 
 LOCK TABLES `index_process` WRITE;
 /*!40000 ALTER TABLE `index_process` DISABLE KEYS */;
-INSERT INTO `index_process` VALUES (1,'catalog_product_attribute','pending','2013-04-24 10:57:38','2013-04-24 10:57:38','real_time'),(2,'catalog_product_price','require_reindex','2013-04-24 12:19:03','2013-04-24 12:19:03','real_time'),(3,'catalog_url','pending','2013-04-24 10:57:39','2013-04-24 10:57:40','real_time'),(4,'catalog_product_flat','pending','2013-04-24 10:57:40','2013-04-24 10:57:40','real_time'),(5,'catalog_category_flat','pending','2013-04-24 10:57:40','2013-04-24 10:57:40','real_time'),(6,'catalog_category_product','pending','2013-04-24 10:57:40','2013-04-24 10:57:40','real_time'),(7,'catalogsearch_fulltext','pending','2013-04-24 10:57:40','2013-04-24 10:57:41','real_time'),(8,'cataloginventory_stock','pending','2013-04-24 11:59:11','2013-04-24 11:59:11','real_time'),(9,'tag_summary','pending','2013-04-24 10:57:41','2013-04-24 10:57:41','real_time');
+INSERT INTO `index_process` VALUES (1,'catalog_product_attribute','pending','2013-04-27 14:43:24','2013-04-27 14:43:24','real_time'),(2,'catalog_product_price','pending','2013-04-27 14:43:24','2013-04-27 14:43:25','real_time'),(3,'catalog_url','pending','2013-04-27 14:43:25','2013-04-27 14:43:26','real_time'),(4,'catalog_product_flat','pending','2013-04-27 14:43:26','2013-04-27 14:43:32','real_time'),(5,'catalog_category_flat','pending','2013-04-27 14:43:32','2013-04-27 14:43:33','real_time'),(6,'catalog_category_product','pending','2013-04-27 14:43:33','2013-04-27 14:43:34','real_time'),(7,'catalogsearch_fulltext','pending','2013-04-27 14:43:34','2013-04-27 14:43:34','real_time'),(8,'cataloginventory_stock','pending','2013-04-27 14:43:23','2013-04-27 14:43:24','real_time'),(9,'tag_summary','pending','2013-04-27 14:43:34','2013-04-27 14:43:34','real_time');
 /*!40000 ALTER TABLE `index_process` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `index_process_event`;
@@ -4542,11 +4574,12 @@ CREATE TABLE `log_customer` (
   `store_id` smallint(5) unsigned NOT NULL COMMENT 'Store ID',
   PRIMARY KEY (`log_id`),
   KEY `IDX_LOG_CUSTOMER_VISITOR_ID` (`visitor_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Log Customers Table';
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='Log Customers Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `log_customer` WRITE;
 /*!40000 ALTER TABLE `log_customer` DISABLE KEYS */;
+INSERT INTO `log_customer` VALUES (1,2,1,'2013-04-27 15:24:17',NULL,1);
 /*!40000 ALTER TABLE `log_customer` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `log_quote`;
@@ -4563,6 +4596,7 @@ CREATE TABLE `log_quote` (
 
 LOCK TABLES `log_quote` WRITE;
 /*!40000 ALTER TABLE `log_quote` DISABLE KEYS */;
+INSERT INTO `log_quote` VALUES (5,3,'2013-04-27 19:49:53',NULL);
 /*!40000 ALTER TABLE `log_quote` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `log_summary`;
@@ -4624,7 +4658,7 @@ CREATE TABLE `log_url_info` (
   `url` varchar(255) DEFAULT NULL COMMENT 'URL',
   `referer` varchar(255) DEFAULT NULL COMMENT 'Referrer',
   PRIMARY KEY (`url_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COMMENT='Log URL Info Table';
+) ENGINE=InnoDB AUTO_INCREMENT=88 DEFAULT CHARSET=utf8 COMMENT='Log URL Info Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `log_url_info` WRITE;
@@ -4642,7 +4676,7 @@ CREATE TABLE `log_visitor` (
   `last_url_id` bigint(20) unsigned NOT NULL DEFAULT '0' COMMENT 'Last URL ID',
   `store_id` smallint(5) unsigned NOT NULL COMMENT 'Store ID',
   PRIMARY KEY (`visitor_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='Log Visitors Table';
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COMMENT='Log Visitors Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `log_visitor` WRITE;
@@ -4765,8 +4799,8 @@ CREATE TABLE `newsletter_queue_store_link` (
   `store_id` smallint(5) unsigned NOT NULL DEFAULT '0' COMMENT 'Store Id',
   PRIMARY KEY (`queue_id`,`store_id`),
   KEY `IDX_NEWSLETTER_QUEUE_STORE_LINK_STORE_ID` (`store_id`),
-  CONSTRAINT `FK_NLTTR_QUEUE_STORE_LNK_QUEUE_ID_NLTTR_QUEUE_QUEUE_ID` FOREIGN KEY (`queue_id`) REFERENCES `newsletter_queue` (`queue_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_NEWSLETTER_QUEUE_STORE_LINK_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_NEWSLETTER_QUEUE_STORE_LINK_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_NLTTR_QUEUE_STORE_LNK_QUEUE_ID_NLTTR_QUEUE_QUEUE_ID` FOREIGN KEY (`queue_id`) REFERENCES `newsletter_queue` (`queue_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Newsletter Queue Store Link';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -5100,8 +5134,8 @@ CREATE TABLE `product_alert_price` (
   KEY `IDX_PRODUCT_ALERT_PRICE_CUSTOMER_ID` (`customer_id`),
   KEY `IDX_PRODUCT_ALERT_PRICE_PRODUCT_ID` (`product_id`),
   KEY `IDX_PRODUCT_ALERT_PRICE_WEBSITE_ID` (`website_id`),
-  CONSTRAINT `FK_PRODUCT_ALERT_PRICE_CUSTOMER_ID_CUSTOMER_ENTITY_ENTITY_ID` FOREIGN KEY (`customer_id`) REFERENCES `customer_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_PRD_ALERT_PRICE_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_PRODUCT_ALERT_PRICE_CUSTOMER_ID_CUSTOMER_ENTITY_ENTITY_ID` FOREIGN KEY (`customer_id`) REFERENCES `customer_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_PRODUCT_ALERT_PRICE_WEBSITE_ID_CORE_WEBSITE_WEBSITE_ID` FOREIGN KEY (`website_id`) REFERENCES `core_website` (`website_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Product Alert Price';
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -5126,9 +5160,9 @@ CREATE TABLE `product_alert_stock` (
   KEY `IDX_PRODUCT_ALERT_STOCK_CUSTOMER_ID` (`customer_id`),
   KEY `IDX_PRODUCT_ALERT_STOCK_PRODUCT_ID` (`product_id`),
   KEY `IDX_PRODUCT_ALERT_STOCK_WEBSITE_ID` (`website_id`),
-  CONSTRAINT `FK_PRODUCT_ALERT_STOCK_WEBSITE_ID_CORE_WEBSITE_WEBSITE_ID` FOREIGN KEY (`website_id`) REFERENCES `core_website` (`website_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_PRD_ALERT_STOCK_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_PRODUCT_ALERT_STOCK_CUSTOMER_ID_CUSTOMER_ENTITY_ENTITY_ID` FOREIGN KEY (`customer_id`) REFERENCES `customer_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_PRD_ALERT_STOCK_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_PRODUCT_ALERT_STOCK_WEBSITE_ID_CORE_WEBSITE_WEBSITE_ID` FOREIGN KEY (`website_id`) REFERENCES `core_website` (`website_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Product Alert Stock';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -5209,8 +5243,8 @@ CREATE TABLE `rating_option_vote` (
   PRIMARY KEY (`vote_id`),
   KEY `IDX_RATING_OPTION_VOTE_OPTION_ID` (`option_id`),
   KEY `FK_RATING_OPTION_VOTE_REVIEW_ID_REVIEW_REVIEW_ID` (`review_id`),
-  CONSTRAINT `FK_RATING_OPTION_VOTE_REVIEW_ID_REVIEW_REVIEW_ID` FOREIGN KEY (`review_id`) REFERENCES `review` (`review_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_RATING_OPTION_VOTE_OPTION_ID_RATING_OPTION_OPTION_ID` FOREIGN KEY (`option_id`) REFERENCES `rating_option` (`option_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_RATING_OPTION_VOTE_OPTION_ID_RATING_OPTION_OPTION_ID` FOREIGN KEY (`option_id`) REFERENCES `rating_option` (`option_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_RATING_OPTION_VOTE_REVIEW_ID_REVIEW_REVIEW_ID` FOREIGN KEY (`review_id`) REFERENCES `review` (`review_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Rating option values';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -5250,8 +5284,8 @@ CREATE TABLE `rating_store` (
   `store_id` smallint(5) unsigned NOT NULL DEFAULT '0' COMMENT 'Store id',
   PRIMARY KEY (`rating_id`,`store_id`),
   KEY `IDX_RATING_STORE_STORE_ID` (`store_id`),
-  CONSTRAINT `FK_RATING_STORE_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_RATING_STORE_RATING_ID_RATING_RATING_ID` FOREIGN KEY (`rating_id`) REFERENCES `rating` (`rating_id`) ON DELETE CASCADE ON UPDATE NO ACTION
+  CONSTRAINT `FK_RATING_STORE_RATING_ID_RATING_RATING_ID` FOREIGN KEY (`rating_id`) REFERENCES `rating` (`rating_id`) ON DELETE CASCADE ON UPDATE NO ACTION,
+  CONSTRAINT `FK_RATING_STORE_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Rating Store';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -5320,13 +5354,14 @@ CREATE TABLE `report_event` (
   KEY `IDX_REPORT_EVENT_OBJECT_ID` (`object_id`),
   KEY `IDX_REPORT_EVENT_SUBTYPE` (`subtype`),
   KEY `IDX_REPORT_EVENT_STORE_ID` (`store_id`),
-  CONSTRAINT `FK_REPORT_EVENT_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_REPORT_EVENT_EVENT_TYPE_ID_REPORT_EVENT_TYPES_EVENT_TYPE_ID` FOREIGN KEY (`event_type_id`) REFERENCES `report_event_types` (`event_type_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Reports Event Table';
+  CONSTRAINT `FK_REPORT_EVENT_EVENT_TYPE_ID_REPORT_EVENT_TYPES_EVENT_TYPE_ID` FOREIGN KEY (`event_type_id`) REFERENCES `report_event_types` (`event_type_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_REPORT_EVENT_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COMMENT='Reports Event Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `report_event` WRITE;
 /*!40000 ALTER TABLE `report_event` DISABLE KEYS */;
+INSERT INTO `report_event` VALUES (1,'2013-04-27 14:44:27',4,1,2,1,1),(2,'2013-04-27 15:38:07',4,1,1,0,1),(3,'2013-04-27 15:53:23',1,1,1,0,1),(4,'2013-04-27 15:53:31',4,1,1,0,1),(5,'2013-04-27 16:07:44',4,1,1,0,1),(6,'2013-04-27 19:49:53',4,1,3,1,1);
 /*!40000 ALTER TABLE `report_event` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `report_event_types`;
@@ -5361,8 +5396,8 @@ CREATE TABLE `report_viewed_product_aggregated_daily` (
   UNIQUE KEY `UNQ_REPORT_VIEWED_PRD_AGGRED_DAILY_PERIOD_STORE_ID_PRD_ID` (`period`,`store_id`,`product_id`),
   KEY `IDX_REPORT_VIEWED_PRODUCT_AGGREGATED_DAILY_STORE_ID` (`store_id`),
   KEY `IDX_REPORT_VIEWED_PRODUCT_AGGREGATED_DAILY_PRODUCT_ID` (`product_id`),
-  CONSTRAINT `FK_REPORT_VIEWED_PRD_AGGRED_DAILY_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_REPORT_VIEWED_PRD_AGGRED_DAILY_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_REPORT_VIEWED_PRD_AGGRED_DAILY_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_REPORT_VIEWED_PRD_AGGRED_DAILY_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Most Viewed Products Aggregated Daily';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -5386,8 +5421,8 @@ CREATE TABLE `report_viewed_product_aggregated_monthly` (
   UNIQUE KEY `UNQ_REPORT_VIEWED_PRD_AGGRED_MONTHLY_PERIOD_STORE_ID_PRD_ID` (`period`,`store_id`,`product_id`),
   KEY `IDX_REPORT_VIEWED_PRODUCT_AGGREGATED_MONTHLY_STORE_ID` (`store_id`),
   KEY `IDX_REPORT_VIEWED_PRODUCT_AGGREGATED_MONTHLY_PRODUCT_ID` (`product_id`),
-  CONSTRAINT `FK_REPORT_VIEWED_PRD_AGGRED_MONTHLY_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_REPORT_VIEWED_PRD_AGGRED_MONTHLY_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_REPORT_VIEWED_PRD_AGGRED_MONTHLY_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_REPORT_VIEWED_PRD_AGGRED_MONTHLY_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Most Viewed Products Aggregated Monthly';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -5411,8 +5446,8 @@ CREATE TABLE `report_viewed_product_aggregated_yearly` (
   UNIQUE KEY `UNQ_REPORT_VIEWED_PRD_AGGRED_YEARLY_PERIOD_STORE_ID_PRD_ID` (`period`,`store_id`,`product_id`),
   KEY `IDX_REPORT_VIEWED_PRODUCT_AGGREGATED_YEARLY_STORE_ID` (`store_id`),
   KEY `IDX_REPORT_VIEWED_PRODUCT_AGGREGATED_YEARLY_PRODUCT_ID` (`product_id`),
-  CONSTRAINT `FK_REPORT_VIEWED_PRD_AGGRED_YEARLY_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_REPORT_VIEWED_PRD_AGGRED_YEARLY_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_REPORT_VIEWED_PRD_AGGRED_YEARLY_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_REPORT_VIEWED_PRD_AGGRED_YEARLY_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Most Viewed Products Aggregated Yearly';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -5439,11 +5474,12 @@ CREATE TABLE `report_viewed_product_index` (
   CONSTRAINT `FK_REPORT_VIEWED_PRD_IDX_CSTR_ID_CSTR_ENTT_ENTT_ID` FOREIGN KEY (`customer_id`) REFERENCES `customer_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_REPORT_VIEWED_PRD_IDX_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_REPORT_VIEWED_PRODUCT_INDEX_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE SET NULL ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Reports Viewed Product Index Table';
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='Reports Viewed Product Index Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `report_viewed_product_index` WRITE;
 /*!40000 ALTER TABLE `report_viewed_product_index` DISABLE KEYS */;
+INSERT INTO `report_viewed_product_index` VALUES (1,2,1,1,1,'2013-04-27 15:53:23');
 /*!40000 ALTER TABLE `report_viewed_product_index` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `review`;
@@ -5576,8 +5612,8 @@ CREATE TABLE `sales_bestsellers_aggregated_daily` (
   UNIQUE KEY `UNQ_SALES_BESTSELLERS_AGGRED_DAILY_PERIOD_STORE_ID_PRD_ID` (`period`,`store_id`,`product_id`),
   KEY `IDX_SALES_BESTSELLERS_AGGREGATED_DAILY_STORE_ID` (`store_id`),
   KEY `IDX_SALES_BESTSELLERS_AGGREGATED_DAILY_PRODUCT_ID` (`product_id`),
-  CONSTRAINT `FK_SALES_BESTSELLERS_AGGRED_DAILY_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_SALES_BESTSELLERS_AGGRED_DAILY_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_SALES_BESTSELLERS_AGGRED_DAILY_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_SALES_BESTSELLERS_AGGRED_DAILY_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Sales Bestsellers Aggregated Daily';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -5601,8 +5637,8 @@ CREATE TABLE `sales_bestsellers_aggregated_monthly` (
   UNIQUE KEY `UNQ_SALES_BESTSELLERS_AGGRED_MONTHLY_PERIOD_STORE_ID_PRD_ID` (`period`,`store_id`,`product_id`),
   KEY `IDX_SALES_BESTSELLERS_AGGREGATED_MONTHLY_STORE_ID` (`store_id`),
   KEY `IDX_SALES_BESTSELLERS_AGGREGATED_MONTHLY_PRODUCT_ID` (`product_id`),
-  CONSTRAINT `FK_SALES_BESTSELLERS_AGGRED_MONTHLY_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_SALES_BESTSELLERS_AGGRED_MONTHLY_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_SALES_BESTSELLERS_AGGRED_MONTHLY_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_SALES_BESTSELLERS_AGGRED_MONTHLY_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Sales Bestsellers Aggregated Monthly';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -5626,8 +5662,8 @@ CREATE TABLE `sales_bestsellers_aggregated_yearly` (
   UNIQUE KEY `UNQ_SALES_BESTSELLERS_AGGRED_YEARLY_PERIOD_STORE_ID_PRD_ID` (`period`,`store_id`,`product_id`),
   KEY `IDX_SALES_BESTSELLERS_AGGREGATED_YEARLY_STORE_ID` (`store_id`),
   KEY `IDX_SALES_BESTSELLERS_AGGREGATED_YEARLY_PRODUCT_ID` (`product_id`),
-  CONSTRAINT `FK_SALES_BESTSELLERS_AGGRED_YEARLY_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_SALES_BESTSELLERS_AGGRED_YEARLY_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_SALES_BESTSELLERS_AGGRED_YEARLY_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_SALES_BESTSELLERS_AGGRED_YEARLY_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Sales Bestsellers Aggregated Yearly';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -6180,11 +6216,12 @@ CREATE TABLE `sales_flat_order` (
   KEY `IDX_SALES_FLAT_ORDER_UPDATED_AT` (`updated_at`),
   CONSTRAINT `FK_SALES_FLAT_ORDER_CUSTOMER_ID_CUSTOMER_ENTITY_ENTITY_ID` FOREIGN KEY (`customer_id`) REFERENCES `customer_entity` (`entity_id`) ON DELETE SET NULL ON UPDATE CASCADE,
   CONSTRAINT `FK_SALES_FLAT_ORDER_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE SET NULL ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Sales Flat Order';
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COMMENT='Sales Flat Order';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `sales_flat_order` WRITE;
 /*!40000 ALTER TABLE `sales_flat_order` DISABLE KEYS */;
+INSERT INTO `sales_flat_order` VALUES (1,'new','pending',NULL,'866031','Post Danmark - Post Danmark',0,1,1,0.0000,NULL,NULL,NULL,80.9000,59.0000,NULL,NULL,NULL,0.0000,NULL,17.5200,NULL,NULL,NULL,4.3800,NULL,NULL,NULL,1.0000,1.0000,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0.0000,NULL,NULL,NULL,80.9000,59.0000,NULL,NULL,NULL,0.0000,NULL,1.0000,1.0000,17.5200,NULL,NULL,NULL,4.3800,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,2.0000,NULL,NULL,NULL,0,1,1,0,NULL,1,NULL,NULL,NULL,1,2,NULL,NULL,NULL,NULL,0.0000,21.9000,NULL,NULL,0.0000,21.9000,NULL,10.0000,NULL,'100000001',NULL,'DKK','m.andersen.post@gmail.com','Martin','Andersen',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'DKK',NULL,NULL,'DKK',NULL,NULL,NULL,NULL,NULL,'127.0.0.1','flatrate_flatrate','DKK','Main Website\nMain Website Store\nDefault Store View',NULL,NULL,'2013-04-27 15:23:59','2013-04-27 15:24:05',1,NULL,0.0000,0.0000,0.0000,0.0000,NULL,NULL,NULL,NULL,59.0000,59.0000,NULL,0,NULL),(2,'new','pending',NULL,'60e109','Post Danmark - Post Danmark',0,1,1,0.0000,NULL,NULL,NULL,69.9500,59.0000,NULL,NULL,NULL,0.0000,NULL,8.7600,NULL,NULL,NULL,2.1900,NULL,NULL,NULL,1.0000,1.0000,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0.0000,NULL,NULL,NULL,69.9500,59.0000,NULL,NULL,NULL,0.0000,NULL,1.0000,1.0000,8.7600,NULL,NULL,NULL,2.1900,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1.0000,NULL,NULL,NULL,0,1,3,1,NULL,1,NULL,NULL,NULL,2,4,NULL,NULL,NULL,NULL,0.0000,10.9500,NULL,NULL,0.0000,10.9500,NULL,5.0000,NULL,'100000002',NULL,'DKK','m.andersen.post@gmail.com','Martin','Andersen',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'DKK',NULL,NULL,'DKK',NULL,NULL,NULL,NULL,NULL,'127.0.0.1','flatrate_flatrate','DKK','Main Website\nMain Website Store\nDefault Store View',NULL,NULL,'2013-04-27 15:38:52','2013-04-27 15:38:57',1,NULL,0.0000,0.0000,0.0000,0.0000,NULL,NULL,NULL,NULL,59.0000,59.0000,NULL,0,NULL),(3,'new','pending',NULL,'b896fc','Post Danmark - Post Danmark',0,1,1,0.0000,NULL,NULL,NULL,69.9500,59.0000,NULL,NULL,NULL,0.0000,NULL,8.7600,NULL,NULL,NULL,2.1900,NULL,NULL,NULL,1.0000,1.0000,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0.0000,NULL,NULL,NULL,69.9500,59.0000,NULL,NULL,NULL,0.0000,NULL,1.0000,1.0000,8.7600,NULL,NULL,NULL,2.1900,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1.0000,NULL,NULL,NULL,0,1,5,1,NULL,NULL,NULL,NULL,NULL,3,6,NULL,NULL,NULL,NULL,0.0000,10.9500,69.9500,NULL,0.0000,10.9500,69.9500,5.0000,NULL,'100000003',NULL,'DKK','m.andersen.post@gmail.com','Martin','Andersen',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'DKK',NULL,NULL,'DKK',NULL,NULL,NULL,NULL,NULL,'127.0.0.1','flatrate_flatrate','DKK','Main Website\nMain Website Store\nDefault Store View',NULL,NULL,'2013-04-27 15:54:06','2013-04-27 15:54:19',1,NULL,0.0000,0.0000,0.0000,0.0000,NULL,NULL,NULL,NULL,59.0000,59.0000,NULL,0,NULL),(4,'new','pending',NULL,'23845e','Post Danmark - Post Danmark',0,1,1,0.0000,NULL,NULL,NULL,69.9500,59.0000,NULL,NULL,NULL,0.0000,NULL,8.7600,NULL,NULL,NULL,2.1900,NULL,NULL,NULL,1.0000,1.0000,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0.0000,NULL,NULL,NULL,69.9500,59.0000,NULL,NULL,NULL,0.0000,NULL,1.0000,1.0000,8.7600,NULL,NULL,NULL,2.1900,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1.0000,NULL,NULL,NULL,0,1,7,1,NULL,NULL,NULL,NULL,NULL,4,8,NULL,NULL,NULL,NULL,0.0000,10.9500,69.9500,NULL,0.0000,10.9500,69.9500,5.0000,NULL,'100000004',NULL,'DKK','m.andersen.post@gmail.com','Martin','Andersen',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'DKK',NULL,NULL,'DKK',NULL,NULL,NULL,NULL,NULL,'127.0.0.1','flatrate_flatrate','DKK','Main Website\nMain Website Store\nDefault Store View',NULL,NULL,'2013-04-27 16:08:26','2013-04-27 16:08:44',1,NULL,0.0000,0.0000,0.0000,0.0000,NULL,NULL,NULL,NULL,59.0000,59.0000,NULL,0,NULL),(5,'new','pending',NULL,'f80a38','Post Danmark - Post Danmark',0,1,NULL,0.0000,NULL,NULL,NULL,69.9500,59.0000,NULL,NULL,NULL,0.0000,NULL,8.7600,NULL,NULL,NULL,2.1900,NULL,NULL,NULL,1.0000,1.0000,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0.0000,NULL,NULL,NULL,69.9500,59.0000,NULL,NULL,NULL,0.0000,NULL,1.0000,1.0000,8.7600,NULL,NULL,NULL,2.1900,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1.0000,NULL,NULL,NULL,1,1,9,0,NULL,NULL,NULL,NULL,NULL,5,10,NULL,NULL,NULL,NULL,0.0000,10.9500,69.9500,NULL,0.0000,10.9500,69.9500,5.0000,NULL,'100000005',NULL,'DKK','m.andersen.post@gmail.com','Martin','Andersen',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'DKK',NULL,NULL,'DKK',NULL,NULL,NULL,NULL,NULL,'127.0.0.1','flatrate_flatrate','DKK','Main Website\nMain Website Store\nDefault Store View',NULL,NULL,'2013-04-27 19:51:15','2013-04-27 19:51:32',1,NULL,0.0000,0.0000,0.0000,0.0000,NULL,NULL,NULL,NULL,59.0000,59.0000,NULL,0,NULL);
 /*!40000 ALTER TABLE `sales_flat_order` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `sales_flat_order_address`;
@@ -6220,11 +6257,12 @@ CREATE TABLE `sales_flat_order_address` (
   PRIMARY KEY (`entity_id`),
   KEY `IDX_SALES_FLAT_ORDER_ADDRESS_PARENT_ID` (`parent_id`),
   CONSTRAINT `FK_SALES_FLAT_ORDER_ADDRESS_PARENT_ID_SALES_FLAT_ORDER_ENTITY_ID` FOREIGN KEY (`parent_id`) REFERENCES `sales_flat_order` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Sales Flat Order Address';
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8 COMMENT='Sales Flat Order Address';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `sales_flat_order_address` WRITE;
 /*!40000 ALTER TABLE `sales_flat_order_address` DISABLE KEYS */;
+INSERT INTO `sales_flat_order_address` VALUES (1,1,1,NULL,NULL,NULL,NULL,NULL,'8586','Andersen','Laen kærvej 1 st th','Ørum Djurs','m.andersen.post@gmail.com','22996639','DK','Martin','billing',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),(2,1,NULL,NULL,NULL,NULL,NULL,NULL,'8586','Andersen','Laen kærvej 1 st th','Ørum Djurs','m.andersen.post@gmail.com','22996639','DK','Martin','shipping',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),(3,2,1,NULL,NULL,1,NULL,NULL,'8586','Andersen','Laen kærvej 1 st th','Ørum Djurs','m.andersen.post@gmail.com','22996639','DK','Martin','billing',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),(4,2,1,NULL,NULL,1,NULL,NULL,'8586','Andersen','Laen kærvej 1 st th','Ørum Djurs','m.andersen.post@gmail.com','22996639','DK','Martin','shipping',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),(5,3,1,NULL,NULL,1,NULL,NULL,'8586','Andersen','Laen kærvej 1 st th','Ørum Djurs','m.andersen.post@gmail.com','22996639','DK','Martin','billing',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),(6,3,1,NULL,NULL,1,NULL,NULL,'8586','Andersen','Laen kærvej 1 st th','Ørum Djurs','m.andersen.post@gmail.com','22996639','DK','Martin','shipping',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),(7,4,1,NULL,NULL,1,NULL,NULL,'8586','Andersen','Laen kærvej 1 st th','Ørum Djurs','m.andersen.post@gmail.com','22996639','DK','Martin','billing',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),(8,4,1,NULL,NULL,1,NULL,NULL,'8586','Andersen','Laen kærvej 1 st th','Ørum Djurs','m.andersen.post@gmail.com','22996639','DK','Martin','shipping',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),(9,5,NULL,NULL,NULL,NULL,NULL,NULL,'8586','Andersen','Laen kærvej 1 st th','Ørum Djurs','m.andersen.post@gmail.com','22999639','DK','Martin','billing',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),(10,5,NULL,NULL,NULL,NULL,NULL,NULL,'8586','Andersen','Laen kærvej 1 st th','Ørum Djurs','m.andersen.post@gmail.com','22999639','DK','Martin','shipping',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 /*!40000 ALTER TABLE `sales_flat_order_address` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `sales_flat_order_grid`;
@@ -6268,6 +6306,7 @@ CREATE TABLE `sales_flat_order_grid` (
 
 LOCK TABLES `sales_flat_order_grid` WRITE;
 /*!40000 ALTER TABLE `sales_flat_order_grid` DISABLE KEYS */;
+INSERT INTO `sales_flat_order_grid` VALUES (1,'pending',1,'Main Website\nMain Website Store\nDefault Store View',1,80.9000,NULL,80.9000,NULL,'100000001','DKK','DKK','Martin Andersen','Martin Andersen','2013-04-27 15:23:59','2013-04-27 15:24:05'),(2,'pending',1,'Main Website\nMain Website Store\nDefault Store View',1,69.9500,NULL,69.9500,NULL,'100000002','DKK','DKK','Martin Andersen','Martin Andersen','2013-04-27 15:38:52','2013-04-27 15:38:57'),(3,'pending',1,'Main Website\nMain Website Store\nDefault Store View',1,69.9500,NULL,69.9500,NULL,'100000003','DKK','DKK','Martin Andersen','Martin Andersen','2013-04-27 15:54:06','2013-04-27 15:54:19'),(4,'pending',1,'Main Website\nMain Website Store\nDefault Store View',1,69.9500,NULL,69.9500,NULL,'100000004','DKK','DKK','Martin Andersen','Martin Andersen','2013-04-27 16:08:26','2013-04-27 16:08:44'),(5,'pending',1,'Main Website\nMain Website Store\nDefault Store View',NULL,69.9500,NULL,69.9500,NULL,'100000005','DKK','DKK','Martin Andersen','Martin Andersen','2013-04-27 19:51:15','2013-04-27 19:51:32');
 /*!40000 ALTER TABLE `sales_flat_order_grid` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `sales_flat_order_item`;
@@ -6360,11 +6399,12 @@ CREATE TABLE `sales_flat_order_item` (
   KEY `IDX_SALES_FLAT_ORDER_ITEM_STORE_ID` (`store_id`),
   CONSTRAINT `FK_SALES_FLAT_ORDER_ITEM_ORDER_ID_SALES_FLAT_ORDER_ENTITY_ID` FOREIGN KEY (`order_id`) REFERENCES `sales_flat_order` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_SALES_FLAT_ORDER_ITEM_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE SET NULL ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Sales Flat Order Item';
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COMMENT='Sales Flat Order Item';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `sales_flat_order_item` WRITE;
 /*!40000 ALTER TABLE `sales_flat_order_item` DISABLE KEYS */;
+INSERT INTO `sales_flat_order_item` VALUES (1,1,NULL,1,1,'2013-04-27 15:24:00','2013-04-27 15:24:00',1,'simple','a:1:{s:15:\"info_buyRequest\";a:3:{s:4:\"uenc\";s:64:\"aHR0cDovL2xvY2FsLm1hZ2VudG8tYmFzZS5kay9pbmRleC5waHAvdGVzdC5odG1s\";s:7:\"product\";s:1:\"1\";s:3:\"qty\";i:1;}}',5.0000,0,'produkt-1','Produkt-1',NULL,NULL,NULL,0,0,0,NULL,0.0000,0.0000,2.0000,0.0000,0.0000,NULL,8.7600,8.7600,10.9500,10.9500,25.0000,4.3800,4.3800,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,17.5200,17.5200,0.0000,0.0000,10.0000,NULL,NULL,NULL,NULL,NULL,10.9500,10.9500,21.9000,21.9000,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0.0000,0.0000,0.0000,0.0000,'a:0:{}',0.0000,0.0000,0.0000,0.0000),(2,2,NULL,2,1,'2013-04-27 15:38:52','2013-04-27 15:38:52',1,'simple','a:1:{s:15:\"info_buyRequest\";a:3:{s:4:\"uenc\";s:64:\"aHR0cDovL2xvY2FsLm1hZ2VudG8tYmFzZS5kay9pbmRleC5waHAvdGVzdC5odG1s\";s:7:\"product\";s:1:\"1\";s:3:\"qty\";i:1;}}',5.0000,0,'produkt-1','Produkt-1',NULL,NULL,NULL,0,0,0,NULL,0.0000,0.0000,1.0000,0.0000,0.0000,NULL,8.7600,8.7600,10.9500,10.9500,25.0000,2.1900,2.1900,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,8.7600,8.7600,0.0000,0.0000,5.0000,NULL,NULL,NULL,NULL,NULL,10.9500,10.9500,10.9500,10.9500,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0.0000,0.0000,0.0000,0.0000,'a:0:{}',0.0000,0.0000,0.0000,0.0000),(3,3,NULL,3,1,'2013-04-27 15:54:06','2013-04-27 15:54:19',1,'simple','a:1:{s:15:\"info_buyRequest\";a:4:{s:4:\"uenc\";s:80:\"aHR0cDovL2xvY2FsLm1hZ2VudG8tYmFzZS5kay9pbmRleC5waHAvdGVzdC9wcm9kdWt0LTEuaHRtbA,,\";s:7:\"product\";s:1:\"1\";s:15:\"related_product\";s:0:\"\";s:3:\"qty\";s:1:\"1\";}}',5.0000,0,'produkt-1','Produkt-1',NULL,NULL,NULL,0,0,0,NULL,0.0000,0.0000,1.0000,0.0000,0.0000,NULL,8.7600,8.7600,10.9500,10.9500,25.0000,2.1900,2.1900,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,8.7600,8.7600,0.0000,0.0000,5.0000,NULL,NULL,NULL,NULL,NULL,10.9500,10.9500,10.9500,10.9500,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0.0000,0.0000,0.0000,0.0000,'a:0:{}',0.0000,0.0000,0.0000,0.0000),(4,4,NULL,4,1,'2013-04-27 16:08:26','2013-04-27 16:08:44',1,'simple','a:1:{s:15:\"info_buyRequest\";a:3:{s:4:\"uenc\";s:64:\"aHR0cDovL2xvY2FsLm1hZ2VudG8tYmFzZS5kay9pbmRleC5waHAvdGVzdC5odG1s\";s:7:\"product\";s:1:\"1\";s:3:\"qty\";i:1;}}',5.0000,0,'produkt-1','Produkt-1',NULL,NULL,NULL,0,0,0,NULL,0.0000,0.0000,1.0000,0.0000,0.0000,NULL,8.7600,8.7600,10.9500,10.9500,25.0000,2.1900,2.1900,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,8.7600,8.7600,0.0000,0.0000,5.0000,NULL,NULL,NULL,NULL,NULL,10.9500,10.9500,10.9500,10.9500,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0.0000,0.0000,0.0000,0.0000,'a:0:{}',0.0000,0.0000,0.0000,0.0000),(5,5,NULL,5,1,'2013-04-27 19:51:16','2013-04-27 19:51:32',1,'simple','a:1:{s:15:\"info_buyRequest\";a:3:{s:4:\"uenc\";s:64:\"aHR0cDovL2xvY2FsLm1hZ2VudG8tYmFzZS5kay9pbmRleC5waHAvdGVzdC5odG1s\";s:7:\"product\";s:1:\"1\";s:3:\"qty\";i:1;}}',5.0000,0,'produkt-1','Produkt-1',NULL,NULL,NULL,0,0,0,NULL,0.0000,0.0000,1.0000,0.0000,0.0000,NULL,8.7600,8.7600,10.9500,10.9500,25.0000,2.1900,2.1900,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,8.7600,8.7600,0.0000,0.0000,5.0000,NULL,NULL,NULL,NULL,NULL,10.9500,10.9500,10.9500,10.9500,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0.0000,0.0000,0.0000,0.0000,'a:0:{}',0.0000,0.0000,0.0000,0.0000);
 /*!40000 ALTER TABLE `sales_flat_order_item` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `sales_flat_order_payment`;
@@ -6429,11 +6469,12 @@ CREATE TABLE `sales_flat_order_payment` (
   PRIMARY KEY (`entity_id`),
   KEY `IDX_SALES_FLAT_ORDER_PAYMENT_PARENT_ID` (`parent_id`),
   CONSTRAINT `FK_SALES_FLAT_ORDER_PAYMENT_PARENT_ID_SALES_FLAT_ORDER_ENTITY_ID` FOREIGN KEY (`parent_id`) REFERENCES `sales_flat_order` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Sales Flat Order Payment';
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COMMENT='Sales Flat Order Payment';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `sales_flat_order_payment` WRITE;
 /*!40000 ALTER TABLE `sales_flat_order_payment` DISABLE KEYS */;
+INSERT INTO `sales_flat_order_payment` VALUES (1,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,59.0000,59.0000,NULL,NULL,80.9000,NULL,NULL,NULL,80.9000,NULL,NULL,NULL,'0','0',NULL,'free',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'0',NULL,NULL,NULL,NULL,NULL,NULL,'0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),(2,2,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,59.0000,59.0000,NULL,NULL,69.9500,NULL,NULL,NULL,69.9500,NULL,NULL,NULL,'0','0',NULL,'free',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'0',NULL,NULL,NULL,NULL,NULL,NULL,'0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),(3,3,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,59.0000,59.0000,NULL,NULL,69.9500,NULL,NULL,NULL,69.9500,NULL,NULL,NULL,'0','0',NULL,'epay_standard',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'0',NULL,NULL,NULL,NULL,NULL,NULL,'0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),(4,4,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,59.0000,59.0000,NULL,NULL,69.9500,NULL,NULL,NULL,69.9500,NULL,NULL,NULL,'0','0',NULL,'epay_standard',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'0',NULL,NULL,NULL,NULL,NULL,NULL,'0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),(5,5,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,59.0000,59.0000,NULL,NULL,69.9500,NULL,NULL,NULL,69.9500,NULL,NULL,NULL,'0','0',NULL,'epay_standard',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'0',NULL,NULL,NULL,NULL,NULL,NULL,'0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 /*!40000 ALTER TABLE `sales_flat_order_payment` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `sales_flat_order_status_history`;
@@ -6452,11 +6493,12 @@ CREATE TABLE `sales_flat_order_status_history` (
   KEY `IDX_SALES_FLAT_ORDER_STATUS_HISTORY_PARENT_ID` (`parent_id`),
   KEY `IDX_SALES_FLAT_ORDER_STATUS_HISTORY_CREATED_AT` (`created_at`),
   CONSTRAINT `FK_CE7C71E74CB74DDACED337CEE6753D5E` FOREIGN KEY (`parent_id`) REFERENCES `sales_flat_order` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Sales Flat Order Status History';
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8 COMMENT='Sales Flat Order Status History';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `sales_flat_order_status_history` WRITE;
 /*!40000 ALTER TABLE `sales_flat_order_status_history` DISABLE KEYS */;
+INSERT INTO `sales_flat_order_status_history` VALUES (1,1,1,0,NULL,'pending','2013-04-27 15:24:05','order'),(2,2,1,0,NULL,'pending','2013-04-27 15:38:57','order'),(3,3,1,0,NULL,'pending','2013-04-27 15:54:11','order'),(4,3,0,0,'Ordren er nu oprettet og betaling skal nu ske gennmem ePay | Dit Online Betalingssystem (www.epay.dk)','pending','2013-04-27 15:54:19','order'),(5,4,1,0,NULL,'pending','2013-04-27 16:08:33','order'),(6,4,0,0,'Ordren er nu oprettet og betaling skal nu ske gennmem ePay | Dit Online Betalingssystem (www.epay.dk)','pending','2013-04-27 16:08:44','order'),(7,5,1,0,NULL,'pending','2013-04-27 19:51:22','order'),(8,5,0,0,'Ordren er nu oprettet og betaling skal nu ske gennmem ePay | Dit Online Betalingssystem (www.epay.dk)','pending','2013-04-27 19:51:32','order');
 /*!40000 ALTER TABLE `sales_flat_order_status_history` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `sales_flat_quote`;
@@ -6518,11 +6560,12 @@ CREATE TABLE `sales_flat_quote` (
   KEY `IDX_SALES_FLAT_QUOTE_CUSTOMER_ID_STORE_ID_IS_ACTIVE` (`customer_id`,`store_id`,`is_active`),
   KEY `IDX_SALES_FLAT_QUOTE_STORE_ID` (`store_id`),
   CONSTRAINT `FK_SALES_FLAT_QUOTE_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Sales Flat Quote';
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COMMENT='Sales Flat Quote';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `sales_flat_quote` WRITE;
 /*!40000 ALTER TABLE `sales_flat_quote` DISABLE KEYS */;
+INSERT INTO `sales_flat_quote` VALUES (1,1,'2013-04-27 14:44:27','2013-04-27 15:24:16',NULL,0,0,0,1,2.0000,0,1.0000,1.0000,'DKK','DKK','DKK',80.9000,80.9000,'register',1,3,1,'m.andersen.post@gmail.com',NULL,'Martin',NULL,'Andersen',NULL,NULL,NULL,1,0,'127.0.0.1',NULL,'100000001','QagF0KUS2Os=',NULL,'DKK',1.0000,1.0000,NULL,NULL,17.5200,17.5200,17.5200,17.5200,1,0,NULL,NULL,0),(2,1,'2013-04-27 15:38:07','2013-04-27 15:39:05',NULL,0,0,0,1,1.0000,0,1.0000,1.0000,'DKK','DKK','DKK',69.9500,69.9500,NULL,1,3,1,'m.andersen.post@gmail.com',NULL,'Martin',NULL,'Andersen',NULL,NULL,NULL,1,0,'127.0.0.1',NULL,'100000002',NULL,NULL,'DKK',1.0000,1.0000,NULL,NULL,8.7600,8.7600,8.7600,8.7600,1,0,NULL,NULL,0),(3,1,'2013-04-27 15:53:31','2013-04-27 15:54:15',NULL,0,0,0,1,1.0000,0,1.0000,1.0000,'DKK','DKK','DKK',69.9500,69.9500,NULL,1,3,1,'m.andersen.post@gmail.com',NULL,'Martin',NULL,'Andersen',NULL,NULL,NULL,1,0,'127.0.0.1',NULL,'100000003',NULL,NULL,'DKK',1.0000,1.0000,NULL,NULL,8.7600,8.7600,8.7600,8.7600,1,0,NULL,NULL,0),(4,1,'2013-04-27 16:07:44','2013-04-27 16:08:39',NULL,0,0,0,1,1.0000,0,1.0000,1.0000,'DKK','DKK','DKK',69.9500,69.9500,NULL,1,3,1,'m.andersen.post@gmail.com',NULL,'Martin',NULL,'Andersen',NULL,NULL,NULL,1,0,'127.0.0.1',NULL,'100000004',NULL,NULL,'DKK',1.0000,1.0000,NULL,NULL,8.7600,8.7600,8.7600,8.7600,1,0,NULL,NULL,0),(5,1,'2013-04-27 19:49:53','2013-04-27 19:51:28',NULL,0,0,0,1,1.0000,0,1.0000,1.0000,'DKK','DKK','DKK',69.9500,69.9500,'guest',NULL,3,0,'m.andersen.post@gmail.com',NULL,'Martin',NULL,'Andersen',NULL,NULL,NULL,1,1,'127.0.0.1',NULL,'100000005',NULL,NULL,'DKK',1.0000,1.0000,NULL,NULL,8.7600,8.7600,8.7600,8.7600,1,0,NULL,NULL,0);
 /*!40000 ALTER TABLE `sales_flat_quote` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `sales_flat_quote_address`;
@@ -6594,11 +6637,12 @@ CREATE TABLE `sales_flat_quote_address` (
   PRIMARY KEY (`address_id`),
   KEY `IDX_SALES_FLAT_QUOTE_ADDRESS_QUOTE_ID` (`quote_id`),
   CONSTRAINT `FK_SALES_FLAT_QUOTE_ADDRESS_QUOTE_ID_SALES_FLAT_QUOTE_ENTITY_ID` FOREIGN KEY (`quote_id`) REFERENCES `sales_flat_quote` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Sales Flat Quote Address';
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8 COMMENT='Sales Flat Quote Address';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `sales_flat_quote_address` WRITE;
 /*!40000 ALTER TABLE `sales_flat_quote_address` DISABLE KEYS */;
+INSERT INTO `sales_flat_quote_address` VALUES (3,1,'2013-04-27 14:44:30','2013-04-27 15:24:12',1,1,1,'billing','m.andersen.post@gmail.com',NULL,'Martin',NULL,'Andersen',NULL,NULL,'Laen kærvej 1 st th','Ørum Djurs',NULL,NULL,'8586','DK','22996639',NULL,0,0,0,NULL,NULL,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,NULL,'a:0:{}',NULL,NULL,NULL,0.0000,NULL,NULL,NULL,NULL,NULL,0.0000,0.0000,NULL,NULL,NULL,NULL,NULL,NULL),(4,1,'2013-04-27 14:44:30','2013-04-27 15:24:12',1,0,NULL,'shipping','m.andersen.post@gmail.com',NULL,'Martin',NULL,'Andersen',NULL,NULL,'Laen kærvej 1 st th','Ørum Djurs',NULL,NULL,'8586','DK','22996639',NULL,1,0,0,'flatrate_flatrate','Post Danmark - Post Danmark',10.0000,17.5200,17.5200,0.0000,0.0000,4.3800,4.3800,59.0000,59.0000,0.0000,0.0000,0.0000,0.0000,80.9000,80.9000,NULL,'a:1:{s:8:\"25% moms\";a:6:{s:5:\"rates\";a:1:{i:0;a:6:{s:4:\"code\";s:8:\"25% moms\";s:5:\"title\";s:8:\"25% moms\";s:7:\"percent\";d:25;s:8:\"position\";s:1:\"0\";s:8:\"priority\";s:1:\"1\";s:7:\"rule_id\";s:1:\"3\";}}s:7:\"percent\";d:25;s:2:\"id\";s:8:\"25% moms\";s:7:\"process\";i:0;s:6:\"amount\";d:4.3799999999999999;s:11:\"base_amount\";d:4.3799999999999999;}}',NULL,0.0000,0.0000,21.9000,NULL,0.0000,0.0000,0.0000,NULL,59.0000,59.0000,NULL,NULL,NULL,NULL,NULL,NULL),(5,2,'2013-04-27 15:38:07','2013-04-27 15:38:52',1,0,1,'billing','m.andersen.post@gmail.com',NULL,'Martin',NULL,'Andersen',NULL,NULL,'Laen kærvej 1 st th','Ørum Djurs',NULL,NULL,'8586','DK','22996639',NULL,0,0,0,NULL,NULL,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,NULL,'a:0:{}',NULL,NULL,NULL,0.0000,NULL,NULL,NULL,NULL,NULL,0.0000,0.0000,NULL,NULL,NULL,NULL,NULL,NULL),(6,2,'2013-04-27 15:38:07','2013-04-27 15:38:52',1,0,1,'shipping','m.andersen.post@gmail.com',NULL,'Martin',NULL,'Andersen',NULL,NULL,'Laen kærvej 1 st th','Ørum Djurs',NULL,NULL,'8586','DK','22996639',NULL,1,0,0,'flatrate_flatrate','Post Danmark - Post Danmark',5.0000,8.7600,8.7600,0.0000,0.0000,2.1900,2.1900,59.0000,59.0000,0.0000,0.0000,0.0000,0.0000,69.9500,69.9500,NULL,'a:1:{s:8:\"25% moms\";a:6:{s:5:\"rates\";a:1:{i:0;a:6:{s:4:\"code\";s:8:\"25% moms\";s:5:\"title\";s:8:\"25% moms\";s:7:\"percent\";d:25;s:8:\"position\";s:1:\"0\";s:8:\"priority\";s:1:\"1\";s:7:\"rule_id\";s:1:\"3\";}}s:7:\"percent\";d:25;s:2:\"id\";s:8:\"25% moms\";s:7:\"process\";i:0;s:6:\"amount\";d:2.1899999999999999;s:11:\"base_amount\";d:2.1899999999999999;}}',NULL,0.0000,0.0000,10.9500,NULL,0.0000,0.0000,0.0000,NULL,59.0000,59.0000,NULL,NULL,NULL,NULL,NULL,NULL),(7,3,'2013-04-27 15:53:31','2013-04-27 15:54:06',1,0,1,'billing','m.andersen.post@gmail.com',NULL,'Martin',NULL,'Andersen',NULL,NULL,'Laen kærvej 1 st th','Ørum Djurs',NULL,NULL,'8586','DK','22996639',NULL,0,0,0,NULL,NULL,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,NULL,'a:0:{}',NULL,NULL,NULL,0.0000,NULL,NULL,NULL,NULL,NULL,0.0000,0.0000,NULL,NULL,NULL,NULL,NULL,NULL),(8,3,'2013-04-27 15:53:31','2013-04-27 15:54:06',1,0,1,'shipping','m.andersen.post@gmail.com',NULL,'Martin',NULL,'Andersen',NULL,NULL,'Laen kærvej 1 st th','Ørum Djurs',NULL,NULL,'8586','DK','22996639',NULL,1,0,0,'flatrate_flatrate','Post Danmark - Post Danmark',5.0000,8.7600,8.7600,0.0000,0.0000,2.1900,2.1900,59.0000,59.0000,0.0000,0.0000,0.0000,0.0000,69.9500,69.9500,NULL,'a:1:{s:8:\"25% moms\";a:6:{s:5:\"rates\";a:1:{i:0;a:6:{s:4:\"code\";s:8:\"25% moms\";s:5:\"title\";s:8:\"25% moms\";s:7:\"percent\";d:25;s:8:\"position\";s:1:\"0\";s:8:\"priority\";s:1:\"1\";s:7:\"rule_id\";s:1:\"3\";}}s:7:\"percent\";d:25;s:2:\"id\";s:8:\"25% moms\";s:7:\"process\";i:0;s:6:\"amount\";d:2.1899999999999999;s:11:\"base_amount\";d:2.1899999999999999;}}',NULL,0.0000,0.0000,10.9500,NULL,0.0000,0.0000,0.0000,NULL,59.0000,59.0000,NULL,NULL,NULL,NULL,NULL,NULL),(9,4,'2013-04-27 16:07:44','2013-04-27 16:08:26',1,0,1,'billing','m.andersen.post@gmail.com',NULL,'Martin',NULL,'Andersen',NULL,NULL,'Laen kærvej 1 st th','Ørum Djurs',NULL,NULL,'8586','DK','22996639',NULL,0,0,0,NULL,NULL,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,NULL,'a:0:{}',NULL,NULL,NULL,0.0000,NULL,NULL,NULL,NULL,NULL,0.0000,0.0000,NULL,NULL,NULL,NULL,NULL,NULL),(10,4,'2013-04-27 16:07:44','2013-04-27 16:08:26',1,0,1,'shipping','m.andersen.post@gmail.com',NULL,'Martin',NULL,'Andersen',NULL,NULL,'Laen kærvej 1 st th','Ørum Djurs',NULL,NULL,'8586','DK','22996639',NULL,1,0,0,'flatrate_flatrate','Post Danmark - Post Danmark',5.0000,8.7600,8.7600,0.0000,0.0000,2.1900,2.1900,59.0000,59.0000,0.0000,0.0000,0.0000,0.0000,69.9500,69.9500,NULL,'a:1:{s:8:\"25% moms\";a:6:{s:5:\"rates\";a:1:{i:0;a:6:{s:4:\"code\";s:8:\"25% moms\";s:5:\"title\";s:8:\"25% moms\";s:7:\"percent\";d:25;s:8:\"position\";s:1:\"0\";s:8:\"priority\";s:1:\"1\";s:7:\"rule_id\";s:1:\"3\";}}s:7:\"percent\";d:25;s:2:\"id\";s:8:\"25% moms\";s:7:\"process\";i:0;s:6:\"amount\";d:2.1899999999999999;s:11:\"base_amount\";d:2.1899999999999999;}}',NULL,0.0000,0.0000,10.9500,NULL,0.0000,0.0000,0.0000,NULL,59.0000,59.0000,NULL,NULL,NULL,NULL,NULL,NULL),(13,5,'2013-04-27 19:49:56','2013-04-27 19:51:15',NULL,1,NULL,'billing','m.andersen.post@gmail.com',NULL,'Martin',NULL,'Andersen',NULL,NULL,'Laen kærvej 1 st th','Ørum Djurs',NULL,NULL,'8586','DK','22999639',NULL,0,0,0,NULL,NULL,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,NULL,'a:0:{}',NULL,NULL,NULL,0.0000,NULL,NULL,NULL,NULL,NULL,0.0000,0.0000,NULL,NULL,NULL,NULL,NULL,NULL),(14,5,'2013-04-27 19:49:56','2013-04-27 19:51:15',NULL,0,NULL,'shipping','m.andersen.post@gmail.com',NULL,'Martin',NULL,'Andersen',NULL,NULL,'Laen kærvej 1 st th','Ørum Djurs',NULL,NULL,'8586','DK','22999639',NULL,1,0,0,'flatrate_flatrate','Post Danmark - Post Danmark',5.0000,8.7600,8.7600,0.0000,0.0000,2.1900,2.1900,59.0000,59.0000,0.0000,0.0000,0.0000,0.0000,69.9500,69.9500,NULL,'a:1:{s:8:\"25% moms\";a:6:{s:5:\"rates\";a:1:{i:0;a:6:{s:4:\"code\";s:8:\"25% moms\";s:5:\"title\";s:8:\"25% moms\";s:7:\"percent\";d:25;s:8:\"position\";s:1:\"0\";s:8:\"priority\";s:1:\"1\";s:7:\"rule_id\";s:1:\"3\";}}s:7:\"percent\";d:25;s:2:\"id\";s:8:\"25% moms\";s:7:\"process\";i:0;s:6:\"amount\";d:2.1899999999999999;s:11:\"base_amount\";d:2.1899999999999999;}}',NULL,0.0000,0.0000,10.9500,NULL,0.0000,0.0000,0.0000,NULL,59.0000,59.0000,NULL,NULL,NULL,NULL,NULL,NULL);
 /*!40000 ALTER TABLE `sales_flat_quote_address` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `sales_flat_quote_address_item`;
@@ -6725,11 +6769,12 @@ CREATE TABLE `sales_flat_quote_item` (
   CONSTRAINT `FK_SALES_FLAT_QUOTE_ITEM_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_SALES_FLAT_QUOTE_ITEM_QUOTE_ID_SALES_FLAT_QUOTE_ENTITY_ID` FOREIGN KEY (`quote_id`) REFERENCES `sales_flat_quote` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_SALES_FLAT_QUOTE_ITEM_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE SET NULL ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Sales Flat Quote Item';
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COMMENT='Sales Flat Quote Item';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `sales_flat_quote_item` WRITE;
 /*!40000 ALTER TABLE `sales_flat_quote_item` DISABLE KEYS */;
+INSERT INTO `sales_flat_quote_item` VALUES (1,1,'2013-04-27 14:44:27','2013-04-27 15:06:58',1,1,NULL,0,'produkt-1','Produkt-1',NULL,NULL,NULL,0,0,0,5.0000,2.0000,8.7600,8.7600,NULL,0.0000,0.0000,0.0000,25.0000,4.3800,4.3800,17.5200,17.5200,0.0000,10.0000,'simple',NULL,NULL,NULL,NULL,NULL,10.9500,10.9500,21.9000,21.9000,NULL,NULL,NULL,0.0000,0.0000,0.0000,0.0000,'a:0:{}',0.0000,0.0000,0.0000,NULL),(2,2,'2013-04-27 15:38:07','2013-04-27 15:38:07',1,1,NULL,0,'produkt-1','Produkt-1',NULL,NULL,NULL,0,0,0,5.0000,1.0000,8.7600,8.7600,NULL,0.0000,0.0000,0.0000,25.0000,2.1900,2.1900,8.7600,8.7600,0.0000,5.0000,'simple',NULL,NULL,NULL,NULL,NULL,10.9500,10.9500,10.9500,10.9500,NULL,NULL,NULL,0.0000,0.0000,0.0000,0.0000,'a:0:{}',0.0000,0.0000,0.0000,NULL),(3,3,'2013-04-27 15:53:31','2013-04-27 15:53:31',1,1,NULL,0,'produkt-1','Produkt-1',NULL,NULL,NULL,0,0,0,5.0000,1.0000,8.7600,8.7600,NULL,0.0000,0.0000,0.0000,25.0000,2.1900,2.1900,8.7600,8.7600,0.0000,5.0000,'simple',NULL,NULL,NULL,NULL,NULL,10.9500,10.9500,10.9500,10.9500,NULL,NULL,NULL,0.0000,0.0000,0.0000,0.0000,'a:0:{}',0.0000,0.0000,0.0000,NULL),(4,4,'2013-04-27 16:07:44','2013-04-27 16:07:44',1,1,NULL,0,'produkt-1','Produkt-1',NULL,NULL,NULL,0,0,0,5.0000,1.0000,8.7600,8.7600,NULL,0.0000,0.0000,0.0000,25.0000,2.1900,2.1900,8.7600,8.7600,0.0000,5.0000,'simple',NULL,NULL,NULL,NULL,NULL,10.9500,10.9500,10.9500,10.9500,NULL,NULL,NULL,0.0000,0.0000,0.0000,0.0000,'a:0:{}',0.0000,0.0000,0.0000,NULL),(5,5,'2013-04-27 19:49:53','2013-04-27 19:49:53',1,1,NULL,0,'produkt-1','Produkt-1',NULL,NULL,NULL,0,0,0,5.0000,1.0000,8.7600,8.7600,NULL,0.0000,0.0000,0.0000,25.0000,2.1900,2.1900,8.7600,8.7600,0.0000,5.0000,'simple',NULL,NULL,NULL,NULL,NULL,10.9500,10.9500,10.9500,10.9500,NULL,NULL,NULL,0.0000,0.0000,0.0000,0.0000,'a:0:{}',0.0000,0.0000,0.0000,NULL);
 /*!40000 ALTER TABLE `sales_flat_quote_item` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `sales_flat_quote_item_option`;
@@ -6744,11 +6789,12 @@ CREATE TABLE `sales_flat_quote_item_option` (
   PRIMARY KEY (`option_id`),
   KEY `IDX_SALES_FLAT_QUOTE_ITEM_OPTION_ITEM_ID` (`item_id`),
   CONSTRAINT `FK_5F20E478CA64B6891EA8A9D6C2735739` FOREIGN KEY (`item_id`) REFERENCES `sales_flat_quote_item` (`item_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Sales Flat Quote Item Option';
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COMMENT='Sales Flat Quote Item Option';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `sales_flat_quote_item_option` WRITE;
 /*!40000 ALTER TABLE `sales_flat_quote_item_option` DISABLE KEYS */;
+INSERT INTO `sales_flat_quote_item_option` VALUES (1,1,1,'info_buyRequest','a:3:{s:4:\"uenc\";s:64:\"aHR0cDovL2xvY2FsLm1hZ2VudG8tYmFzZS5kay9pbmRleC5waHAvdGVzdC5odG1s\";s:7:\"product\";s:1:\"1\";s:3:\"qty\";i:1;}'),(2,2,1,'info_buyRequest','a:3:{s:4:\"uenc\";s:64:\"aHR0cDovL2xvY2FsLm1hZ2VudG8tYmFzZS5kay9pbmRleC5waHAvdGVzdC5odG1s\";s:7:\"product\";s:1:\"1\";s:3:\"qty\";i:1;}'),(3,3,1,'info_buyRequest','a:4:{s:4:\"uenc\";s:80:\"aHR0cDovL2xvY2FsLm1hZ2VudG8tYmFzZS5kay9pbmRleC5waHAvdGVzdC9wcm9kdWt0LTEuaHRtbA,,\";s:7:\"product\";s:1:\"1\";s:15:\"related_product\";s:0:\"\";s:3:\"qty\";s:1:\"1\";}'),(4,4,1,'info_buyRequest','a:3:{s:4:\"uenc\";s:64:\"aHR0cDovL2xvY2FsLm1hZ2VudG8tYmFzZS5kay9pbmRleC5waHAvdGVzdC5odG1s\";s:7:\"product\";s:1:\"1\";s:3:\"qty\";i:1;}'),(5,5,1,'info_buyRequest','a:3:{s:4:\"uenc\";s:64:\"aHR0cDovL2xvY2FsLm1hZ2VudG8tYmFzZS5kay9pbmRleC5waHAvdGVzdC5odG1s\";s:7:\"product\";s:1:\"1\";s:3:\"qty\";i:1;}');
 /*!40000 ALTER TABLE `sales_flat_quote_item_option` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `sales_flat_quote_payment`;
@@ -6780,11 +6826,12 @@ CREATE TABLE `sales_flat_quote_payment` (
   PRIMARY KEY (`payment_id`),
   KEY `IDX_SALES_FLAT_QUOTE_PAYMENT_QUOTE_ID` (`quote_id`),
   CONSTRAINT `FK_SALES_FLAT_QUOTE_PAYMENT_QUOTE_ID_SALES_FLAT_QUOTE_ENTITY_ID` FOREIGN KEY (`quote_id`) REFERENCES `sales_flat_quote` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Sales Flat Quote Payment';
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COMMENT='Sales Flat Quote Payment';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `sales_flat_quote_payment` WRITE;
 /*!40000 ALTER TABLE `sales_flat_quote_payment` DISABLE KEYS */;
+INSERT INTO `sales_flat_quote_payment` VALUES (1,1,'2013-04-27 14:44:40','2013-04-27 15:23:59','free',NULL,NULL,NULL,NULL,NULL,0,0,NULL,0,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL),(2,2,'2013-04-27 15:38:20','2013-04-27 15:38:52','free',NULL,NULL,NULL,NULL,NULL,0,0,NULL,0,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL),(3,3,'2013-04-27 15:53:43','2013-04-27 15:54:06','epay_standard',NULL,NULL,NULL,NULL,NULL,0,0,NULL,0,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL),(4,4,'2013-04-27 16:07:59','2013-04-27 16:08:26','epay_standard',NULL,NULL,NULL,NULL,NULL,0,0,NULL,0,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL),(5,5,'2013-04-27 19:50:10','2013-04-27 19:51:15','epay_standard',NULL,NULL,NULL,NULL,NULL,0,0,NULL,0,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 /*!40000 ALTER TABLE `sales_flat_quote_payment` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `sales_flat_quote_shipping_rate`;
@@ -6806,11 +6853,12 @@ CREATE TABLE `sales_flat_quote_shipping_rate` (
   PRIMARY KEY (`rate_id`),
   KEY `IDX_SALES_FLAT_QUOTE_SHIPPING_RATE_ADDRESS_ID` (`address_id`),
   CONSTRAINT `FK_B1F177EFB73D3EDF5322BA64AC48D150` FOREIGN KEY (`address_id`) REFERENCES `sales_flat_quote_address` (`address_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Sales Flat Quote Shipping Rate';
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8 COMMENT='Sales Flat Quote Shipping Rate';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `sales_flat_quote_shipping_rate` WRITE;
 /*!40000 ALTER TABLE `sales_flat_quote_shipping_rate` DISABLE KEYS */;
+INSERT INTO `sales_flat_quote_shipping_rate` VALUES (7,4,'2013-04-27 15:23:50','2013-04-27 15:23:59','flatrate','Post Danmark','flatrate_flatrate','flatrate',NULL,59.0000,NULL,'Post Danmark'),(10,6,'2013-04-27 15:38:36','2013-04-27 15:38:52','flatrate','Post Danmark','flatrate_flatrate','flatrate',NULL,59.0000,NULL,'Post Danmark'),(13,8,'2013-04-27 15:53:59','2013-04-27 15:54:06','flatrate','Post Danmark','flatrate_flatrate','flatrate',NULL,59.0000,NULL,'Post Danmark'),(16,10,'2013-04-27 16:08:19','2013-04-27 16:08:26','flatrate','Post Danmark','flatrate_flatrate','flatrate',NULL,59.0000,NULL,'Post Danmark'),(19,14,'2013-04-27 19:51:09','2013-04-27 19:51:15','flatrate','Post Danmark','flatrate_flatrate','flatrate',NULL,59.0000,NULL,'Post Danmark');
 /*!40000 ALTER TABLE `sales_flat_quote_shipping_rate` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `sales_flat_shipment`;
@@ -7141,11 +7189,12 @@ CREATE TABLE `sales_order_tax` (
   `hidden` smallint(5) unsigned NOT NULL DEFAULT '0' COMMENT 'Hidden',
   PRIMARY KEY (`tax_id`),
   KEY `IDX_SALES_ORDER_TAX_ORDER_ID_PRIORITY_POSITION` (`order_id`,`priority`,`position`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Sales Order Tax Table';
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COMMENT='Sales Order Tax Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `sales_order_tax` WRITE;
 /*!40000 ALTER TABLE `sales_order_tax` DISABLE KEYS */;
+INSERT INTO `sales_order_tax` VALUES (1,1,'25% moms','25% moms',25.0000,4.3800,1,0,4.3800,0,4.3800,0),(2,2,'25% moms','25% moms',25.0000,2.1900,1,0,2.1900,0,2.1900,0),(3,3,'25% moms','25% moms',25.0000,2.1900,1,0,2.1900,0,2.1900,0),(4,4,'25% moms','25% moms',25.0000,2.1900,1,0,2.1900,0,2.1900,0),(5,5,'25% moms','25% moms',25.0000,2.1900,1,0,2.1900,0,2.1900,0);
 /*!40000 ALTER TABLE `sales_order_tax` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `sales_order_tax_item`;
@@ -7162,11 +7211,12 @@ CREATE TABLE `sales_order_tax_item` (
   KEY `IDX_SALES_ORDER_TAX_ITEM_ITEM_ID` (`item_id`),
   CONSTRAINT `FK_SALES_ORDER_TAX_ITEM_ITEM_ID_SALES_FLAT_ORDER_ITEM_ITEM_ID` FOREIGN KEY (`item_id`) REFERENCES `sales_flat_order_item` (`item_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_SALES_ORDER_TAX_ITEM_TAX_ID_SALES_ORDER_TAX_TAX_ID` FOREIGN KEY (`tax_id`) REFERENCES `sales_order_tax` (`tax_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Sales Order Tax Item';
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COMMENT='Sales Order Tax Item';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `sales_order_tax_item` WRITE;
 /*!40000 ALTER TABLE `sales_order_tax_item` DISABLE KEYS */;
+INSERT INTO `sales_order_tax_item` VALUES (1,1,1,25.0000),(2,2,2,25.0000),(3,3,3,25.0000),(4,4,4,25.0000),(5,5,5,25.0000);
 /*!40000 ALTER TABLE `sales_order_tax_item` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `sales_payment_transaction`;
@@ -7188,9 +7238,9 @@ CREATE TABLE `sales_payment_transaction` (
   KEY `IDX_SALES_PAYMENT_TRANSACTION_ORDER_ID` (`order_id`),
   KEY `IDX_SALES_PAYMENT_TRANSACTION_PARENT_ID` (`parent_id`),
   KEY `IDX_SALES_PAYMENT_TRANSACTION_PAYMENT_ID` (`payment_id`),
-  CONSTRAINT `FK_SALES_PAYMENT_TRANSACTION_ORDER_ID_SALES_FLAT_ORDER_ENTITY_ID` FOREIGN KEY (`order_id`) REFERENCES `sales_flat_order` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_B99FF1A06402D725EBDB0F3A7ECD47A2` FOREIGN KEY (`parent_id`) REFERENCES `sales_payment_transaction` (`transaction_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_DA51A10B2405B64A4DAEF77A64F0DAAD` FOREIGN KEY (`payment_id`) REFERENCES `sales_flat_order_payment` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_DA51A10B2405B64A4DAEF77A64F0DAAD` FOREIGN KEY (`payment_id`) REFERENCES `sales_flat_order_payment` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_SALES_PAYMENT_TRANSACTION_ORDER_ID_SALES_FLAT_ORDER_ENTITY_ID` FOREIGN KEY (`order_id`) REFERENCES `sales_flat_order` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Sales Payment Transaction';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -7470,8 +7520,8 @@ CREATE TABLE `salesrule_customer_group` (
   PRIMARY KEY (`rule_id`,`customer_group_id`),
   KEY `IDX_SALESRULE_CUSTOMER_GROUP_RULE_ID` (`rule_id`),
   KEY `IDX_SALESRULE_CUSTOMER_GROUP_CUSTOMER_GROUP_ID` (`customer_group_id`),
-  CONSTRAINT `FK_SALESRULE_CUSTOMER_GROUP_RULE_ID_SALESRULE_RULE_ID` FOREIGN KEY (`rule_id`) REFERENCES `salesrule` (`rule_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_SALESRULE_CSTR_GROUP_CSTR_GROUP_ID_CSTR_GROUP_CSTR_GROUP_ID` FOREIGN KEY (`customer_group_id`) REFERENCES `customer_group` (`customer_group_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_SALESRULE_CSTR_GROUP_CSTR_GROUP_ID_CSTR_GROUP_CSTR_GROUP_ID` FOREIGN KEY (`customer_group_id`) REFERENCES `customer_group` (`customer_group_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_SALESRULE_CUSTOMER_GROUP_RULE_ID_SALESRULE_RULE_ID` FOREIGN KEY (`rule_id`) REFERENCES `salesrule` (`rule_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Sales Rules To Customer Groups Relations';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -7514,8 +7564,8 @@ CREATE TABLE `salesrule_product_attribute` (
   KEY `IDX_SALESRULE_PRODUCT_ATTRIBUTE_ATTRIBUTE_ID` (`attribute_id`),
   CONSTRAINT `FK_SALESRULE_PRD_ATTR_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE ON UPDATE NO ACTION,
   CONSTRAINT `FK_SALESRULE_PRD_ATTR_CSTR_GROUP_ID_CSTR_GROUP_CSTR_GROUP_ID` FOREIGN KEY (`customer_group_id`) REFERENCES `customer_group` (`customer_group_id`) ON DELETE CASCADE ON UPDATE NO ACTION,
-  CONSTRAINT `FK_SALESRULE_PRODUCT_ATTRIBUTE_RULE_ID_SALESRULE_RULE_ID` FOREIGN KEY (`rule_id`) REFERENCES `salesrule` (`rule_id`) ON DELETE CASCADE ON UPDATE NO ACTION,
-  CONSTRAINT `FK_SALESRULE_PRD_ATTR_WS_ID_CORE_WS_WS_ID` FOREIGN KEY (`website_id`) REFERENCES `core_website` (`website_id`) ON DELETE CASCADE ON UPDATE NO ACTION
+  CONSTRAINT `FK_SALESRULE_PRD_ATTR_WS_ID_CORE_WS_WS_ID` FOREIGN KEY (`website_id`) REFERENCES `core_website` (`website_id`) ON DELETE CASCADE ON UPDATE NO ACTION,
+  CONSTRAINT `FK_SALESRULE_PRODUCT_ATTRIBUTE_RULE_ID_SALESRULE_RULE_ID` FOREIGN KEY (`rule_id`) REFERENCES `salesrule` (`rule_id`) ON DELETE CASCADE ON UPDATE NO ACTION
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Salesrule Product Attribute';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -7707,8 +7757,8 @@ CREATE TABLE `tax_calculation` (
   KEY `IDX_TAX_CALCULATION_CUSTOMER_TAX_CLASS_ID` (`customer_tax_class_id`),
   KEY `IDX_TAX_CALCULATION_PRODUCT_TAX_CLASS_ID` (`product_tax_class_id`),
   KEY `IDX_TAX_CALC_TAX_CALC_RATE_ID_CSTR_TAX_CLASS_ID_PRD_TAX_CLASS_ID` (`tax_calculation_rate_id`,`customer_tax_class_id`,`product_tax_class_id`),
-  CONSTRAINT `FK_TAX_CALCULATION_PRODUCT_TAX_CLASS_ID_TAX_CLASS_CLASS_ID` FOREIGN KEY (`product_tax_class_id`) REFERENCES `tax_class` (`class_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_TAX_CALCULATION_CUSTOMER_TAX_CLASS_ID_TAX_CLASS_CLASS_ID` FOREIGN KEY (`customer_tax_class_id`) REFERENCES `tax_class` (`class_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_TAX_CALCULATION_PRODUCT_TAX_CLASS_ID_TAX_CLASS_CLASS_ID` FOREIGN KEY (`product_tax_class_id`) REFERENCES `tax_class` (`class_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_TAX_CALC_TAX_CALC_RATE_ID_TAX_CALC_RATE_TAX_CALC_RATE_ID` FOREIGN KEY (`tax_calculation_rate_id`) REFERENCES `tax_calculation_rate` (`tax_calculation_rate_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_TAX_CALC_TAX_CALC_RULE_ID_TAX_CALC_RULE_TAX_CALC_RULE_ID` FOREIGN KEY (`tax_calculation_rule_id`) REFERENCES `tax_calculation_rule` (`tax_calculation_rule_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=30 DEFAULT CHARSET=utf8 COMMENT='Tax Calculation';
@@ -7756,8 +7806,8 @@ CREATE TABLE `tax_calculation_rate_title` (
   KEY `IDX_TAX_CALCULATION_RATE_TITLE_TAX_CALCULATION_RATE_ID_STORE_ID` (`tax_calculation_rate_id`,`store_id`),
   KEY `IDX_TAX_CALCULATION_RATE_TITLE_TAX_CALCULATION_RATE_ID` (`tax_calculation_rate_id`),
   KEY `IDX_TAX_CALCULATION_RATE_TITLE_STORE_ID` (`store_id`),
-  CONSTRAINT `FK_TAX_CALCULATION_RATE_TITLE_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_37FB965F786AD5897BB3AE90470C42AB` FOREIGN KEY (`tax_calculation_rate_id`) REFERENCES `tax_calculation_rate` (`tax_calculation_rate_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_37FB965F786AD5897BB3AE90470C42AB` FOREIGN KEY (`tax_calculation_rate_id`) REFERENCES `tax_calculation_rate` (`tax_calculation_rate_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_TAX_CALCULATION_RATE_TITLE_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Tax Calculation Rate Title';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -7884,10 +7934,10 @@ CREATE TABLE `weee_tax` (
   KEY `IDX_WEEE_TAX_ENTITY_ID` (`entity_id`),
   KEY `IDX_WEEE_TAX_COUNTRY` (`country`),
   KEY `IDX_WEEE_TAX_ATTRIBUTE_ID` (`attribute_id`),
+  CONSTRAINT `FK_WEEE_TAX_ATTRIBUTE_ID_EAV_ATTRIBUTE_ATTRIBUTE_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_WEEE_TAX_COUNTRY_DIRECTORY_COUNTRY_COUNTRY_ID` FOREIGN KEY (`country`) REFERENCES `directory_country` (`country_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_WEEE_TAX_ENTITY_ID_CATALOG_PRODUCT_ENTITY_ENTITY_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_WEEE_TAX_WEBSITE_ID_CORE_WEBSITE_WEBSITE_ID` FOREIGN KEY (`website_id`) REFERENCES `core_website` (`website_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_WEEE_TAX_ATTRIBUTE_ID_EAV_ATTRIBUTE_ATTRIBUTE_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_WEEE_TAX_WEBSITE_ID_CORE_WEBSITE_WEBSITE_ID` FOREIGN KEY (`website_id`) REFERENCES `core_website` (`website_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Weee Tax';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -7962,8 +8012,8 @@ CREATE TABLE `widget_instance_page_layout` (
   UNIQUE KEY `UNQ_WIDGET_INSTANCE_PAGE_LAYOUT_LAYOUT_UPDATE_ID_PAGE_ID` (`layout_update_id`,`page_id`),
   KEY `IDX_WIDGET_INSTANCE_PAGE_LAYOUT_PAGE_ID` (`page_id`),
   KEY `IDX_WIDGET_INSTANCE_PAGE_LAYOUT_LAYOUT_UPDATE_ID` (`layout_update_id`),
-  CONSTRAINT `FK_WIDGET_INSTANCE_PAGE_LYT_PAGE_ID_WIDGET_INSTANCE_PAGE_PAGE_ID` FOREIGN KEY (`page_id`) REFERENCES `widget_instance_page` (`page_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_0A5D06DCEC6A6845F50E5FAAC5A1C96D` FOREIGN KEY (`layout_update_id`) REFERENCES `core_layout_update` (`layout_update_id`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `FK_0A5D06DCEC6A6845F50E5FAAC5A1C96D` FOREIGN KEY (`layout_update_id`) REFERENCES `core_layout_update` (`layout_update_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_WIDGET_INSTANCE_PAGE_LYT_PAGE_ID_WIDGET_INSTANCE_PAGE_PAGE_ID` FOREIGN KEY (`page_id`) REFERENCES `widget_instance_page` (`page_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Layout updates';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -8006,9 +8056,9 @@ CREATE TABLE `wishlist_item` (
   KEY `IDX_WISHLIST_ITEM_WISHLIST_ID` (`wishlist_id`),
   KEY `IDX_WISHLIST_ITEM_PRODUCT_ID` (`product_id`),
   KEY `IDX_WISHLIST_ITEM_STORE_ID` (`store_id`),
-  CONSTRAINT `FK_WISHLIST_ITEM_WISHLIST_ID_WISHLIST_WISHLIST_ID` FOREIGN KEY (`wishlist_id`) REFERENCES `wishlist` (`wishlist_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_WISHLIST_ITEM_PRODUCT_ID_CATALOG_PRODUCT_ENTITY_ENTITY_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_WISHLIST_ITEM_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE SET NULL ON UPDATE CASCADE
+  CONSTRAINT `FK_WISHLIST_ITEM_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE SET NULL ON UPDATE CASCADE,
+  CONSTRAINT `FK_WISHLIST_ITEM_WISHLIST_ID_WISHLIST_WISHLIST_ID` FOREIGN KEY (`wishlist_id`) REFERENCES `wishlist` (`wishlist_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Wishlist items';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
